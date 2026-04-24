@@ -1,0 +1,1962 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cb6"
+  },
+  "raw_message": "Sorry for the confusion. Somehow I missed that antora markup was being used in the code comment. I think this makes sense and have merged it.",
+  "clean_message": "Sorry for the confusion. Somehow I missed that antora markup was being used in the code comment. I think this makes sense and have merged it.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12536#issuecomment-1396059742",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cd6"
+  },
+  "raw_message": "I've upgrade to a version of the plugin that is compatible with Java 11. This PR is now ready.",
+  "clean_message": "I've upgrade to a version of the plugin that is compatible with Java 11. This PR is now ready.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12500#issuecomment-1382459178",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615af3"
+  },
+  "raw_message": "> Thanks, @dkodippily! I've left some feedback inline. Also, once you get to refactoring the class under test, will you please squash your commits like so:\r\n> \r\n> 1. one commit for the tests, followed by\r\n> 2. one commit for the refactor\r\n> \r\n> The first commit should end with `Issue gh-12344` and the second comment should end with `Closes gh-12344`.\r\n\r\n@jzheaux Thanks for the comments , I've added the changes",
+  "clean_message": "Thanks for the comments , I've added the changes",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12468#issuecomment-1374265386",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615baa"
+  },
+  "raw_message": "@jzheaux I made a mistake and the PR was closed. So I reopened at #12503 ",
+  "clean_message": "I made a mistake and the PR was closed. So I reopened at #12503 ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12449#issuecomment-1374421484",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c03"
+  },
+  "raw_message": "Hi @nkonev, thanks for the contribution.\r\n\r\nYou can go ahead and close that ticket in Spring Framework.\r\n\r\nAbout the PR, I don't think we want to solve it this way. Instead, a delegate that delays the initialization of the bean would probably work in this case. I created https://github.com/spring-projects/spring-security/issues/12367 for that",
+  "clean_message": "Hi , thanks for the contribution. You can go ahead and close that ticket in Spring Framework. About the PR, I don't think we want to solve it this way. Instead, a delegate that delays the initialization of the bean would probably work in this case. I created  for that",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12366#issuecomment-1346979928",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a95"
+  },
+  "raw_message": "Hi @damingerdai, thanks for the PR.\r\n\r\nUnfortunately we reject use of Stream and Optional in the code, see reasons in https://github.com/spring-projects/spring-security/issues/9642",
+  "clean_message": "Hi , thanks for the PR. Unfortunately we reject use of Stream and Optional in the code, see reasons in ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12312#issuecomment-1329542063",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d41"
+  },
+  "raw_message": "@sjohnr I have updated the review, if there is anything I missed or something else you noticed, please feel free to do a polish commit to get this into 5.8.0",
+  "clean_message": "I have updated the review, if there is anything I missed or something else you noticed, please feel free to do a polish commit to get this into 5.8.0",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/12087#issuecomment-1317930574",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ab6"
+  },
+  "raw_message": "Thanks for the feedback, @rwinch!\r\n\r\n> Additionally, I'm curious how this fits into the big picture of the breach protection\r\n\r\nThe goal was to make a simpler API for customizing the request handling. The alternative we discussed would be to add a post-processor inside the `CsrfTokenRepositoryRequestHandler`. After experimenting with this a bit, I felt that I could simplify the API and wanted to give it a try and get some feedback.\r\n\r\nWith the change in this PR, support for breach fits back into the paradigm of a separate implementation of `CsrfTokenRequestHandler`. It is given the `Supplier<CsrfToken>`, which it can modify, and then pass to the delegate (or super) implementation from this PR. If we go this route, I won't need to make very many changes to the branch from the [draft PR](https://github.com/spring-projects/spring-security/pull/11731).",
+  "clean_message": "Thanks for the feedback, ! The goal was to make a simpler API for customizing the request handling. The alternative we discussed would be to add a post-processor inside the . After experimenting with this a bit, I felt that I could simplify the API and wanted to give it a try and get some feedback. With the change in this PR, support for breach fits back into the paradigm of a separate implementation of . It is given the , which it can modify, and then pass to the delegate (or super) implementation from this PR. If we go this route, I won't need to make very many changes to the branch from the draft PR.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11924#issuecomment-1262839694",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d55"
+  },
+  "raw_message": "@Sc00bz @larsgrefer Thank you for all your valuable feedback so far.\r\n\r\nWhen you have a moment, I would appreciate it if you can take a look at the updates in this PR and provide any feedback. Thank you.",
+  "clean_message": "Thank you for all your valuable feedback so far. When you have a moment, I would appreciate it if you can take a look at the updates in this PR and provide any feedback. Thank you.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11904#issuecomment-1258749467",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d50"
+  },
+  "raw_message": "It's my first commit here. Did I do everything right?",
+  "clean_message": "It's my first commit here. Did I do everything right?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11753#issuecomment-1227577142",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a9e"
+  },
+  "raw_message": "Thanks, @vanwobe! This has been merged into `5.8.x` in a5351f3d890b888857bb60171a9846c331a6aabe. I standardized the commit format and then also merge it into `main`.",
+  "clean_message": "Thanks, ! This has been merged into  in a5351f3d890b888857bb60171a9846c331a6aabe. I standardized the commit format and then also merge it into .",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11734#issuecomment-1227793921",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c54"
+  },
+  "raw_message": "@ShinDongHun1, thanks for your patience.\r\n\r\nI put together a pretty simple test to measure performance differences with this code change. I tested just the method `cache.saveRequest(request, response)` with 100,000,000 iterations, and ran the test a number of times before and after the code change. The request that was saved included 4 headers, 4 cookies, 4 preferred locales and 4 parameters, causing the constructor to do some work on each iteration.\r\n\r\nThere were no discernible differences with the default configuration for `HttpSessionRequestCache`. However, with `cache.setCreateSessionAllowed(false)`:\r\n\r\nBefore code change:\r\n\r\n* Average ~1,464 nanoseconds per `saveRequest`\r\n\r\nAfter code change:\r\n\r\n* Average ~114 nanoseconds per `saveRequest`\r\n\r\nSo we save about 1.35 microseconds per request. This is pretty small, but proves that the performance impact is non-negligible. It's worth noting that most applications would use the `NullRequestCache` in the stateless scenario (`sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)` or even `SessionCreationPolicy.NEVER`), so I'm not sure many applications will benefit from this. Still, this is another way to configure the application to avoid session creation when desired and may improve performance in that case.",
+  "clean_message": ", thanks for your patience. I put together a pretty simple test to measure performance differences with this code change. I tested just the method  with 100,000,000 iterations, and ran the test a number of times before and after the code change. The request that was saved included 4 headers, 4 cookies, 4 preferred locales and 4 parameters, causing the constructor to do some work on each iteration. There were no discernible differences with the default configuration for . However, with : Before code change:  Average ~1,464 nanoseconds per   After code change:  Average ~114 nanoseconds per   So we save about 1.35 microseconds per request. This is pretty small, but proves that the performance impact is non-negligible. It's worth noting that most applications would use the  in the stateless scenario ( or even ), so I'm not sure many applications will benefit from this. Still, this is another way to configure the application to avoid session creation when desired and may improve performance in that case.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11666#issuecomment-1226261263",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b86"
+  },
+  "raw_message": "Thanks @ch4mpy. Apologies, I haven't been able to review it thoroughly yet, as I'm still heads down. However, glancing at it, I wanted to mention one thing to think about. You may want to consider the `Converter` interface from spring-core. It's used fairly extensively throughout the framework already, and we'd probably want to prefer that over introducing new interfaces. Switching that over will get you a bit ahead on review feedback.\r\n\r\nI'll let you know when I have a bit more time to review.",
+  "clean_message": "Thanks . Apologies, I haven't been able to review it thoroughly yet, as I'm still heads down. However, glancing at it, I wanted to mention one thing to think about. You may want to consider the  interface from spring-core. It's used fairly extensively throughout the framework already, and we'd probably want to prefer that over introducing new interfaces. Switching that over will get you a bit ahead on review feedback. I'll let you know when I have a bit more time to review.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11665#issuecomment-1227783778",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d6a"
+  },
+  "raw_message": "Thanks @desmond-silveira!",
+  "clean_message": "Thanks -silveira!",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/11613#issuecomment-1196002040",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d13"
+  },
+  "raw_message": "Great, thanks @jzheaux ! I looked into your changes to learn the style... what do you mean by \r\n\r\n`Refactored methods to have only immutable method parameters`\r\n\r\nJust curious :)",
+  "clean_message": "Great, thanks  ! I looked into your changes to learn the style... what do you mean by  Just curious :)",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10849#issuecomment-1069371147",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b33"
+  },
+  "raw_message": "@eleftherias Sorry, have not investigated further yet.",
+  "clean_message": "Sorry, have not investigated further yet.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10808#issuecomment-1044125289",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c6d"
+  },
+  "raw_message": "> Thanks, @Drezir, for the updates!\r\n> \r\n> In addition to my inline feedback, will you please add some unit tests to `WebSecurityTests` for the new method and to a class called `CompositeRequestRejectedHandlerTests` for the new class? Remember to place those tests in their respective commits.\r\n\r\nI have added some tests, thanks to that I have discovered one problem so the tests have proven that they are useful :+1:\r\nI did not want to squash commits during code review, would you like me to do it and organize it like 1st commit for CompositeHandler and  2nd commit for WebSecurity setter?",
+  "clean_message": "I have added some tests, thanks to that I have discovered one problem so the tests have proven that they are useful :+1: I did not want to squash commits during code review, would you like me to do it and organize it like 1st commit for CompositeHandler and  2nd commit for WebSecurity setter?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10603#issuecomment-994998140",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bdf"
+  },
+  "raw_message": "what does waiting-for-triage tag mean? sorry if its a silly question",
+  "clean_message": "what does waiting-for-triage tag mean? sorry if its a silly question",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10541#issuecomment-975952635",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cef"
+  },
+  "raw_message": "Damn, I'd have a longer sleep if I'd just wait for you to answer :D\r\n\r\nI wrote `SecurityNamespaceHandlerTest` class and was trying to write some tests of `SecurityNamespaceHandler` from scratch. After about half on hours I found out that there already is a `SecurityNamespaceHandlerTest` class without missing 's'. After that I thought that the first thing should be writing a test to test well... a test. Which was to test if `InMemoryXmlApplicationContext#SPRING_SECURITY_VERSION` is set correctly:\r\n\r\n\t@Test\r\n\tpublic void InMemoryXmlWebApplicationContextRunsWithNewestXSDAsDefault() throws IOException {\r\n\t\tInMemoryXmlApplicationContext defaultContext = new InMemoryXmlApplicationContext(\"\");\r\n\t\tString computedXSDVersion = getSpringVersionFromSpringSchemas();\r\n\t\tInMemoryXmlApplicationContext versionedContext = new InMemoryXmlApplicationContext(\"\", computedXSDVersion,\r\n\t\t\t\tnull);\r\n\r\n\t\tResource defaultXML = Whitebox.getInternalState(defaultContext, \"inMemoryXml\");\r\n\t\tResource versionedXML = Whitebox.getInternalState(versionedContext, \"inMemoryXml\");\r\n\r\n\t\tassertThat(defaultXML).isEqualTo(versionedXML)\r\n\t\t\t\t.withFailMessage(\"InMemoryXmlApplicationContext is not using a current XSD schema as a default\");\r\n\t}\r\n\r\nThan I was trying to find out how to test it without `WhiteBox` and without getting direct access to the `InMemoryXmlApplicationContext#SPRING_SECURITY_VERSION`. Then I thought it's really time to sleep, so I turn off my PC and... read the message from you on my phone :-)\r\n\r\n----------------------------\r\n\r\nIf you say that `InMemoryXmlApplicationContext#SPRING_SECURITY_VERSION` should be computed, I'll do that.\r\n\r\nIf I'd ammend a commit on forked repo, push it (with `force`), will this force a test retrigger here on this PR?",
+  "clean_message": "Damn, I'd have a longer sleep if I'd just wait for you to answer :D I wrote  class and was trying to write some tests of  from scratch. After about half on hours I found out that there already is a  class without missing 's'. After that I thought that the first thing should be writing a test to test well... a test. Which was to test if  is set correctly: public void InMemoryXmlWebApplicationContextRunsWithNewestXSDAsDefault() throws IOException {     InMemoryXmlApplicationContext defaultContext = new InMemoryXmlApplicationContext(\"\");     String computedXSDVersion = getSpringVersionFromSpringSchemas();     InMemoryXmlApplicationContext versionedContext = new InMemoryXmlApplicationContext(\"\", computedXSDVersion,             null);      Resource defaultXML = Whitebox.getInternalState(defaultContext, \"inMemoryXml\");     Resource versionedXML = Whitebox.getInternalState(versionedContext, \"inMemoryXml\");      assertThat(defaultXML).isEqualTo(versionedXML)             .withFailMessage(\"InMemoryXmlApplicationContext is not using a current XSD schema as a default\"); }  Than I was trying to find out how to test it without  and without getting direct access to the . Then I thought it's really time to sleep, so I turn off my PC and... read the message from you on my phone :-)  If you say that  should be computed, I'll do that. If I'd ammend a commit on forked repo, push it (with ), will this force a test retrigger here on this PR?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10348#issuecomment-937598546",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d72"
+  },
+  "raw_message": "Thanks for the PR @akohli96! This is now merged into the main branch via 1cfe84922c9b26d08da4a2003777d1a82f7ce1e9.",
+  "clean_message": "Thanks for the PR ! This is now merged into the main branch via 1cfe84922c9b26d08da4a2003777d1a82f7ce1e9.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10225#issuecomment-906195378",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a58"
+  },
+  "raw_message": "@dkodippily, thinking out loud I'm not sure whether a subclass would be a good way to go or not, but happy to discuss further. Thanks!",
+  "clean_message": ", thinking out loud I'm not sure whether a subclass would be a good way to go or not, but happy to discuss further. Thanks!",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/10113#issuecomment-912570314",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b4b"
+  },
+  "raw_message": "Thanks for your time, I've worked on your suggestion @jzheaux.",
+  "clean_message": "Thanks for your time, I've worked on your suggestion .",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9813#issuecomment-848867940",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ae6"
+  },
+  "raw_message": "Thanks again, @dratler. This is now merged into `main` via 3820f0f3a39e2539ccdf265e68d59d204725e219. I also committed a polish via e91cacfdafc9d23667a9e889826750bb3518631f",
+  "clean_message": "Thanks again, . This is now merged into  via 3820f0f3a39e2539ccdf265e68d59d204725e219. I also committed a polish via e91cacfdafc9d23667a9e889826750bb3518631f",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9612#issuecomment-870087384",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cfe"
+  },
+  "raw_message": "@jgrandja Is there anything else you'd like me to do?\r\n\r\nThanks again",
+  "clean_message": "Is there anything else you'd like me to do? Thanks again",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9513#issuecomment-811274774",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d5a"
+  },
+  "raw_message": "Thanks for the PR, @gberche-orange! This is now merged into `master` with ab9a310485b43e7a5cd08e0ffba3cb641cb43991 and 69336fb3ec40e1c62ad1700e15fa0d6e03cb57d4.\r\n\r\nAlso, I polished it the new section with 8b7751f5f400d1663b3a8f60885b1837983906ea to update some of the indentation and standardize the explanations to fit the typical writing style of the reference manual.",
+  "clean_message": "Thanks for the PR, -orange! This is now merged into  with ab9a310485b43e7a5cd08e0ffba3cb641cb43991 and 69336fb3ec40e1c62ad1700e15fa0d6e03cb57d4. Also, I polished it the new section with 8b7751f5f400d1663b3a8f60885b1837983906ea to update some of the indentation and standardize the explanations to fit the typical writing style of the reference manual.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9157#issuecomment-720719553",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bf7"
+  },
+  "raw_message": "My fault.) Done.",
+  "clean_message": "My fault.) Done.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9153#issuecomment-717230845",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ba9"
+  },
+  "raw_message": "> the bug was these classes were not implementing MessageSourceAware as they should, fixing the bug is juts to implement it\r\n\r\nGood points. It's quite common in Spring Security to test that setters have non-null guards. For example, you can see this in `JdbcDaoImplTests#setMessageSourceWhenNullThenThrowsException`. I believe this PR should at least test that the setters check for `null`.\r\n\r\nAdditionally, I was thinking that tests would confirm that the `MessageSource` used by the class is the one that the setter provided. But, after trying it out myself on `SubjectDnX509PrincipalExtractorTests`, it seems to create a test that heavily overlaps other tests. Also, this kind of test isn't done anywhere else in the repo, so maybe we can leave those out.\r\n\r\nCan you add tests that confirm that the setters check for null?",
+  "clean_message": "Good points. It's quite common in Spring Security to test that setters have non-null guards. For example, you can see this in . I believe this PR should at least test that the setters check for . Additionally, I was thinking that tests would confirm that the  used by the class is the one that the setter provided. But, after trying it out myself on , it seems to create a test that heavily overlaps other tests. Also, this kind of test isn't done anywhere else in the repo, so maybe we can leave those out. Can you add tests that confirm that the setters check for null?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9151#issuecomment-719765148",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a78"
+  },
+  "raw_message": "Hi!  Yes, so sorry.  I've been rather unwell this last 2 months or so (almost co-inciding with my renewed interest in opensource... hmmmm) but I'm sort of alive again.  I'll try to get to this over the weekend.  Sorry again for just vanishing!",
+  "clean_message": "Hi!  Yes, so sorry.  I've been rather unwell this last 2 months or so (almost co-inciding with my renewed interest in opensource... hmmmm) but I'm sort of alive again.  I'll try to get to this over the weekend.  Sorry again for just vanishing!",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9052#issuecomment-731335874",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d60"
+  },
+  "raw_message": "@jzheaux  I have updated the PR according to your comments, the remaining point is related to collection for signing algorithm. I keep list because of the order, but If you still think collection is better, let me know, I will do the change",
+  "clean_message": "I have updated the PR according to your comments, the remaining point is related to collection for signing algorithm. I keep list because of the order, but If you still think collection is better, let me know, I will do the change",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/9039#issuecomment-710396220",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d46"
+  },
+  "raw_message": "Thanks very much, @hotire. This was solved as part of the effort to migrate to Spring Framework 6.0 https://github.com/spring-projects/spring-security/issues/10360.",
+  "clean_message": "Thanks very much, . This was solved as part of the effort to migrate to Spring Framework 6.0 .",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8983#issuecomment-949697771",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c60"
+  },
+  "raw_message": "@dawn9117 If you would like us to look at this issue, please provide the information requested in #8866. If the information is not provided within the next 7 days this issue will be closed.",
+  "clean_message": "If you would like us to look at this issue, please provide the information requested in #8866. If the information is not provided within the next 7 days this issue will be closed.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8867#issuecomment-855686975",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b14"
+  },
+  "raw_message": "@rwinch finally all tests pass. :)",
+  "clean_message": "finally all tests pass. :)",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8507#issuecomment-636795716",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b82"
+  },
+  "raw_message": "Thanks for the PR @ThomasVitale ! I went ahead and added a polish commit to get this merged. This is now in master.",
+  "clean_message": "Thanks for the PR  ! I went ahead and added a polish commit to get this merged. This is now in master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8501#issuecomment-629389686",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d76"
+  },
+  "raw_message": "@krajcsovszkig-ms \r\n\r\n> All 3 are currently mandatory (must be non-empty), but when we are constructing a JWT for later signing (or just to store some overrides for some of the default claims) we won't have the tokenValue, and probably not even any headers.\r\n\r\nThe `Jwt` structure has to have the 3 parts or it's not a `Jwt`. So the existing class `Jwt` is designed to spec. I guess I'm a little confused on why you would create a `Jwt` without a `tokenValue` to simply provides overrides for claims? It sounds like you are thinking the `JwtEncoder` would look like:\r\n\r\n```java\r\nJwt encode(Jwt token) throws JwtException\r\n```\r\n\r\nIf that's what you're thinking then that is where the confusion is coming from. The return value is obvious `Jwt` but the input will NOT be `Jwt`. This is what we need to iron out first before the implementation is started.\r\n\r\nAs far as the way I see it, the `JwtEncoder.encode` would take in client and resource owner constructs and additionally be configured with the target JWS alg based on the client input. Take a look at `OidcIdTokenDecoderFactory` and the configuration it allows for supplying a `JwtDecoder`, eg. `jwtValidatorFactory`, `jwsAlgorithmResolver`...we might need something like `jwtClaimSetConsumer` (that can do overrides)\r\n\r\nI would suggest that you open up a Draft PR so we can decide on the API for `JwtEncoder` and keep the discussion going on there.\r\n\r\n> OK, so then they should be called the same as in the spec, right? (`CLIENT_SECRET_JWT` and `PRIVATE_KEY_JWT`)\r\n\r\nYes\r\n",
+  "clean_message": "-ms  The  structure has to have the 3 parts or it's not a . So the existing class  is designed to spec. I guess I'm a little confused on why you would create a  without a  to simply provides overrides for claims? It sounds like you are thinking the  would look like: If that's what you're thinking then that is where the confusion is coming from. The return value is obvious  but the input will NOT be . This is what we need to iron out first before the implementation is started. As far as the way I see it, the  would take in client and resource owner constructs and additionally be configured with the target JWS alg based on the client input. Take a look at  and the configuration it allows for supplying a , eg. , ...we might need something like  (that can do overrides) I would suggest that you open up a Draft PR so we can decide on the API for  and keep the discussion going on there. Yes",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8445#issuecomment-632239225",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b05"
+  },
+  "raw_message": "Please note that both https://github.com/spring-projects/spring-framework/pull/24977 and https://github.com/spring-projects/spring-boot/pull/21133 have been closed.",
+  "clean_message": "Please note that both  and  have been closed.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8436#issuecomment-761845074",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bf5"
+  },
+  "raw_message": "Hi @eleftherias ,\r\nI have run it on my local machine twice before pushing it.\r\nI didn't have any issues.\r\nLet me check the error and I will work on them.\r\nSorry about thta",
+  "clean_message": "Hi  , I have run it on my local machine twice before pushing it. I didn't have any issues. Let me check the error and I will work on them. Sorry about thta",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8434#issuecomment-635642410",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c2f"
+  },
+  "raw_message": "Thanks for PR! Can you please update your commit message to align for contributor guidelines https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.adoc#format-commit-messages\r\n\r\nSomething like this works:\r\n\r\n```\r\nRename Preface to Introduction\r\n\r\nCloses gh-8188\r\n```",
+  "clean_message": "Thanks for PR! Can you please update your commit message to align for contributor guidelines  Something like this works:",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8411#issuecomment-615495110",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d74"
+  },
+  "raw_message": "@parikshitdutta I just logged #8536, which is the equivalent of the changes you applied in this PR but for the WebFlux stack. Let me know if you're interested and free to take #8536.",
+  "clean_message": "I just logged #8536, which is the equivalent of the changes you applied in this PR but for the WebFlux stack. Let me know if you're interested and free to take #8536.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8392#issuecomment-629440847",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d17"
+  },
+  "raw_message": "I Followed the instruction and now only one commit is visible. Thanks",
+  "clean_message": "I Followed the instruction and now only one commit is visible. Thanks",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8364#issuecomment-613238541",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ae1"
+  },
+  "raw_message": "Thanks, @shazin! Would you please squash your commits and format it to look something like:\r\n\r\n```\r\nOpen Saml2AuthenticationRequestContext\r\n\r\nFixes gh-8356\r\n```\r\n\r\nFor extra context, please see the contribution guidelines for [squashing](https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md#squash-commits) and [formatting](https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md#format-commit-messages) commits.",
+  "clean_message": "Thanks, ! Would you please squash your commits and format it to look something like: For extra context, please see the contribution guidelines for squashing and formatting commits.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/8364#issuecomment-612122241",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cc0"
+  },
+  "raw_message": "Thanks, @zeeshanadnan, for the PR! This is now merged into `master` via 51b9b2f693ec48127f2cc8554aa3edbc58fccc92.\r\n\r\nNote that I polished the commit message just a bit, though it will still show you as the contributor. I added a small polish via 653400edfabf52760bdda3c30c8b51283b256b15.",
+  "clean_message": "Thanks, , for the PR! This is now merged into  via 51b9b2f693ec48127f2cc8554aa3edbc58fccc92. Note that I polished the commit message just a bit, though it will still show you as the contributor. I added a small polish via 653400edfabf52760bdda3c30c8b51283b256b15.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7937#issuecomment-583114076",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ad8"
+  },
+  "raw_message": "@jzheaux Yes I am feeling better now, thanks. \r\nI did the suggested changes, please let me know if there are other changes. \r\n",
+  "clean_message": "Yes I am feeling better now, thanks.  I did the suggested changes, please let me know if there are other changes. ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7925#issuecomment-589762683",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c8a"
+  },
+  "raw_message": "@akuma8 sorry that you were sick, I hope that you are feeling better now. Thank you for the updates.\r\n\r\nLet's please do two more changes:\r\n\r\n* First, will you please rebase your branch to resolve the conflict in the PR?\r\n* Second, will you please deprecate the old `Properties` method? This is a suggestion that @jgrandja made to me offline; my apologies that it wasn't in my initial review. To deprecate a method, please add both the `@Deprecated` annotation to the method and the `@deprecated` JavaDoc tag that includes instructions to use the new `Map` method you've created.",
+  "clean_message": "sorry that you were sick, I hope that you are feeling better now. Thank you for the updates. Let's please do two more changes:  First, will you please rebase your branch to resolve the conflict in the PR? Second, will you please deprecate the old  method? This is a suggestion that  made to me offline; my apologies that it wasn't in my initial review. To deprecate a method, please add both the  annotation to the method and the  JavaDoc tag that includes instructions to use the new  method you've created. ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7925#issuecomment-589273521",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 4,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aaa"
+  },
+  "raw_message": "@jzheaux I have just delivered the requested changes, sorry for the delay. Does it look ok now?",
+  "clean_message": "I have just delivered the requested changes, sorry for the delay. Does it look ok now?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7806#issuecomment-580372867",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b5c"
+  },
+  "raw_message": "Thanks for the PR @matthiasstock! This is now merged into master.",
+  "clean_message": "Thanks for the PR ! This is now merged into master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7755#issuecomment-570242071",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b76"
+  },
+  "raw_message": "Merged to `master` and `5.2.x`",
+  "clean_message": "Merged to  and ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7744#issuecomment-575746935",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615afa"
+  },
+  "raw_message": "@dyroberts we are still looking into the idea of mapping this to config properties. While this does appear to be a common way to handle multi-tenancy in resource servers, it's not clear whether or not Resource Server Multi-Tenancy itself is so common as to want to add Spring Boot support.\r\n\r\nThat said, this class leaves open this possibility.",
+  "clean_message": "we are still looking into the idea of mapping this to config properties. While this does appear to be a common way to handle multi-tenancy in resource servers, it's not clear whether or not Resource Server Multi-Tenancy itself is so common as to want to add Spring Boot support. That said, this class leaves open this possibility.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7733#issuecomment-568046689",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ce6"
+  },
+  "raw_message": "Closed in favor of https://github.com/spring-projects/spring-security/pull/8332",
+  "clean_message": "Closed in favor of ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7639#issuecomment-612255247",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b53"
+  },
+  "raw_message": "This is my first time squashing commits of a branch, so I might have messed up somewhere along the way. Can you please help me make sure everything is correct?",
+  "clean_message": "This is my first time squashing commits of a branch, so I might have messed up somewhere along the way. Can you please help me make sure everything is correct?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7597#issuecomment-733223306",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c3f"
+  },
+  "raw_message": "Given there are 800+ commits in this PR, I am guessing you made a mistake setting up this PR. I'm going to close this so you can create a new PR with a single commit for the changes you need. If you need help, please let me know on gh-7578 and I can try and guide you through the process.",
+  "clean_message": "Given there are 800+ commits in this PR, I am guessing you made a mistake setting up this PR. I'm going to close this so you can create a new PR with a single commit for the changes you need. If you need help, please let me know on gh-7578 and I can try and guide you through the process.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7579#issuecomment-547483494",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 2.3333333333333335,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b8c"
+  },
+  "raw_message": "Thanks for the PR @iphayao Now that we support discovery from the issuer uri, it is the preferred mechanism for registering providers instead of adding lots of well known endpoints.",
+  "clean_message": "Thanks for the PR  Now that we support discovery from the issuer uri, it is the preferred mechanism for registering providers instead of adding lots of well known endpoints.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7575#issuecomment-547952497",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ba8"
+  },
+  "raw_message": "Thanks for the speedy update @rastadrian! This is now merged into master.",
+  "clean_message": "Thanks for the speedy update ! This is now merged into master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7557#issuecomment-553318885",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a83"
+  },
+  "raw_message": "I have updated PR. But still I am no sure about that link to Spring Boot documentation. Should I remove that link to SNAPSHOT?",
+  "clean_message": "I have updated PR. But still I am no sure about that link to Spring Boot documentation. Should I remove that link to SNAPSHOT?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7325#issuecomment-533284694",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a63"
+  },
+  "raw_message": "@sothavirak Thanks for the PR! \r\n\r\nIn preparation for merging, would you please update your commit message to include the issue that you fixed as well? Something like:\r\n\r\n```\r\nDowngrade AuthenticationFilter modifier\r\n\r\nFixes gh-7177\r\n```",
+  "clean_message": "Thanks for the PR!  In preparation for merging, would you please update your commit message to include the issue that you fixed as well? Something like:",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7180#issuecomment-517935251",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d84"
+  },
+  "raw_message": "@jzheaux, I'd like to share 2 things about semantic versioning:\r\n\r\n1. It doesn't prohibit backporting to version 4. (I'm not sure, but from\r\n    your comment seems you imply semantic versioning prohibits it)\r\n   The current release is 4.2.13, the fixed release will be 4.3.0 - all according to the quote you provide. \r\n\r\n2. Semantic versioning doesn't work for Java when we want an old version\r\n    of a library to be used simultaneously with the new version in one application.\r\n    Simply because Java doesn't allow several versions of classes with an equal\r\n    fully-qualified name. (In the same class loader. Using different classloaders,\r\n    as OSGI does, is an overkill unpractical in most real situations, of course. Honestly,\r\n    I haven't used java modules, but the impression they don't solve the problem\r\n    in a convenient way too, unfortunately).\r\n\r\n\r\n    How often we need several version simultaneously? Almost always.\r\n\r\n    First, dependency tree of any moderate size application has some\r\n    libraries present in multiple tree nodes, with different versions.\r\n\r\n    The second (more relevant for spring-security): migration easiness.\r\n    We may want our old REST API endpoints to remain protected by spring-security 4,\r\n    because it's already tested stable code. But for new endpoints, we'd like to use the modern,\r\n    latest version 5.\r\n\r\n    If this is not allowed, then we have a much more difficult \"all or nothing\" situation:\r\n    unless you found resources to migrate and test your existing code, you must continue\r\n    using version 4 for old endpoints, thus bogging down deeper and deeper into the old version,\r\n    which has limited or sometimes no maintenance (in some large system I know some\r\n    components still use spring-security 3).\r\n\r\nIn order to allow several versions of your library in an application, give them different artifact name (spring-security3, spring-security4, spring-security5) and different package names (org.springframework.security3, org.springframework.security4, org.springframework.security5).\r\n\r\ncommons-collections, commons-lang use this approach\r\n\r\nIn short - the principle of immutability applied to versioning, dependency management and backward compatibility. Here immutability of values (APIs) assigned to names (class / artifact names). If version 5 is incompatible with version 4, they should not share fully-qualified class names and artifact names.\r\n",
+  "clean_message": ", I'd like to share 2 things about semantic versioning:   It doesn't prohibit backporting to version 4. (I'm not sure, but from     your comment seems you imply semantic versioning prohibits it)    The current release is 4.2.13, the fixed release will be 4.3.0 - all according to the quote you provide.    Semantic versioning doesn't work for Java when we want an old version     of a library to be used simultaneously with the new version in one application.     Simply because Java doesn't allow several versions of classes with an equal     fully-qualified name. (In the same class loader. Using different classloaders,     as OSGI does, is an overkill unpractical in most real situations, of course. Honestly,     I haven't used java modules, but the impression they don't solve the problem     in a convenient way too, unfortunately). How often we need several version simultaneously? Almost always. First, dependency tree of any moderate size application has some libraries present in multiple tree nodes, with different versions. The second (more relevant for spring-security): migration easiness. We may want our old REST API endpoints to remain protected by spring-security 4, because it's already tested stable code. But for new endpoints, we'd like to use the modern, latest version 5. If this is not allowed, then we have a much more difficult \"all or nothing\" situation: unless you found resources to migrate and test your existing code, you must continue using version 4 for old endpoints, thus bogging down deeper and deeper into the old version, which has limited or sometimes no maintenance (in some large system I know some components still use spring-security 3).   In order to allow several versions of your library in an application, give them different artifact name (spring-security3, spring-security4, spring-security5) and different package names (org.springframework.security3, org.springframework.security4, org.springframework.security5). commons-collections, commons-lang use this approach In short - the principle of immutability applied to versioning, dependency management and backward compatibility. Here immutability of values (APIs) assigned to names (class / artifact names). If version 5 is incompatible with version 4, they should not share fully-qualified class names and artifact names.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7158#issuecomment-519766725",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615add"
+  },
+  "raw_message": "Thanks for the PR @eddumelendez! This is now merged into master.",
+  "clean_message": "Thanks for the PR ! This is now merged into master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7119#issuecomment-516030488",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aeb"
+  },
+  "raw_message": "Thanks for the ping.\r\n\r\nI'd say we should just expose the handler via a Bean lookup similar to how httpFirewall is looked up in `WebSecurity`.\r\n\r\nI'm not sure what is happening with the JDK. Our travis build is passing with JDK 8. How did you reproduce this?\r\n\r\n",
+  "clean_message": "Thanks for the ping. I'd say we should just expose the handler via a Bean lookup similar to how httpFirewall is looked up in . I'm not sure what is happening with the JDK. Our travis build is passing with JDK 8. How did you reproduce this?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/7052#issuecomment-514688228",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615be5"
+  },
+  "raw_message": "Changed git commit message to comply to the standard.",
+  "clean_message": "Changed git commit message to comply to the standard.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6969#issuecomment-505153858",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b3b"
+  },
+  "raw_message": "Thanks, @eleftherias! This is now merged into `master`.",
+  "clean_message": "Thanks, ! This is now merged into .",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6914#issuecomment-497807711",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b15"
+  },
+  "raw_message": "@rwinch @ynojima Can we have faster work on this. Spring Security currently no way to login without password. Login with OTP, Finger Print, Retina Scan, Face Recognization, QR are all used in Modern Web Apps and we neeed to move with time. If time is issue please point here, so community can come in and take part in development to move it fast.",
+  "clean_message": "Can we have faster work on this. Spring Security currently no way to login without password. Login with OTP, Finger Print, Retina Scan, Face Recognization, QR are all used in Modern Web Apps and we neeed to move with time. If time is issue please point here, so community can come in and take part in development to move it fast.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6842#issuecomment-523755307",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b7b"
+  },
+  "raw_message": "@huytn12 is this something you are still interesting in contributing?",
+  "clean_message": "is this something you are still interesting in contributing?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6841#issuecomment-492363928",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cb2"
+  },
+  "raw_message": "@rhamedy, it's a good question - addressing all permutations can get pretty hard to keep up with for really not that much benefit.\r\n\r\nI think the critical logic to verify is \r\n\r\n1. Does the endpoint resolution logic work?, e.g. does it correctly fall back, and\r\n2. Does it correctly parse the response into a `ClientRegistrations.Builder`.\r\n\r\nI think these can be tested independently for the most part - I wouldn't imagine there being 3x tests, it'd probably be one (or some) tests to verify the fallback logic and another set of tests confirming the parsing logic against the oauth2 endpoint.",
+  "clean_message": ", it's a good question - addressing all permutations can get pretty hard to keep up with for really not that much benefit. I think the critical logic to verify is   Does the endpoint resolution logic work?, e.g. does it correctly fall back, and Does it correctly parse the response into a .  I think these can be tested independently for the most part - I wouldn't imagine there being 3x tests, it'd probably be one (or some) tests to verify the fallback logic and another set of tests confirming the parsing logic against the oauth2 endpoint.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6765#issuecomment-497433547",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bc8"
+  },
+  "raw_message": "Merged via ac93f10",
+  "clean_message": "Merged via ac93f10",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6658#issuecomment-476948628",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a65"
+  },
+  "raw_message": "Thanks @fritzdj. I left one more comment and after that we are ready to merge. But before we merge, can you please [squash](https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md#squash-commits) the commits to 1 and ensure the commit message follows this [format](https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md#format-commit-messages). Thanks for your work on this!",
+  "clean_message": "Thanks . I left one more comment and after that we are ready to merge. But before we merge, can you please squash the commits to 1 and ensure the commit message follows this format. Thanks for your work on this!",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6606#issuecomment-475258489",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b01"
+  },
+  "raw_message": "@Dav1dde Can you confirm that this issue was fixed in gh-7687 and if so please close this PR?",
+  "clean_message": "Can you confirm that this issue was fixed in gh-7687 and if so please close this PR?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6599#issuecomment-565042321",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c25"
+  },
+  "raw_message": "@clevertension Either way. Before we merge, you'll need to force push down to one commit. Some folks like to keep commits separate while the review is going on. For small PRs like this, it doesn't make a big difference.",
+  "clean_message": "Either way. Before we merge, you'll need to force push down to one commit. Some folks like to keep commits separate while the review is going on. For small PRs like this, it doesn't make a big difference.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6562#issuecomment-468882659",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a99"
+  },
+  "raw_message": "@vishalvrv9 Not a problem at all - you were not a hindrance. Git is very powerful but it could take some time to get used to. Hopefully you learned something new and the next time will be easier :) Thanks again for your contribution! This is now in master.",
+  "clean_message": "Not a problem at all - you were not a hindrance. Git is very powerful but it could take some time to get used to. Hopefully you learned something new and the next time will be easier :) Thanks again for your contribution! This is now in master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6514#issuecomment-481828497",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b32"
+  },
+  "raw_message": "Thanks. Can you please squash and then please update the commit message to align with [the Spring Security conventions](https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md#format-commit-messages)? It should end with `Fixes: gh-6002`",
+  "clean_message": "Thanks. Can you please squash and then please update the commit message to align with the Spring Security conventions? It should end with ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6376#issuecomment-452884391",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b87"
+  },
+  "raw_message": "Closing as alternate PR as been merged.",
+  "clean_message": "Closing as alternate PR as been merged.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6367#issuecomment-478366716",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bfb"
+  },
+  "raw_message": "@ankurpathak Sorry that I was not clear. I was speaking in reference to adding documentation at https://github.com/spring-projects/spring-security/blob/0656d2bc052358b2d8fc5fd1be2be682f3e8169e/docs/manual/src/docs/asciidoc/_includes/reactive/headers.adoc#webflux-headers-hsts",
+  "clean_message": "Sorry that I was not clear. I was speaking in reference to adding documentation at ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6321#issuecomment-452437445",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615caa"
+  },
+  "raw_message": "Awesome! Thanks for your help @rwinch and quick feedback!",
+  "clean_message": "Awesome! Thanks for your help  and quick feedback!",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6304#issuecomment-448360458",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d4e"
+  },
+  "raw_message": "Thank you for your contribution @shraiysh! We are so lucky to have community members like you :smile: ",
+  "clean_message": "Thank you for your contribution ! We are so lucky to have community members like you :smile: ",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6238#issuecomment-445289052",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b08"
+  },
+  "raw_message": "Not a problem @rwinch \r\nI have amended the commit as requested",
+  "clean_message": "Not a problem I have amended the commit as requested",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6221#issuecomment-444244558",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d01"
+  },
+  "raw_message": "Squashed all my commits into one. and for commits messages I am already following convention stated in guideline of:\r\n```\r\nSubject\r\n\r\n1.\r\n2.\r\n3.\r\n```",
+  "clean_message": "Squashed all my commits into one. and for commits messages I am already following convention stated in guideline of:",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6194#issuecomment-443372150",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c55"
+  },
+  "raw_message": "@nlebas @jzheaux The same change needs to be applied to the reactive counterpart. I added #6195",
+  "clean_message": "The same change needs to be applied to the reactive counterpart. I added #6195",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6150#issuecomment-443172222",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bfa"
+  },
+  "raw_message": "I don't think this should've been merged.\r\n\r\nFirst of all, `DefaultBearerTokenResolver` extracts the value of `Authorization` header, which is really different thing from `WWW-Authenticate` which was used as argument for this change. The RFC 6750 is quite explicit about the syntax of `Authorization` header in [section 2.1](https://tools.ietf.org/html/rfc6750#section-2.1):\r\n\r\n```\r\nb64token    = 1*( ALPHA / DIGIT /\r\n                       \"-\" / \".\" / \"_\" / \"~\" / \"+\" / \"/\" ) *\"=\"\r\ncredentials = \"Bearer\" 1*SP b64token\r\n```\r\n\r\nIt also states that _Unless otherwise noted, all the protocol parameter names and values are case sensitive_ in [section 1.1](https://tools.ietf.org/html/rfc6750#section-1.1).\r\n\r\nRegarding `WWW-Authenticate` itself, [section 3](https://tools.ietf.org/html/rfc6750#section-3) quite explicitly says that _All challenges defined by this specification MUST use the auth-scheme value \"Bearer\"_.\r\n\r\nTo my understanding, the RFC 2617 uses case-insensitivity in terms of identifying auth scheme on the client, which isn't really a subject of Resource Server support.",
+  "clean_message": "I don't think this should've been merged. First of all,  extracts the value of  header, which is really different thing from  which was used as argument for this change. The RFC 6750 is quite explicit about the syntax of  header in section 2.1: It also states that Unless otherwise noted, all the protocol parameter names and values are case sensitive in section 1.1. Regarding  itself, section 3 quite explicitly says that All challenges defined by this specification MUST use the auth-scheme value \"Bearer\". To my understanding, the RFC 2617 uses case-insensitivity in terms of identifying auth scheme on the client, which isn't really a subject of Resource Server support.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6150#issuecomment-442706414",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d71"
+  },
+  "raw_message": "@jer051 Thanks for the updated PR!\r\n\r\nUnfortunately it looks like `setWebClientCustomThenCustomClientIsUsed` fails. Can you look into fixing the test? For your convenience you can find the error below:\r\n\r\n```\r\n./gradlew check\r\n...\r\norg.mockito.exceptions.misusing.UnfinishedVerificationException: \r\nMissing method call for verify(mock) here:\r\n-> at org.springframework.security.oauth2.client.endpoint.WebClientReactiveClientCredentialsTokenResponseClientTests.setWebClientCustomThenCustomClientIsUsed(WebClientReactiveClientCredentialsTokenResponseClientTests.java:144)\r\n\r\nExample of correct verification:\r\n    verify(mock).doSomething()\r\n\r\nAlso, this error might show up because you verify either of: final/private/equals()/hashCode() methods.\r\nThose methods *cannot* be stubbed/verified.\r\nMocking methods declared on non-public parent classes is not supported.\r\n\r\n\tat org.mockito.internal.runners.DefaultInternalRunner$1.withBefores(DefaultInternalRunner.java:39)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:276)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:79)\r\n\tat org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:85)\r\n\tat org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39)\r\n\tat org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)\r\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)\r\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)\r\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)\r\n\tat org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)\r\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)\r\n\tat sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)\r\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)\r\n\tat com.sun.proxy.$Proxy2.processTestClass(Unknown Source)\r\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)\r\n\tat sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)\r\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)\r\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n```",
+  "clean_message": "Thanks for the updated PR! Unfortunately it looks like  fails. Can you look into fixing the test? For your convenience you can find the error below:",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6126#issuecomment-441784847",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bea"
+  },
+  "raw_message": "Working on it :)",
+  "clean_message": "Working on it :)",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6096#issuecomment-439130081",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c44"
+  },
+  "raw_message": "Sorry I was trying something else before pushing my commit, all tests take 13mins in my machine. I ran them all three times 🙃",
+  "clean_message": "Sorry I was trying something else before pushing my commit, all tests take 13mins in my machine. I ran them all three times 🙃",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6084#issuecomment-438518744",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bff"
+  },
+  "raw_message": "If everyone here agrees, I'd open a PR focused purely on addressing #5668 off [this branch](https://github.com/vpavic/spring-security/tree/gh-5668) in my fork. That still leaves room for @gburboz to re-submit the PR with some of the nice optimizations outlined here, like moving exceptions to constants and validating the token chars.",
+  "clean_message": "If everyone here agrees, I'd open a PR focused purely on addressing #5668 off this branch in my fork. That still leaves room for  to re-submit the PR with some of the nice optimizations outlined here, like moving exceptions to constants and validating the token chars.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/6040#issuecomment-436774442",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c61"
+  },
+  "raw_message": "Since RC1 is around the corner, heads-up that reactive bits of #5918 need to get reverted. Or maybe all of it, if this PR doesn't make the cut.",
+  "clean_message": "Since RC1 is around the corner, heads-up that reactive bits of #5918 need to get reverted. Or maybe all of it, if this PR doesn't make the cut.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5994#issuecomment-505160556",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615afd"
+  },
+  "raw_message": "Thanks for the Pull Request! This is now merged into master :smile:",
+  "clean_message": "Thanks for the Pull Request! This is now merged into master :smile:",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5741#issuecomment-416353321",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b64"
+  },
+  "raw_message": "Merged via 057587e",
+  "clean_message": "Merged via 057587e",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5729#issuecomment-418884501",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d16"
+  },
+  "raw_message": "@viswatejan thank you for the PR! As mentioned above, these changes are not passive. Do you have an alternative solution that does not modify the method signature?",
+  "clean_message": "thank you for the PR! As mentioned above, these changes are not passive. Do you have an alternative solution that does not modify the method signature?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5514#issuecomment-545121143",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d68"
+  },
+  "raw_message": "Thanks for the PR @XieEDeHeiShou! This is now merged into master.",
+  "clean_message": "Thanks for the PR ! This is now merged into master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5509#issuecomment-551067798",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c46"
+  },
+  "raw_message": "Thank you for the PR @mhyeon-lee! This is now in master.",
+  "clean_message": "Thank you for the PR -lee! This is now in master.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5495#issuecomment-406071347",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ac4"
+  },
+  "raw_message": "Thanks for reporting this @mhyeon-lee.\r\nCan you please write a test and than I'll merge this.",
+  "clean_message": "Thanks for reporting this -lee. Can you please write a test and than I'll merge this.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5489#issuecomment-403489405",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d29"
+  },
+  "raw_message": "I'm closing this as it appears that it was sent by mistake since there are no files that have been changed.",
+  "clean_message": "I'm closing this as it appears that it was sent by mistake since there are no files that have been changed.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5161#issuecomment-376529968",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b5b"
+  },
+  "raw_message": "When you have completed your changes, can you also squash your commits please?",
+  "clean_message": "When you have completed your changes, can you also squash your commits please?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/5037#issuecomment-368129575",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c04"
+  },
+  "raw_message": "Thanks for the PR @fpavageau! This is now in 4.2.x",
+  "clean_message": "Thanks for the PR ! This is now in 4.2.x",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/4759#issuecomment-340916566",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cd5"
+  },
+  "raw_message": "I've signed the CLA.\r\n\r\nWhy `./gradlew build` produces diffs like:\r\n```diff\r\ndiff --git i/acl/pom.xml w/acl/pom.xml\r\nindex 6ecd84a..a75abab 100644\r\n--- i/acl/pom.xml\r\n+++ w/acl/pom.xml\r\n@@ -3,7 +3,7 @@\r\n   <modelVersion>4.0.0</modelVersion>\r\n   <groupId>org.springframework.security</groupId>\r\n   <artifactId>spring-security-acl</artifactId>\r\n-  <version>4.2.2.RELEASE</version>\r\n+  <version>4.2.3.BUILD-SNAPSHOT</version>\r\n   <name>spring-security-acl</name>\r\n   <description>spring-security-acl</description>\r\n   <url>http://spring.io/spring-security</url>\r\n@@ -51,7 +51,7 @@\r\n     <dependency>\r\n       <groupId>org.springframework.security</groupId>\r\n       <artifactId>spring-security-core</artifactId>\r\n-      <version>4.2.2.RELEASE</version>\r\n+      <version>4.2.3.BUILD-SNAPSHOT</version>\r\n       <scope>compile</scope>\r\n     </dependency>\r\n     <dependency>\r\n@@ -151,6 +151,12 @@\r\n       <scope>test</scope>\r\n     </dependency>\r\n   </dependencies>\r\n+  <repositories>\r\n+    <repository>\r\n+      <id>spring-snapshot</id>\r\n+      <url>https://repo.spring.io/snapshot</url>\r\n+    </repository>\r\n+  </repositories>\r\n   <build>\r\n     <plugins>\r\n       <plugin>\r\n```\r\nDid I use the wrong branch ?\r\n",
+  "clean_message": "I've signed the CLA. Why  produces diffs like: Did I use the wrong branch ?",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/4235#issuecomment-283669421",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b4d"
+  },
+  "raw_message": "I'm aware of the check in the constructor, but since the lack of using a null safe equals causes problems with a code quality checking tool (which is arguably a bug in the tool, which was also reported) and changing the code doesn't hurt anything... anyways not surprised.",
+  "clean_message": "I'm aware of the check in the constructor, but since the lack of using a null safe equals causes problems with a code quality checking tool (which is arguably a bug in the tool, which was also reported) and changing the code doesn't hurt anything... anyways not surprised.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/4166#issuecomment-283675780",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d23"
+  },
+  "raw_message": "@eleftherias Thanks for feedback. I haven't really thought about this, it's been a while now :)\r\n\r\nBut looking at the fact that you would prefer returning an empty string, here is how it would look\r\n\r\n```java\r\nif (isContextRelative() && !url.contains(contextPath)) {\r\n     return \"\";\r\n}\r\n```\r\n\r\nWhich would lead to` sendRedirect(\"\")`; Which is bad too IMO.\r\n\r\nAs a security library, I finally think that it simply should fail by throwing an exception. \r\nAnyway, the decision is yours, and I can adapt the PR if still needed.\r\n\r\nOtherwise, feel free to close this issue.",
+  "clean_message": "Thanks for feedback. I haven't really thought about this, it's been a while now :) But looking at the fact that you would prefer returning an empty string, here is how it would look Which would lead to; Which is bad too IMO. As a security library, I finally think that it simply should fail by throwing an exception.  Anyway, the decision is yours, and I can adapt the PR if still needed. Otherwise, feel free to close this issue.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/4142#issuecomment-542841132",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d69"
+  },
+  "raw_message": "That's fine. I took a look at that and I think it will work for me. Is the filter documented anywhere? I never came across anything.\n",
+  "clean_message": "That's fine. I took a look at that and I think it will work for me. Is the filter documented anywhere? I never came across anything.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/4005#issuecomment-239853587",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b02"
+  },
+  "raw_message": "`Click here` links to https://github.com/spring-projects/spring-security/pull/null which is 404.\n",
+  "clean_message": "links to  which is 404.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/3944#issuecomment-228235355",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c43"
+  },
+  "raw_message": "[Resolved now, thanks](https://github.com/spring-projects/spring-security/commit/ca76e8d784b27cb2bcd4e9080be09545b4479b52#commitcomment-17934809).\n",
+  "clean_message": "Resolved now, thanks.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/3905#issuecomment-227182303",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b2e"
+  },
+  "raw_message": "Just did the process again. It didn't look like it actually was signed (Why would it give that message?)\n",
+  "clean_message": "Just did the process again. It didn't look like it actually was signed (Why would it give that message?)",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/3905#issuecomment-225678157",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c7f"
+  },
+  "raw_message": "Thanks for the fast PR! I have added feedback to the code.\n",
+  "clean_message": "Thanks for the fast PR! I have added feedback to the code.",
+  "message_url": "https://github.com/spring-projects/spring-security/pull/3700#issuecomment-184219399",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+}]

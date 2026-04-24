@@ -1,0 +1,500 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c083561607c"
+  },
+  "raw_message": "<!-- Hey,\r\nThanks for the contribution, this is awesome.\r\nAs you may have read, project members have somehow an opinionated view on what and how should be\r\nMockito, e.g. we don't want mockito to be a feature bloat.\r\nThere may be a thorough review, with feedback -> code change loop.\r\n-->\r\n<!--\r\nIf you have a suggestion for this template you can fix it in the .github/PULL_REQUEST_TEMPLATE.md file\r\n-->\r\n## Checklist\r\n\r\n - [x] Read the [contributing guide](https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md)\r\n - [x] PR should be motivated, i.e. what does it fix, why, and if relevant how\r\n - [ ] If possible / relevant include an example in the description, that could help all readers\r\n       including project members to get a better picture of the change\r\n - [x] Avoid other runtime dependencies\r\n - [x] Meaningful commit history ; intention is important please rebase your commit history so that each\r\n       commit is meaningful and help the people that will explore a change in 2 years\r\n - [x] The pull request follows coding style\r\n - [x] Mention `Fixes #<issue number>` in the description _if relevant_\r\n - [x] At least one commit should mention `Fixes #<issue number>` _if relevant_\r\n\r\n",
+  "clean_message": "<!-- Hey, Thanks for the contribution, this is awesome. As you may have read, project members have somehow an opinionated view on what and how should be Mockito, e.g. we don't want mockito to be a feature bloat. There may be a thorough review, with feedback ---<!-- If you have a suggestion for this template you can fix it in the .github/PULL_REQUEST_TEMPLATE.md file --## Checklist  [x] Read the contributing guide [x] PR should be motivated, i.e. what does it fix, why, and if relevant how [ ] If possible / relevant include an example in the description, that could help all readers        including project members to get a better picture of the change [x] Avoid other runtime dependencies [x] Meaningful commit history ; intention is important please rebase your commit history so that each        commit is meaningful and help the people that will explore a change in 2 years [x] The pull request follows coding style [x] Mention Fixes #<issue number ",
+  "message_url": "https://github.com/mockito/mockito/pull/2715",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e2d"
+  },
+  "raw_message": "3.10.0 should be available on Maven Central in a bit.",
+  "clean_message": "3.10.0 should be available on Maven Central in a bit.",
+  "message_url": "https://github.com/mockito/mockito/pull/2280#issuecomment-839651847",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615dee"
+  },
+  "raw_message": "@TimvdLippe Actually, there is a way. Since 1.5.0 we generate `@kotlin.jvm.JvmInline` annotation for each inline class. So, I see three possibilities\r\n\r\n1. I pushed the use of `getDeclaredMethod` with known parameter type, as you suggested.\r\n2. We bump Kotlin version to 1.5.0-RC and check for the annotation, or\r\n3. We wait for Kotlin 1.5.0 release and then bump the version and check for the annotation.",
+  "clean_message": "Actually, there is a way. Since 1.5.0 we generate  annotation for each inline class. So, I see three possibilities  I pushed the use of  with known parameter type, as you suggested. We bump Kotlin version to 1.5.0-RC and check for the annotation, or We wait for Kotlin 1.5.0 release and then bump the version and check for the annotation. ",
+  "message_url": "https://github.com/mockito/mockito/pull/2280#issuecomment-831380054",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e27"
+  },
+  "raw_message": "Under heavy optimization mocks might get garbage collected during the dispatching of a mocked method if the mock instance is not used after this method dispatch. To avoid this, we escape the mock instance during the dispatch to make sure that the GC cannot collect the object.\r\n\r\nFixes #1802.",
+  "clean_message": "Under heavy optimization mocks might get garbage collected during the dispatching of a mocked method if the mock instance is not used after this method dispatch. To avoid this, we escape the mock instance during the dispatch to make sure that the GC cannot collect the object. Fixes #1802.",
+  "message_url": "https://github.com/mockito/mockito/pull/2034",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f2a"
+  },
+  "raw_message": "@epeee Yes indeed. Were you able to get Gradle working on your machine?!",
+  "clean_message": "Yes indeed. Were you able to get Gradle working on your machine?!",
+  "message_url": "https://github.com/mockito/mockito/pull/1945#issuecomment-645577292",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d86"
+  },
+  "raw_message": "Having such an artifact feels like more indirection. It would be easier to add the file yourself.\r\n\r\nI am closing this per https://github.com/mockito/mockito/pull/1865#pullrequestreview-347321421 Thank you for opening the PR and discussing this feature, sorry to not make it in!",
+  "clean_message": "Having such an artifact feels like more indirection. It would be easier to add the file yourself. I am closing this per  Thank you for opening the PR and discussing this feature, sorry to not make it in!",
+  "message_url": "https://github.com/mockito/mockito/pull/1865#issuecomment-581061384",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615eb2"
+  },
+  "raw_message": "Regretfully, I ran into a case where I needed to mock a six-argument method. One can of course claim that such methods _ought not to exist_, but sadly, this is not always the reality and I think that some pragmatism is useful in tools like Mockito, so here is my attempt at adding support for it.\r\n\r\nOf course, it's possible to use the plain `Answer` interface in this case, but adding a dedicated `Answer6` interface makes it more convenient on the user; `Answer` is a quite raw interface.\r\n\r\n(I'm not sure if this should target the 2.x release or `master` also, but feel free to cherry-pick as needed after review/merge.)",
+  "clean_message": "Regretfully, I ran into a case where I needed to mock a six-argument method. One can of course claim that such methods ought not to exist, but sadly, this is not always the reality and I think that some pragmatism is useful in tools like Mockito, so here is my attempt at adding support for it. Of course, it's possible to use the plain  interface in this case, but adding a dedicated  interface makes it more convenient on the user;  is a quite raw interface. (I'm not sure if this should target the 2.x release or  also, but feel free to cherry-pick as needed after review/merge.)",
+  "message_url": "https://github.com/mockito/mockito/pull/1670",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c08356160b6"
+  },
+  "raw_message": "> Could you maybe add a new subproject which has some sample tests with instructions on how to inspect the diff? That would ease future development so that we can check if regressed on that. Thanks for all the hard work, good progress!\r\n\r\nI suggest we move on. We won't be able to automatically test how IDEs integrate with xUnit runners. Manual tests will be forgotten. We never had tests for this feature and it did not regress. Eventual regression will not be a blocker. If we encounter one, then we can prioritize a solution.\r\n",
+  "clean_message": "I suggest we move on. We won't be able to automatically test how IDEs integrate with xUnit runners. Manual tests will be forgotten. We never had tests for this feature and it did not regress. Eventual regression will not be a blocker. If we encounter one, then we can prioritize a solution.",
+  "message_url": "https://github.com/mockito/mockito/pull/1667#issuecomment-474909465",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f16"
+  },
+  "raw_message": "I could have add this method in the ArgumentMatchers class (which would have been a better solution), but I didn't want to change it because it has not been updated since last year\r\n\r\n```\r\n    public static <T> T vararg(T... value) {\r\n        reportMatcher(new VarargMatcherImpl(value));\r\n        if (value == null)\r\n            return null;\r\n        return (T) Primitives.defaultValue(value.getClass());\r\n    }\r\n```",
+  "clean_message": "I could have add this method in the ArgumentMatchers class (which would have been a better solution), but I didn't want to change it because it has not been updated since last year",
+  "message_url": "https://github.com/mockito/mockito/pull/1461#issuecomment-409060626",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615da0"
+  },
+  "raw_message": " > Instead, we maybe should include it in master and publish a beta version of mockito 3?\r\n\r\nThat means stable JUnit5 support will only be available when mockito 3 final is released. I guess this will not happen before Q4 2018. \r\n\r\nAn other option is to release junit5 support as seperate mockito 2 addon artefact which requires java 8, like junit 5 itself. It can be released much earlier. What do you think?\r\n",
+  "clean_message": "That means stable JUnit5 support will only be available when mockito 3 final is released. I guess this will not happen before Q4 2018.  An other option is to release junit5 support as seperate mockito 2 addon artefact which requires java 8, like junit 5 itself. It can be released much earlier. What do you think?",
+  "message_url": "https://github.com/mockito/mockito/pull/1221#issuecomment-339670044",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616047"
+  },
+  "raw_message": "And in the worst case - we can always revert it :-)\r\n\r\n\r\nThanks @zyxist @TimvdLippe ",
+  "clean_message": "And in the worst case - we can always revert it :-) Thanks   ",
+  "message_url": "https://github.com/mockito/mockito/pull/1195#issuecomment-334994377",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e21"
+  },
+  "raw_message": "All right, I am closing this PR for now. Thanks for the investigation nonetheless! Now when we have similar feature requests, we can point to this discussion and explain why we are not going to adopt such a feature for the time being :smile: ",
+  "clean_message": "All right, I am closing this PR for now. Thanks for the investigation nonetheless! Now when we have similar feature requests, we can point to this discussion and explain why we are not going to adopt such a feature for the time being :smile: ",
+  "message_url": "https://github.com/mockito/mockito/pull/1190#issuecomment-337275490",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e70"
+  },
+  "raw_message": "I still have an extensive Mockito API investigation planned to see what our current API surface is. Based on that outcome, we have to decide whether we want to expand our public API in this direction. Therefore this PR is blocked on that process, sorry :cry: ",
+  "clean_message": "I still have an extensive Mockito API investigation planned to see what our current API surface is. Based on that outcome, we have to decide whether we want to expand our public API in this direction. Therefore this PR is blocked on that process, sorry :cry: ",
+  "message_url": "https://github.com/mockito/mockito/pull/1164#issuecomment-340748036",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ec9"
+  },
+  "raw_message": "@TimvdLippe \r\n> [...] but the original solution was working out just fine thus far\r\n\r\nThats true for almost every refactoring on this planet ;-). \r\n\r\nExposing implementation details to other classes are a no go even if it looks handy. I've seen more than one product that became unmaintainable after the sum of all technical depts get out of control. Every tiny improvement is a good invest for a healty product.\r\n\r\n\r\n",
+  "clean_message": "Thats true for almost every refactoring on this planet ;-).  Exposing implementation details to other classes are a no go even if it looks handy. I've seen more than one product that became unmaintainable after the sum of all technical depts get out of control. Every tiny improvement is a good invest for a healty product.",
+  "message_url": "https://github.com/mockito/mockito/pull/965#issuecomment-287800560",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615dea"
+  },
+  "raw_message": "I rebased `android-bundle` on `release/2.x`. Sadly you have to rebase again :sob: but it should be good to go now!",
+  "clean_message": "I rebased  on . Sadly you have to rebase again :sob: but it should be good to go now!",
+  "message_url": "https://github.com/mockito/mockito/pull/938#issuecomment-278338844",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ef0"
+  },
+  "raw_message": "I'm with you on being very cautious about introducing features without user feedback or request. I think that this exactly the approach the core team should have to build a great library.\r\n\r\nThing is that in this situation there are users needing it. For example, I'm frustrated that myself and other engineers at LinkedIn cannot use strict stubbing (most of the tests use TestNG, there are also usages of custom runners).\r\n\r\nAnother use case are existing integrations like [Jukito](https://github.com/ArcBees/Jukito), [Springockito](http://www.springockito.org), etc. Users of those frameworks won't be able to take advantage of strict stubbing.\r\n\r\nIn general, if the team chooses to implement a feature such us strict stubbing, then we should make the usage of the feature easy and flexible. We should not lock in users with JUnit. For example, Mockito has \"@Mock\" annotation and offers flexible way of using that annotation: with JUnit Rule, Runner and without them (initMocks() method).\r\n\r\nAlso keep in mind that the new API is \"@Incubating\" so we could potentially take it away if we don't find it valuable.\r\n\r\nThoughts?",
+  "clean_message": "I'm with you on being very cautious about introducing features without user feedback or request. I think that this exactly the approach the core team should have to build a great library. Thing is that in this situation there are users needing it. For example, I'm frustrated that myself and other engineers at LinkedIn cannot use strict stubbing (most of the tests use TestNG, there are also usages of custom runners). Another use case are existing integrations like Jukito, Springockito, etc. Users of those frameworks won't be able to take advantage of strict stubbing. In general, if the team chooses to implement a feature such us strict stubbing, then we should make the usage of the feature easy and flexible. We should not lock in users with JUnit. For example, Mockito has \"\" annotation and offers flexible way of using that annotation: with JUnit Rule, Runner and without them (initMocks() method). Also keep in mind that the new API is \"\" so we could potentially take it away if we don't find it valuable. Thoughts?",
+  "message_url": "https://github.com/mockito/mockito/pull/865#issuecomment-271156116",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f43"
+  },
+  "raw_message": "Previous attempts at fixing the time related tests failed. Indeed the previous attempts are not bullet proof when the CI can run schedule some threads slower than _expected_.\r\n\r\nA proper harness should be implemented, but in the meantime, I implemented the retry rule as proposed in #731 to gain back stability on the build.",
+  "clean_message": "Previous attempts at fixing the time related tests failed. Indeed the previous attempts are not bullet proof when the CI can run schedule some threads slower than expected. A proper harness should be implemented, but in the meantime, I implemented the retry rule as proposed in #731 to gain back stability on the build.",
+  "message_url": "https://github.com/mockito/mockito/pull/771",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615df7"
+  },
+  "raw_message": "@ChristianSchwarz \n\n> Using one event for 2 different cases violates seperation of concerns.\n\nNot necessarily, it might be an _event_ with different state : _success_ or _failure_.\n\n> What I wanted to say is why don't we use 2 SAM interfaces and 2 Event types? This would make the life of event consumer easier, see my comment above.\n\nYes it's not out of question (my suggestion on the factory methods indeed lean in that direction). But at this moment, I fear we are over-engineering this. @TimvdLippe and @LiamClark are the primary users of this, could you show us some concrete code snippets outside (not tests) how you want the listener to be registered or how the code you're working with can/should process the _verifications_.\n\nBasically the design question is wether we want this :\n\n``` java\nMockito.framework().addListener((VerificationFailure) System.out::println);\nMockito.framework().addListener((VerificationSuccess) System.out::println);\n\ninterface Verification { verificationMode, wantedMethod, verificationData }\ninterface VerificationFailure extends Verification { failureCause }\ninterface VerificationFailureListener extends MockitoListener {\n        void on(VerificationFailure arg);\n}\ninterface VerificationSuccess extends Verification { }\ninterface VerificationSuccessListener extends MockitoListener {\n        void on(VerificationSuccess arg);\n}\n```\n\nOr \n\n``` java\nMockito.framework().addListener((Verification) System.out::println);\n\n// could be with sub-interfaces or public classes VerificationFailure and VerificationSuccess\ninterface Verification { verificationMode, wantedMethod, verificationData, failureCause }\ninterface VerificationListener extends MockitoListener {\n        void on(Verification arg);\n}\n```\n",
+  "clean_message": "Not necessarily, it might be an event with different state : success or failure. Yes it's not out of question (my suggestion on the factory methods indeed lean in that direction). But at this moment, I fear we are over-engineering this.  and  are the primary users of this, could you show us some concrete code snippets outside (not tests) how you want the listener to be registered or how the code you're working with can/should process the verifications. Basically the design question is wether we want this : Or ",
+  "message_url": "https://github.com/mockito/mockito/pull/719#issuecomment-259106078",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ef6"
+  },
+  "raw_message": "OK\n",
+  "clean_message": "OK",
+  "message_url": "https://github.com/mockito/mockito/pull/621#issuecomment-244390923",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615edc"
+  },
+  "raw_message": "Unfortunately HTTPS cannot be activated on Github when there's a CNAME\n",
+  "clean_message": "Unfortunately HTTPS cannot be activated on Github when there's a CNAME",
+  "message_url": "https://github.com/mockito/mockito/pull/602#issuecomment-243726680",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e95"
+  },
+  "raw_message": "#589 aimed to fix the javadoc rendering, but the assumption was that the javadoc tool of the Sun JDK6 will render javadoc the same way as openjdk6.\n\nUnfortunately this is not the same, the javadoc rendering of openjdk6 is a pre work that avoid the use of table elements, this making the stylesheet incompatible.\n\nThis PR aims to fix that and thus fix #552 \n\nBonus I changed the `2.*` and `2.0` by `2.0.0` in the javadoc, this way we have aligned version numbers\n",
+  "clean_message": "589 aimed to fix the javadoc rendering, but the assumption was that the javadoc tool of the Sun JDK6 will render javadoc the same way as openjdk6. Unfortunately this is not the same, the javadoc rendering of openjdk6 is a pre work that avoid the use of table elements, this making the stylesheet incompatible. This PR aims to fix that and thus fix #552  Bonus I changed the  and  by  in the javadoc, this way we have aligned version numbers",
+  "message_url": "https://github.com/mockito/mockito/pull/592",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c08356160ba"
+  },
+  "raw_message": "LGTM.\n",
+  "clean_message": "LGTM.",
+  "message_url": "https://github.com/mockito/mockito/pull/454#issuecomment-227384010",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615fc5"
+  },
+  "raw_message": "Um yes it appears that @raphw manually merged this into master.\n",
+  "clean_message": "Um yes it appears that  manually merged this into master.",
+  "message_url": "https://github.com/mockito/mockito/pull/437#issuecomment-227003428",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c08356160a6"
+  },
+  "raw_message": "Apparently they have a test for this [exact thing](https://github.com/jayway/powermock/blob/master/reflect/src/test/java/org/powermock/reflect/WhiteBoxTest.java#L272-L276).\n",
+  "clean_message": "Apparently they have a test for this exact thing.",
+  "message_url": "https://github.com/mockito/mockito/pull/423#issuecomment-222840080",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e4e"
+  },
+  "raw_message": "I do not currently have good Internet access (vacation). Please repush (forced) and see if it works.\n\nThanksfor the effort. This will be merged eventually. \n",
+  "clean_message": "I do not currently have good Internet access (vacation). Please repush (forced) and see if it works. Thanksfor the effort. This will be merged eventually. ",
+  "message_url": "https://github.com/mockito/mockito/pull/404#issuecomment-218941307",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+}]

@@ -1,0 +1,301 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aa7"
+  },
+  "raw_message": "Thanks for the PR @mgtriffid!",
+  "clean_message": "Thanks for the PR !",
+  "message_url": "https://github.com/Netflix/eureka/pull/1194#issuecomment-497847910",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cf5"
+  },
+  "raw_message": "Fixes #1146 ",
+  "clean_message": "Fixes #1146 ",
+  "message_url": "https://github.com/Netflix/eureka/pull/1147#issuecomment-433817052",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c68"
+  },
+  "raw_message": "Thanks for approval and merge @qiangdavidliu !\r\nMay I ask, when should we expect next release to happen?",
+  "clean_message": "Thanks for approval and merge  ! May I ask, when should we expect next release to happen?",
+  "message_url": "https://github.com/Netflix/eureka/pull/1107#issuecomment-410601642",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bfc"
+  },
+  "raw_message": "Looks good, thanks @holy12345 .",
+  "clean_message": "Looks good, thanks  .",
+  "message_url": "https://github.com/Netflix/eureka/pull/1100#issuecomment-410079725",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aab"
+  },
+  "raw_message": "Thanks for you answer, but in my mind `evict` method just remove client information, but not update those two numbers Immediately. Update is on the background task.\r\nWhy not update immediately when `evict` method remove client information.",
+  "clean_message": "Thanks for you answer, but in my mind  method just remove client information, but not update those two numbers Immediately. Update is on the background task. Why not update immediately when  method remove client information.",
+  "message_url": "https://github.com/Netflix/eureka/pull/1071#issuecomment-392124040",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c32"
+  },
+  "raw_message": "Hi @qiangdavidliu \r\nThank you for your reply, thank you very much.\r\nI will try to validate my logic by adding test code because the update is done in a thread and I currently have no idea how to test it(These days I have been looking for ways  but unfortunately did not find) .but do not worry I'm trying to figure out how to solve this problem",
+  "clean_message": "Hi Thank you for your reply, thank you very much. I will try to validate my logic by adding test code because the update is done in a thread and I currently have no idea how to test it(These days I have been looking for ways  but unfortunately did not find) .but do not worry I'm trying to figure out how to solve this problem",
+  "message_url": "https://github.com/Netflix/eureka/pull/1020#issuecomment-354063359",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c0f"
+  },
+  "raw_message": "@holy12345 thanks for the PR, you logic seems sound and there does seem to be an error in the code. Before I merge in your fix however, I'd appreciate it if you added a unit test that assert and validate the expected behaviour? Thanks.",
+  "clean_message": "thanks for the PR, you logic seems sound and there does seem to be an error in the code. Before I merge in your fix however, I'd appreciate it if you added a unit test that assert and validate the expected behaviour? Thanks.",
+  "message_url": "https://github.com/Netflix/eureka/pull/1020#issuecomment-351206949",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bd0"
+  },
+  "raw_message": "Hi @holy12345 we are probably going to look at some of the other outstanding PRs before a new release. This PR only adds a guard against misconfiguration (i.e. when the config value is specified incorrectly as > 1), and can be addressed for now by appropriately setting the config. Is there an urgent need for a release? Thanks.",
+  "clean_message": "Hi  we are probably going to look at some of the other outstanding PRs before a new release. This PR only adds a guard against misconfiguration (i.e. when the config value is specified incorrectly as > 1), and can be addressed for now by appropriately setting the config. Is there an urgent need for a release? Thanks.",
+  "message_url": "https://github.com/Netflix/eureka/pull/1013#issuecomment-349415437",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cab"
+  },
+  "raw_message": "@mattnelson we'll take a look. Thanks for the PR.",
+  "clean_message": "we'll take a look. Thanks for the PR.",
+  "message_url": "https://github.com/Netflix/eureka/pull/1001#issuecomment-339129389",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ab1"
+  },
+  "raw_message": "going to merge this and address the comments in a separate PR.",
+  "clean_message": "going to merge this and address the comments in a separate PR.",
+  "message_url": "https://github.com/Netflix/eureka/pull/976#issuecomment-384122237",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a75"
+  },
+  "raw_message": "@qiangdavidliu till now you still working on 1.5.x release train\nKindly any dates when release 1.6.0 containing this PR will be released ?\n",
+  "clean_message": "till now you still working on 1.5.x release train Kindly any dates when release 1.6.0 containing this PR will be released ?",
+  "message_url": "https://github.com/Netflix/eureka/pull/832#issuecomment-249550286",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b46"
+  },
+  "raw_message": "@mattnelson this is an update to your PR #821\n",
+  "clean_message": "this is an update to your PR #821",
+  "message_url": "https://github.com/Netflix/eureka/pull/832#issuecomment-242246164",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b81"
+  },
+  "raw_message": "@mattnelson thank you for the PR! Much appreciated. I'll take a look at this as soon as I can.\n",
+  "clean_message": "thank you for the PR! Much appreciated. I'll take a look at this as soon as I can.",
+  "message_url": "https://github.com/Netflix/eureka/pull/821#issuecomment-234133043",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ba0"
+  },
+  "raw_message": "lgtm \n",
+  "clean_message": "lgtm ",
+  "message_url": "https://github.com/Netflix/eureka/pull/790#issuecomment-218316573",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a61"
+  },
+  "raw_message": "Quick check using python awscli\n\n> aws ec2 describe-addresses --public-ips | jq '.Addresses[0]'\n> {\n>   \"InstanceId\": \"i-xxxxx\",\n>   \"PublicIp\": \"xxx.xxx.xxx.xxx\",\n>   \"Domain\": \"standard\"\n> }\n",
+  "clean_message": "Quick check using python awscli",
+  "message_url": "https://github.com/Netflix/eureka/pull/773#issuecomment-206115643",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+}]

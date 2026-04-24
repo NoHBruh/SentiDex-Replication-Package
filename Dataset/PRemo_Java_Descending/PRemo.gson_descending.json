@@ -1,0 +1,721 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d47"
+  },
+  "raw_message": "> Do you mean with this, that if users were using Error Prone they would not see any warnings? Would it be necessary to add `@CheckReturnValue` to the `package-info.java` files of Gson to achieve that (as hinted by the [`@CanIgnoreReturnValue`](https://www.javadoc.io/doc/com.google.errorprone/error_prone_annotations/latest/com/google/errorprone/annotations/CanIgnoreReturnValue.html) documentation)?\r\n\r\nYes. People can enable this checking by compiling with `-XepOpt:CheckReturnValue:Packages=com.google.gson`. We could indeed add `@CheckReturnValue` to the various `package-info.java` files, and we might yet do that, but it could potentially be a bit intrusive. I've updated all of Google's internal source code to add the appropriate `var unused = ...` but I'm not sure I want to impose that on external users.\r\n",
+  "clean_message": "Yes. People can enable this checking by compiling with . We could indeed add  to the various  files, and we might yet do that, but it could potentially be a bit intrusive. I've updated all of Google's internal source code to add the appropriate  but I'm not sure I want to impose that on external users.",
+  "message_url": "https://github.com/google/gson/pull/2369#issuecomment-1502260593",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bc6"
+  },
+  "raw_message": "@PanchumarthiAbhinav, you don't have to open a new pull request when you notice an issue with your existing one, you can just update the existing one. For example the CLA check will notice automatically when you sign the CLA.\r\n\r\nAlso, regarding the \"Fixes ...\" text, I meant the pull request description, not the title. You can edit the description by clicking the ![icon screenshot](https://user-images.githubusercontent.com/11685886/228361351-a4e6ec18-66bb-4442-b49e-a68fde7ee2d9.png) icon at the top right corner of your pull request.\r\n",
+  "clean_message": ", you don't have to open a new pull request when you notice an issue with your existing one, you can just update the existing one. For example the CLA check will notice automatically when you sign the CLA. Also, regarding the \"Fixes ...\" text, I meant the pull request description, not the title. You can edit the description by clicking the  icon at the top right corner of your pull request.",
+  "message_url": "https://github.com/google/gson/pull/2361#issuecomment-1487564367",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a81"
+  },
+  "raw_message": "Most welcome, now we have to wait until the PR will be merged",
+  "clean_message": "Most welcome, now we have to wait until the PR will be merged",
+  "message_url": "https://github.com/google/gson/pull/2308#issuecomment-1414223932",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c8f"
+  },
+  "raw_message": "Ohhh ok, thank you 😃 ",
+  "clean_message": "Ohhh ok, thank you 😃 ",
+  "message_url": "https://github.com/google/gson/pull/2291#issuecomment-1360011495",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c69"
+  },
+  "raw_message": "Thanks for doing this!\r\n\r\nSome remarks:\r\n1. Can you avoid moving methods around? It makes reviewing harder.\r\n2. Some of the formatting changes are a bit distracting. Fixing indentation to be consistent with Google style (+4 continuation lines) is good, but for example there's no need to split `new TypeToken<Foo>() {}.getType()` between the braces.\r\n3. Your test failure is due to a subtle problem with ProGuard. `EnumWithObfuscatedTest` verifies that enum serialization works even when the code is processed by ProGuard. The ProGuard configuration [here](https://github.com/google/gson/blob/4aaf1385db5ffbc99de7411e5e80201fd8da7f3c/gson/src/test/resources/testcases-proguard.conf#L17) needs to be adjusted to reflect the change of `setUp` from `protected` to `public`. (That ProGuard just silently ignores `setUp` because it's specified with the wrong modifier seems pretty hostile to me, but there it is.)",
+  "clean_message": "Thanks for doing this! Some remarks: 1. Can you avoid moving methods around? It makes reviewing harder. 2. Some of the formatting changes are a bit distracting. Fixing indentation to be consistent with Google style (+4 continuation lines) is good, but for example there's no need to split EnumWithObfuscatedTestsetUpprotectedpublicsetUp` because it's specified with the wrong modifier seems pretty hostile to me, but there it is.)",
+  "message_url": "https://github.com/google/gson/pull/2291#issuecomment-1359653140",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ca4"
+  },
+  "raw_message": "Thanks again!",
+  "clean_message": "Thanks again!",
+  "message_url": "https://github.com/google/gson/pull/2287#issuecomment-1355463217",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d0d"
+  },
+  "raw_message": "> 9 also allows private but we build with Java 8.\r\n\r\nPrecisely, Java 9 has introduced that the `SafeVarargs` may be used only with `private` without `final`\r\n\r\n----\r\n\r\n> but we build with Java 8\r\n\r\nThat's why I closed the PR  #2275  and open this one :)",
+  "clean_message": "Precisely, Java 9 has introduced that the  may be used only with  without   That's why I closed the PR  #2275  and open this one :)",
+  "message_url": "https://github.com/google/gson/pull/2276#issuecomment-1344499347",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c34"
+  },
+  "raw_message": "Thanks for doing this!",
+  "clean_message": "Thanks for doing this!",
+  "message_url": "https://github.com/google/gson/pull/2231#issuecomment-1427071798",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b21"
+  },
+  "raw_message": "Any application that calls these methods and that has been compiled against a version of Gson before this change would fail when run with a version of Gson after the change. The reason is that the return type of a method is part of its signature at the JVM level, even though that is not true for the Java language.",
+  "clean_message": "Any application that calls these methods and that has been compiled against a version of Gson before this change would fail when run with a version of Gson after the change. The reason is that the return type of a method is part of its signature at the JVM level, even though that is not true for the Java language.",
+  "message_url": "https://github.com/google/gson/pull/2188#issuecomment-1233328827",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a57"
+  },
+  "raw_message": "> My main concern with this change is that it \"blurs\" the API of the project. Currently the API is fairly well grouped: Gson and TypeAdapter provide the API for converting from POJO to JSON and the other way around; JsonElement and subclasses model a JSON document in memory. With this PR JsonArray would now suddenly also be responsible for converting POJOs to JSON.\r\n\r\nI dont think that this would be a problem. The method/s is/are very straight-forward and the use-cases would outweight the \"confusion\".\r\n\r\n> As seen by the changes done by this PR it would also not be that complicated if users wrote the code for this themselves.\r\n\r\nFor me this was an instant issue when first looking at the implementation. This isn't code that every user should have to write. There also exists another unfinished pull request that lets JsonArray implement the List interface. (Which I'm also strongly in favour of.)\r\n\r\n> It might also be possible to shorten it a bit by not having the instanceof checks but always calling toJsonTree, or possibly by directly calling toJsonTree(values) (that is with the Collection as argument).\r\n\r\nIn newer versions of Java this could also be done with a pattern switch-statement, but for me it was important to use the fastest implementation for java 1.5.\r\n\r\n>That would then also allow the user to use their own Gson instance which they can customize.\r\n\r\nFair point.\r\n",
+  "clean_message": "I dont think that this would be a problem. The method/s is/are very straight-forward and the use-cases would outweight the \"confusion\". For me this was an instant issue when first looking at the implementation. This isn't code that every user should have to write. There also exists another unfinished pull request that lets JsonArray implement the List interface. (Which I'm also strongly in favour of.) In newer versions of Java this could also be done with a pattern switch-statement, but for me it was important to use the fastest implementation for java 1.5. Fair point.",
+  "message_url": "https://github.com/google/gson/pull/2155#issuecomment-1195331668",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a98"
+  },
+  "raw_message": "Hmm, ok that is unfortunate. I have split `EnumMap` support into a separate pull request (#2071). If you want you can close this pull request here then, if you don't think there is any chance this will be integrated.",
+  "clean_message": "Hmm, ok that is unfortunate. I have split  support into a separate pull request (#2071). If you want you can close this pull request here then, if you don't think there is any chance this will be integrated.",
+  "message_url": "https://github.com/google/gson/pull/2068#issuecomment-1029481840",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b69"
+  },
+  "raw_message": "Thanks! I think Caliper support is pretty much best-effort at this stage but it's definitely better to have a more recent version.",
+  "clean_message": "Thanks! I think Caliper support is pretty much best-effort at this stage but it's definitely better to have a more recent version.",
+  "message_url": "https://github.com/google/gson/pull/2019#issuecomment-975782242",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bb3"
+  },
+  "raw_message": "Disclaimer: The following is not an official statement; I am not a member of this project.\r\n\r\n---\r\n\r\nThis only affects [Java Serialization](https://docs.oracle.com/en/java/javase/17/docs/specs/serialization/index.html), if neither your code nor your dependencies are not using it, then you are not affected by this.\r\n\r\nI was not the one who filed / requested the CVE or the Snyk vulnerability entry and was not even aware of its existence until I saw your comment. I created this pull request as preventive action, but _not_ because I was aware of any specific existing exploit, nor have I investigated whether a denial of service attack is really possible. The description of this pull request was meant as hypothetical worst case consequence of the current code. (Though arguably I did not make that clear enough.)\r\n\r\nHowever, to put this into perspective: Java Serialization is in general dangerous and should be avoided by applications. It is rather likely that other libraries have not paid close attention to sanitization during deserialization, and that even the JDK classes might be vulnerable by chaining multiple objects with recursive references together, allowing to cause a denial of service in some situations. But unless you (or your dependencies) use Java Serialization such serializable classes without proper prevention of denial of service attacks is not a big issue (remote code execution vulnerabilities caused by serializable classes is of course a different topic).\r\n\r\nTherefore, in my personal opinion the current CVSS score of 7.3 with claimed high impact on availability and integrity is exaggerated. Similarly the \"Details\" section of the [Snyk vulnerability entry](https://security.snyk.io/vuln/SNYK-JAVA-COMGOOGLECODEGSON-1730327) seems to contain a generic Java Serialization vulnerabilities text, without being specific to the situation of Gson. To my knowledge the old Gson code could for example not directly have been exploited for a remote code execution attack. (It could however be the case that Snyk has private knowledge about a possible exploit.)\r\n\r\n---\r\n\r\n@eamonnmcmanus, would be good if you could comment on this, and maybe provide an official statement here. Might also be worth to [contact Snyk](https://support.snyk.io/hc/en-us/requests/new) to clarify the situation and to find out how they determined the CVSS score.",
+  "clean_message": "Disclaimer: The following is not an official statement; I am not a member of this project.  This only affects Java Serialization, if neither your code nor your dependencies are not using it, then you are not affected by this. I was not the one who filed / requested the CVE or the Snyk vulnerability entry and was not even aware of its existence until I saw your comment. I created this pull request as preventive action, but not because I was aware of any specific existing exploit, nor have I investigated whether a denial of service attack is really possible. The description of this pull request was meant as hypothetical worst case consequence of the current code. (Though arguably I did not make that clear enough.) However, to put this into perspective: Java Serialization is in general dangerous and should be avoided by applications. It is rather likely that other libraries have not paid close attention to sanitization during deserialization, and that even the JDK classes might be vulnerable by chaining multiple objects with recursive references together, allowing to cause a denial of service in some situations. But unless you (or your dependencies) use Java Serialization such serializable classes without proper prevention of denial of service attacks is not a big issue (remote code execution vulnerabilities caused by serializable classes is of course a different topic). Therefore, in my personal opinion the current CVSS score of 7.3 with claimed high impact on availability and integrity is exaggerated. Similarly the \"Details\" section of the Snyk vulnerability entry seems to contain a generic Java Serialization vulnerabilities text, without being specific to the situation of Gson. To my knowledge the old Gson code could for example not directly have been exploited for a remote code execution attack. (It could however be the case that Snyk has private knowledge about a possible exploit.)  , would be good if you could comment on this, and maybe provide an official statement here. Might also be worth to contact Snyk to clarify the situation and to find out how they determined the CVSS score.",
+  "message_url": "https://github.com/google/gson/pull/1991#issuecomment-1121629844",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ad3"
+  },
+  "raw_message": "Thanks for your contribution!\r\n\r\nA few remarks.\r\n\r\n1. This project is in maintenance mode, and we're generally going to be reluctant to accept PRs that are essentially cosmetic, especially if it is not trivially obvious that they don't change anything.\r\n2. Anyway, I'm not really convinced that the change would be an improvement. The new helper methods seem more complicated than I would expect. I don't see why they catch and rethrow exceptions, for example. They also have type parameters that don't seem useful.\r\n3. As a more general remark, refactoring test methods to remove duplication isn't as obviously beneficial as with production code. It's an advantage to be able to understand a test method in isolation, without having to look elsewhere in the test class.\r\n\r\nSo I think we're not going to accept this one. Thanks for thinking of us, though, and best wishes for your research!",
+  "clean_message": "Thanks for your contribution! A few remarks.  This project is in maintenance mode, and we're generally going to be reluctant to accept PRs that are essentially cosmetic, especially if it is not trivially obvious that they don't change anything. Anyway, I'm not really convinced that the change would be an improvement. The new helper methods seem more complicated than I would expect. I don't see why they catch and rethrow exceptions, for example. They also have type parameters that don't seem useful. As a more general remark, refactoring test methods to remove duplication isn't as obviously beneficial as with production code. It's an advantage to be able to understand a test method in isolation, without having to look elsewhere in the test class.  So I think we're not going to accept this one. Thanks for thinking of us, though, and best wishes for your research!",
+  "message_url": "https://github.com/google/gson/pull/1915#issuecomment-872598222",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c2c"
+  },
+  "raw_message": "So should the documentation then be updated to state that a MalformedJsonException is thrown and JsonTreeReader be adjusted accordingly? Because the current behavior is inconsistent.",
+  "clean_message": "So should the documentation then be updated to state that a MalformedJsonException is thrown and JsonTreeReader be adjusted accordingly? Because the current behavior is inconsistent.",
+  "message_url": "https://github.com/google/gson/pull/1767#issuecomment-681969396",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d4f"
+  },
+  "raw_message": "Thanks! I agree with the principle. I had a couple of small comments.\r\nAnother approach that would avoid having so many `@SuppressWarnings(\"deprecation\")` annotations would be to have a second, package-private `JsonElement` constructor with a dummy parameter, and use that in the subclasses. But I think `@SuppressWarnings` is probably better.",
+  "clean_message": "Thanks! I agree with the principle. I had a couple of small comments. Another approach that would avoid having so many  annotations would be to have a second, package-private  constructor with a dummy parameter, and use that in the subclasses. But I think  is probably better.",
+  "message_url": "https://github.com/google/gson/pull/1761#issuecomment-1200499499",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c97"
+  },
+  "raw_message": "Sorry for the late response; could you please update the pull request to resolve the merge conflicts?",
+  "clean_message": "Sorry for the late response; could you please update the pull request to resolve the merge conflicts?",
+  "message_url": "https://github.com/google/gson/pull/1760#issuecomment-1207504620",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cd2"
+  },
+  "raw_message": "Indeed, the cited comment in #2150 applies here too.",
+  "clean_message": "Indeed, the cited comment in #2150 applies here too.",
+  "message_url": "https://github.com/google/gson/pull/1574#issuecomment-1200508181",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c94"
+  },
+  "raw_message": "reply",
+  "clean_message": "reply",
+  "message_url": "https://github.com/google/gson/pull/1448#issuecomment-448403066",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a7d"
+  },
+  "raw_message": "@Marcono1234 \r\nI'll most likely close this PR due to my poor design and my wrong assumptions. Once I patched the collection type adapter factory for `Iterable`, I realized that now it can be serialized, but cannot be deserialized without a custom deserializer: there is no way to add elements to the iterable that is not a collection. In the force-pushed commit, there is a test that serializes `Chars implements Iterable<Character>`, but cannot be deserialize into a `Chars` instance properly causing a class cast exception since the default `Iterable` constructor is configured to `ArrayList` that obviously cannot be cast to `Chars` (that is effectively a generator, not a \"plain\" collection of elements).\r\n\r\nI believe this is the biggest \"why\" why Gson does not support it out of box due to the symmetry issues and I feel ashamed to be blind not seeing it earlier.",
+  "clean_message": "I'll most likely close this PR due to my poor design and my wrong assumptions. Once I patched the collection type adapter factory for , I realized that now it can be serialized, but cannot be deserialized without a custom deserializer: there is no way to add elements to the iterable that is not a collection. In the force-pushed commit, there is a test that serializes `Chars implements Iterable<Character I believe this is the biggest \"why\" why Gson does not support it out of box due to the symmetry issues and I feel ashamed to be blind not seeing it earlier.",
+  "message_url": "https://github.com/google/gson/pull/1389#issuecomment-633289564",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d1e"
+  },
+  "raw_message": "How do you do deserialization,  e.g,  abcdefghijk -> ?",
+  "clean_message": "How do you do deserialization,  e.g,  abcdefghijk -> ?",
+  "message_url": "https://github.com/google/gson/pull/1379#issuecomment-427621316",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b09"
+  },
+  "raw_message": "I signed it!",
+  "clean_message": "I signed it!",
+  "message_url": "https://github.com/google/gson/pull/1379#issuecomment-418222567",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c53"
+  },
+  "raw_message": "@JakeWharton merging. Please review and send me feedback, and I will incorporate it in another PR",
+  "clean_message": "merging. Please review and send me feedback, and I will incorporate it in another PR",
+  "message_url": "https://github.com/google/gson/pull/1311#issuecomment-387860521",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b38"
+  },
+  "raw_message": "> The very obvious solution to the above is for Gson to see the target type of `Any?`, then _infer_ the destination type based on the JSON value, setting the answer values to `String`, `Int`, `Double` and `null` respectively.\r\n\r\nWhen you tell Gson to deserialize a Java `Object` / Kotlin `Any` and it finds a JSON number it deserializes it by default as `Double` regardless of the format of the number. I assume for historical reasons that could not be changed which is why this PR here was proposed to allow customizing the behavior.\r\n\r\nThe `ToNumberStrategy` allows you to implement the functionality you want. A very simple implementation which just checks if the number contains a `.` could look like this:\r\n```kotlin\r\nval gson = GsonBuilder()\r\n    .setObjectToNumberStrategy { reader ->\r\n        // Read the JSON number as string to inspect its format\r\n        val numberAsString = reader.nextString()\r\n\r\n        if (numberAsString.contains('.')) numberAsString.toDouble()\r\n            else numberAsString.toInt()\r\n    }\r\n    .create()\r\n```\r\nYou could also have a look at the implementation of Gson's `ToNumberPolicy.LONG_OR_DOUBLE` which implements the same concept except for `Long` and `Double`, and also rejects non-finite values and produces more helpful exception messages when parsing the number fails.",
+  "clean_message": "When you tell Gson to deserialize a Java  / Kotlin  and it finds a JSON number it deserializes it by default as  regardless of the format of the number. I assume for historical reasons that could not be changed which is why this PR here was proposed to allow customizing the behavior. The  allows you to implement the functionality you want. A very simple implementation which just checks if the number contains a  could look like this: You could also have a look at the implementation of Gson's  which implements the same concept except for  and , and also rejects non-finite values and produces more helpful exception messages when parsing the number fails.",
+  "message_url": "https://github.com/google/gson/pull/1290#issuecomment-1246092423",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aa1"
+  },
+  "raw_message": "> Any update on this, would be an urgent feature.\r\n\r\nKinda forgot about this. I'll try making the requested fixes asap and resubmit for review.",
+  "clean_message": "Kinda forgot about this. I'll try making the requested fixes asap and resubmit for review.",
+  "message_url": "https://github.com/google/gson/pull/1266#issuecomment-436264397",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615aa8"
+  },
+  "raw_message": "Thanks",
+  "clean_message": "Thanks",
+  "message_url": "https://github.com/google/gson/pull/1122#issuecomment-317058881",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c40"
+  },
+  "raw_message": "@inder123 for review\r\n",
+  "clean_message": "for review",
+  "message_url": "https://github.com/google/gson/pull/1037#issuecomment-286814254",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a64"
+  },
+  "raw_message": "Sorry, duplicate to #903 ! \n",
+  "clean_message": "Sorry, duplicate to #903 ! ",
+  "message_url": "https://github.com/google/gson/pull/905#issuecomment-241587479",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c41"
+  },
+  "raw_message": "Got it. Too bad. In that case I recommend copying the code you need into your project. I don’t want to encourage anyone to pull code from Gson’s `internal` package.\n",
+  "clean_message": "Got it. Too bad. In that case I recommend copying the code you need into your project. I don’t want to encourage anyone to pull code from Gson’s  package.",
+  "message_url": "https://github.com/google/gson/pull/901#issuecomment-239680849",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c28"
+  },
+  "raw_message": "It will break people who rely on the existing behavior, which is why Gson is effectively frozen in time.\n\nOn Wed, Sep 9, 2020, at 8:36 PM, Phillip Hellewell wrote:\n> \n\n>> Consider using Moshi where we fixed this behavior.\n\n> Good to know, but is there a reason not to merge this for Gson. Is it deemed too risky? If so, maybe the least we could do here is add a comment or something to indicate that the convenience methods like fromJson() are always lenient.\n\n\n> —\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub <https://github.com/google/gson/pull/804#issuecomment-689898552>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/AAAQIEKQ4N6Z5DVAZUGA2EDSFANRTANCNFSM4B5AN3QQ>.\n\n",
+  "clean_message": "It will break people who rely on the existing behavior, which is why Gson is effectively frozen in time. On Wed, Sep 9, 2020, at 8:36 PM, Phillip Hellewell wrote:",
+  "message_url": "https://github.com/google/gson/pull/804#issuecomment-689899677",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c16"
+  },
+  "raw_message": "I think Gson.lenient flag probably does more harm than good in the current state.  The comments on the GsonBuilder.setLenient() method say \n\n> By default, Gson is strict and only accepts JSON as specified by <a href=\"http://www.ietf.org/rfc/rfc4627.txt\">RFC 4627</a>.\n\nThe comments on Gson.setLenient() also references the JsonReader.setLenient(boolean) method which has a great explanation of what should and shouldn't be considered when using the lenient flag.\n\nThe unfortunate fact here is that due to the Gson.fromJson(JsonReader, Type) method always setting the lenient flag to true when parsing, almost none of what is commented in GsonBuilder about the default behavior of Gson is true.  The only affect that setting the lenient flag on Gson will do is to allow comments to be at the end of your json buffer when calling Gson.fromJson(Reader, Type) since the assertFullConsumption(Object, JsonReader) method will be called from here and only checks for data at the end of the buffer having not been consumed (e.g. comments at the end).\n\nConsider, for example, the test in com.google.gson.functional.LeniencyTest\n\n```\n    @Override\n   protected void setUp() throws Exception {\n     super.setUp();\n     gson = new GsonBuilder().setLenient().create();\n   }\n\n   public void testLenientFromJson() {\n     List<String> json = gson.fromJson(\"\"\n         + \"[ # One!\\n\"\n         + \"  'Hi' #Element!\\n\"\n         + \"] # Array!\", new TypeToken<List<String>>() {}.getType());\n     assertEquals(singletonList(\"Hi\"), json);\n   }\n```\n\nIf you were to remove the comment at the end of the String (\"# Array!\"), then it would not make any difference at all whether or not the lenient flag had been set.  The following would also pass:\n\n```\n     List<String> json = new GsonBuilder().create().fromJson(\"\"\n         + \"[ # One!\\n\"\n         + \"  'Hi' #Element!\\n\"\n         + \"]\", new TypeToken<List<String>>() {}.getType());\n     assertEquals(singletonList(\"Hi\"), json);\n```\n\nIt seems counterintuitive that with the lenient flag unset, comments in the middle of the JSON data would be ignored but comments at the end would cause a failure when the Gson parser is supposed to be \"strict\".\n\nIf it is considered undesirable to change the default behavior (to the behavior that is documented) by actually respecting a default lenient flag being set to false (i.e. default to strict), then perhaps the correct answer is to respect the lenient flag, default Gson to have the lenient flag set to true, and update the javadocs to reflect that Gson by default is lenient.\n\nDo you have any thoughts on this alternate approach?\n",
+  "clean_message": "I think Gson.lenient flag probably does more harm than good in the current state.  The comments on the GsonBuilder.setLenient() method say  The comments on Gson.setLenient() also references the JsonReader.setLenient(boolean) method which has a great explanation of what should and shouldn't be considered when using the lenient flag. The unfortunate fact here is that due to the Gson.fromJson(JsonReader, Type) method always setting the lenient flag to true when parsing, almost none of what is commented in GsonBuilder about the default behavior of Gson is true.  The only affect that setting the lenient flag on Gson will do is to allow comments to be at the end of your json buffer when calling Gson.fromJson(Reader, Type) since the assertFullConsumption(Object, JsonReader) method will be called from here and only checks for data at the end of the buffer having not been consumed (e.g. comments at the end). Consider, for example, the test in com.google.gson.functional.LeniencyTest If you were to remove the comment at the end of the String (\"# Array!\"), then it would not make any difference at all whether or not the lenient flag had been set.  The following would also pass: It seems counterintuitive that with the lenient flag unset, comments in the middle of the JSON data would be ignored but comments at the end would cause a failure when the Gson parser is supposed to be \"strict\". If it is considered undesirable to change the default behavior (to the behavior that is documented) by actually respecting a default lenient flag being set to false (i.e. default to strict), then perhaps the correct answer is to respect the lenient flag, default Gson to have the lenient flag set to true, and update the javadocs to reflect that Gson by default is lenient. Do you have any thoughts on this alternate approach?",
+  "message_url": "https://github.com/google/gson/pull/795#issuecomment-187768323",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bae"
+  },
+  "raw_message": "LGTM\n",
+  "clean_message": "LGTM",
+  "message_url": "https://github.com/google/gson/pull/772#issuecomment-172565086",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c9d"
+  },
+  "raw_message": "So please update your PR!\n",
+  "clean_message": "So please update your PR!",
+  "message_url": "https://github.com/google/gson/pull/772#issuecomment-172562428",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a9c"
+  },
+  "raw_message": "LGTM, though I'm quite surprised that you're adding such a bogus type.\n\nAlso, please squash.\n",
+  "clean_message": "LGTM, though I'm quite surprised that you're adding such a bogus type. Also, please squash.",
+  "message_url": "https://github.com/google/gson/pull/733#issuecomment-155274090",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b56"
+  },
+  "raw_message": "Unfortunately, I don't think this is compatible with what callers currently expect.\n",
+  "clean_message": "Unfortunately, I don't think this is compatible with what callers currently expect.",
+  "message_url": "https://github.com/google/gson/pull/728#issuecomment-153943593",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d24"
+  },
+  "raw_message": "If you're going to fix the Javadocs, you should fix the original source code, not the generated output.\n",
+  "clean_message": "If you're going to fix the Javadocs, you should fix the original source code, not the generated output.",
+  "message_url": "https://github.com/google/gson/pull/661#issuecomment-114685286",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+}]

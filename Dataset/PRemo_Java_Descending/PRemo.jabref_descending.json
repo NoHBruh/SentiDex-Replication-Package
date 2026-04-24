@@ -1,0 +1,661 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616085"
+  },
+  "raw_message": ">  but it's the wrong approach anyway.\r\n\r\nCertainly, it must not be considered. I just included that because it was unclear to me what causes the failure.",
+  "clean_message": "Certainly, it must not be considered. I just included that because it was unclear to me what causes the failure.",
+  "message_url": "https://github.com/JabRef/jabref/pull/10027#issuecomment-1604192992",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e5b"
+  },
+  "raw_message": "@koppor  READ THE TEXT: FOR ADDED AND DELETED! ",
+  "clean_message": "READ THE TEXT: FOR ADDED AND DELETED! ",
+  "message_url": "https://github.com/JabRef/jabref/pull/9533#issuecomment-1372576728",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c08356160c5"
+  },
+  "raw_message": "Current state:\r\n\r\n    remote: error: File src/main/resources/journals/journalList.mv is 332.14 MB; this exceeds GitHub's file size limit of 100.00 MB  \r\n\r\nIdeas:\r\n\r\n1. Make JabRef distribution size to 500 MB ^^(and enforce git-lfs)\r\n2. Re-add `*.csv` in the repository and have JabRef generate the `.mv` files if the `.mv` file is older than any `*.csv` file\r\n3. Switch back to \"String\" and have the Abbreviations in-memory",
+  "clean_message": "Current state: remote: error: File src/main/resources/journals/journalList.mv is 332.14 MB; this exceeds GitHub's file size limit of 100.00 MB  Ideas:  Make JabRef distribution size to 500 MB ^^(and enforce git-lfs) Re-add  in the repository and have JabRef generate the  files if the  file is older than any  file Switch back to \"String\" and have the Abbreviations in-memory ",
+  "message_url": "https://github.com/JabRef/jabref/pull/9504#issuecomment-1368565752",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616099"
+  },
+  "raw_message": "<!-- \r\nDescribe the changes you have made here: what, why, ... \r\nLink issues that are fixed, e.g. \"Fixes #333\".\r\nIf you fixed a koppor issue, link it, e.g. \"Fixes https://github.com/koppor/jabref/issues/47\".\r\nThe title of the PR must not reference an issue, because GitHub does not support autolinking there.\r\n-->\r\n\r\n\r\n<!-- \r\n- Go through the list below. Please don't remove any items.\r\n- [x] done; [ ] not done / not applicable\r\n-->\r\n\r\n- [ ] Change in `CHANGELOG.md` described in a way that is understandable for the average user (if applicable)\r\n- [ ] Tests created for changes (if applicable)\r\n- [ ] Manually tested changed features in running JabRef (always required)\r\n- [ ] Screenshots added in PR description (for UI changes)\r\n- [ ] [Checked developer's documentation](https://devdocs.jabref.org/): Is the information available and up to date? If not, I outlined it in this pull request.\r\n- [ ] [Checked documentation](https://docs.jabref.org/): Is the information available and up to date? If not, I created an issue at <https://github.com/JabRef/user-documentation/issues> or, even better, I submitted a pull request to the documentation repository.\r\n",
+  "clean_message": "<!--  Describe the changes you have made here: what, why, ...  Link issues that are fixed, e.g. \"Fixes #333\". If you fixed a koppor issue, link it, e.g. \"Fixes \". The title of the PR must not reference an issue, because GitHub does not support autolinking there. -- <!--  - Go through the list below. Please don't remove any items. - [x] done; [ ] not done / not applicable -- - [ ] Change in  described in a way that is understandable for the average user (if applicable) - [ ] Tests created for changes (if applicable) - [ ] Manually tested changed features in running JabRef (always required) - [ ] Screenshots added in PR description (for UI changes) - [ ] Checked developer's documentation: Is the information available and up to date? If not, I outlined it in this pull request. - [ ] Checked documentation: Is the information available and up to date? If not, I created an issue at <",
+  "message_url": "https://github.com/JabRef/jabref/pull/9020",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c08356160d1"
+  },
+  "raw_message": "Thank you @claell, I definitely misread the issue.\r\nI will look into look a fix for the overlap.",
+  "clean_message": "Thank you , I definitely misread the issue. I will look into look a fix for the overlap.",
+  "message_url": "https://github.com/JabRef/jabref/pull/8775#issuecomment-1122285897",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616061"
+  },
+  "raw_message": "I have a problem with adding Appollo as a dependency, and the next reason is I am not sure that we need a special library to make HTTP request, cause in all other places we fetch data from web with the simple `HTTPUrlConnection`",
+  "clean_message": "I have a problem with adding Appollo as a dependency, and the next reason is I am not sure that we need a special library to make HTTP request, cause in all other places we fetch data from web with the simple ",
+  "message_url": "https://github.com/JabRef/jabref/pull/7796#issuecomment-854534019",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615de9"
+  },
+  "raw_message": "That would probably work. In “theory”, you shouldn't need to rebuild it.\n\nAnyway, that part is why this issue is a bit of a mess. As is, this PR is imo an improvement on the previous behavior without that part as well.",
+  "clean_message": "That would probably work. In “theory”, you shouldn't need to rebuild it. Anyway, that part is why this issue is a bit of a mess. As is, this PR is imo an improvement on the previous behavior without that part as well.",
+  "message_url": "https://github.com/JabRef/jabref/pull/7754#issuecomment-886190033",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616093"
+  },
+  "raw_message": "Fixes #6487\r\n\r\n- [x] Change in `CHANGELOG.md` described in a way that is understandable for the average user (if applicable)\r\n- [x] Tests created for changes (if applicable)\r\n- [x] Manually tested changed features in running JabRef (always required)\r\n- [x] Screenshots added in PR description (for UI changes)\r\n- [x] [Checked documentation](https://docs.jabref.org/): Is the information available and up to date? If not created an issue at <https://github.com/JabRef/user-documentation/issues> or, even better, submitted a pull request to the documentation repository.\r\n\r\nVideo:\r\n\r\nhttps://user-images.githubusercontent.com/57553691/111628111-ce88ae00-882a-11eb-9dee-9dfe3087437f.mp4\r\n\r\nUse `D:\\TEST\\test whitespace.bib` as an example.\r\n\r\nDouble-click it, and I got errors in console as the following:\r\n\r\n```\r\nError opening file 'D:\\TEST\\test': Could not find a suitable import format.\r\nError opening file 'whitespace.bib': Could not find a suitable import format.\r\n21:41:53.032 [JabRef - Remote Listener Server on port 6050] ERROR org.jabref.logic.importer.OpenDatabase - Error: File not found\r\n```\r\n\r\nTherefore, the path was regarded as two files: `D:\\TEST\\test` and `whitespace.bib`.\r\n\r\nStart from `org.jabref.logic.importer.OpenDatabase` to backtrack the dataflow:\r\n\r\n|         Class          |            Method            |      Variable      |\r\n| :--------------------: | :--------------------------: | :----------------: |\r\n|     `OpenDatabase`     |        `loadDatabase`        |    `fileToOpen`    |\r\n|  `ArgumentProcessor`   |     `importAndOpenFiles`     |    `aLeftOver`     |\r\n|      `JabRefCLI`       |         constructor          |       `args`       |\r\n|  `ArgumentProcessor`   |         constructor          |       `args`       |\r\n| `JabRefMessageHandler` | `handleCommandlineArguments` |     `message`      |\r\n| `RemoteListenerServer` |       `handleMessage`        |     `argument`     |\r\n| `RemoteListenerServer` |            `run`             | `input.getValue()` |\r\n|       `Protocol`       |       `receiveMessage`       |     `argument`     |\r\n\r\n\r\n\r\nUse logger to print the variable `argument`:\r\n\r\n```java\r\nif (argument instanceof String[]) {\r\n    LOGGER.info(Arrays.toString((String[]) argument));\r\n}\r\n```\r\n\r\nAnd I got:\r\n\r\n```\r\n21:41:53.024 [JabRef - Remote Listener Server on port 6050] INFO  org.jabref.logic.remote.shared.Protocol - [D:\\TEST\\test, whitespace.bib]\r\n```\r\n\r\nSo I think the problem is that when passing the argument `D:\\TEST\\test whitespace.bib`, it will be considered as two arguments because there is a whitespace that serves as a delimiter.\r\n\r\nI noticed that @zongxian said that a path containing Chinese characters would cause the same error. So the problem is not just related to delimiter, probably about text encoding.\r\n\r\nTherefore I encoded the arguments in `RemoteClient.sendCommandLineArguments` and decoded them in `Protocol.receiveMessage`.\r\n\r\nThen I created a binary and tested. Now it works well on my computer (Windows 10 1909).",
+  "clean_message": "Fixes #6487  [x] Change in  described in a way that is understandable for the average user (if applicable) [x] Tests created for changes (if applicable) [x] Manually tested changed features in running JabRef (always required) [x] Screenshots added in PR description (for UI changes) [x] Checked documentation: Is the information available and up to date? If not created an issue at < Video:  Use  as an example. Double-click it, and I got errors in console as the following: Therefore, the path was regarded as two files:  and . Start from  to backtrack the dataflow: |         Class          |            Method            |      Variable      | | :--------------------: | :--------------------------: | :----------------: | |          |                |        | |     |          |         | |             |         constructor          |              | |     |         constructor          |              | |  |  |           | |  |               |          | |  |                         |  | |              |              |          | Use logger to print the variable : And I got: So I think the problem is that when passing the argument , it will be considered as two arguments because there is a whitespace that serves as a delimiter. I noticed that  said that a path containing Chinese characters would cause the same error. So the problem is not just related to delimiter, probably about text encoding. Therefore I encoded the arguments in  and decoded them in . Then I created a binary and tested. Now it works well on my computer (Windows 10 1909).",
+  "message_url": "https://github.com/JabRef/jabref/pull/7551",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f8b"
+  },
+  "raw_message": "# Remove AUTHORS file\r\n\r\n## Reason\r\n  \r\n- AUTHORS file is hard to maintain\r\n- Github/Git is single source of truth\r\n- some authors did not want to be listed by name -> Github profile is maintained by them or NOT if they do not want to\r\n- AUTHORS list also includes 12345 and duplicate names that look odd (and that was the reason why we had mailmap and such to avoid it)\r\n  \r\n## Solutions\r\n\r\n- link to https://github.com/JabRef/jabref/graphs/contributors\r\n- autogenerate file entirely as AUTHORS and ignore duplicates etc\r\n- use something like https://github.com/mgechev/github-contributors-list to generate file\r\n  \r\n## Decision\r\n\r\n- Change info dialog to link to contributors\r\n- global RM search for AUTHORS (.gitattributes)\r\n- RM .mailmap\r\n- disable fullscreen and resize\r\n\r\n\r\n<!-- \r\nDescribe the changes you have made here: what, why, ... \r\nLink issues that are fixed, e.g. \"Fixes #333\".\r\nIf you fixed a koppor issue, link it, e.g. \"Fixes https://github.com/koppor/jabref/issues/47\".\r\nThe title of the PR must not reference an issue, because GitHub does not support autolinking there.\r\n-->\r\n\r\n![image](https://user-images.githubusercontent.com/2141507/104109148-37075c00-52cb-11eb-9844-0101dce5900b.png)\r\n\r\n\r\n<!-- \r\n- Go through the list below. If a task has been completed, mark it done by using `[x]`.\r\n- Please don't remove any items, just leave them unchecked if they are not applicable.\r\n-->\r\n\r\n- [ ] Change in CHANGELOG.md described (if applicable)\r\n- [ ] Tests created for changes (if applicable)\r\n- [ ] Manually tested changed features in running JabRef (always required)\r\n- [x] Screenshots added in PR description (for UI changes)\r\n- [ ] [Checked documentation](https://docs.jabref.org/): Is the information available and up to date? If not created an issue at <https://github.com/JabRef/user-documentation/issues> or, even better, submitted a pull request to the documentation repository.\r\n",
+  "clean_message": "Remove AUTHORS file Reason  AUTHORS file is hard to maintain Github/Git is single source of truth some authors did not want to be listed by name -- AUTHORS list also includes 12345 and duplicate names that look odd (and that was the reason why we had mailmap and such to avoid it)  Solutions  link to  autogenerate file entirely as AUTHORS and ignore duplicates etc use something like  to generate file  Decision  Change info dialog to link to contributors global RM search for AUTHORS (.gitattributes) RM .mailmap disable fullscreen and resize  <!--  Describe the changes you have made here: what, why, ...  Link issues that are fixed, e.g. \"Fixes #333\". If you fixed a koppor issue, link it, e.g. \"Fixes \". The title of the PR must not reference an issue, because GitHub does not support autolinking there. --  <!--  - Go through the list below. If a task has been completed, mark it done by using . - Please don't remove any items, just leave them unchecked if they are not applicable. -- - [ ] Change in CHANGELOG.md described (if applicable) - [ ] Tests created for changes (if applicable) - [ ] Manually tested changed features in running JabRef (always required) - [x] Screenshots added in PR description (for UI changes) - [ ] Checked documentation: Is the information available and up to date? If not created an issue at <",
+  "message_url": "https://github.com/JabRef/jabref/pull/7319",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f5b"
+  },
+  "raw_message": "Thanks in advance! No hurry. Happy holidays!",
+  "clean_message": "Thanks in advance! No hurry. Happy holidays!",
+  "message_url": "https://github.com/JabRef/jabref/pull/7191#issuecomment-750436058",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615e4b"
+  },
+  "raw_message": "This PR replaces the previous use of a `.bib` file for the study definition file with a `.yml` (YAML) file.\r\n\r\nAn example study definition in YAML format:\r\n![image](https://user-images.githubusercontent.com/43381984/100387375-391da000-3028-11eb-86d6-9ffd2c87006d.png)\r\n\r\n- [ ] Change in CHANGELOG.md described (if applicable)\r\n- [x] Tests created for changes (if applicable)\r\n- [x] Manually tested changed features in running JabRef (always required)\r\n- [x] Screenshots added in PR description (for UI changes)\r\n- [x] [Checked documentation](https://docs.jabref.org/): Is the information available and up to date? If not created an issue at <https://github.com/JabRef/user-documentation/issues> or, even better, submitted a pull request to the documentation repository.\r\n",
+  "clean_message": "This PR replaces the previous use of a  file for the study definition file with a  (YAML) file. An example study definition in YAML format:   [ ] Change in CHANGELOG.md described (if applicable) [x] Tests created for changes (if applicable) [x] Manually tested changed features in running JabRef (always required) [x] Screenshots added in PR description (for UI changes) [x] Checked documentation: Is the information available and up to date? If not created an issue at < ",
+  "message_url": "https://github.com/JabRef/jabref/pull/7126",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616073"
+  },
+  "raw_message": "Thanks for the feedback :)!\r\n\r\nRegarding the first  bullet point:\r\nOne reason was that JabRef already knew how to parse such a file, making the implementation fairly easy. Additionally, the entries can easily be modified directly in JabRef. Therefore it was a straightforward choice. This certainly is not the most user-friendly variant, but this can and will be addressed by offering a GUI for the creation of this file in the future.\r\n\r\nRegarding the second bullet point:\r\nThe reason for this is that this allows easy versioning of search sessions allowing to track new entries without reevaluating old entries. I do not see how this could reduce the number of use cases? Furthermore, if the user does not want to create a remote repository for pushing a local one will suffice. In case a remote repository is configured I do not see any use case where a search should not be documented?\r\n\r\nI agree that the UX is currently poor, however with the GUI implementation and the [existing documentation](https://github.com/JabRef/user-documentation/pull/333) for the feature it should suffice :).\r\n",
+  "clean_message": "Thanks for the feedback :)! Regarding the first  bullet point: One reason was that JabRef already knew how to parse such a file, making the implementation fairly easy. Additionally, the entries can easily be modified directly in JabRef. Therefore it was a straightforward choice. This certainly is not the most user-friendly variant, but this can and will be addressed by offering a GUI for the creation of this file in the future. Regarding the second bullet point: The reason for this is that this allows easy versioning of search sessions allowing to track new entries without reevaluating old entries. I do not see how this could reduce the number of use cases? Furthermore, if the user does not want to create a remote repository for pushing a local one will suffice. In case a remote repository is configured I do not see any use case where a search should not be documented? I agree that the UX is currently poor, however with the GUI implementation and the existing documentation for the feature it should suffice :).",
+  "message_url": "https://github.com/JabRef/jabref/pull/7124#issuecomment-733867507",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616014"
+  },
+  "raw_message": "With this recursive approach you should be able to put all the Labeled nodes in the fxml files back into the hboxes.\r\nI think you can also make the new method `scanImputControls` static.\r\n\r\nIf you like to look a bit around in the JabRef sources, you could also think of moving this recursive search init stuff into a background task, if the preferences dialog takes too long to load now, and grey the search box out as long as the preferences are indexed (probably not much more than a fracture of a second). But maybe this too much for this PR. The most important thing is now that the issue has been fixed.",
+  "clean_message": "With this recursive approach you should be able to put all the Labeled nodes in the fxml files back into the hboxes. I think you can also make the new method  static. If you like to look a bit around in the JabRef sources, you could also think of moving this recursive search init stuff into a background task, if the preferences dialog takes too long to load now, and grey the search box out as long as the preferences are indexed (probably not much more than a fracture of a second). But maybe this too much for this PR. The most important thing is now that the issue has been fixed.",
+  "message_url": "https://github.com/JabRef/jabref/pull/6946#issuecomment-699551559",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615efd"
+  },
+  "raw_message": "I get no error message related to signing from either the dmg or pkg.\r\n\r\nA minor \"nitpick\" is that the pkg displays a warning for it not being notarized (\"... can't be opened because Apple cannot check it for malicious software.\")",
+  "clean_message": "I get no error message related to signing from either the dmg or pkg. A minor \"nitpick\" is that the pkg displays a warning for it not being notarized (\"... can't be opened because Apple cannot check it for malicious software.\")",
+  "message_url": "https://github.com/JabRef/jabref/pull/6748#issuecomment-671989269",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f08"
+  },
+  "raw_message": "Probably the same reason why the plist file doesn't get copied. Do we need to specify the resource folder somewhere? ",
+  "clean_message": "Probably the same reason why the plist file doesn't get copied. Do we need to specify the resource folder somewhere? ",
+  "message_url": "https://github.com/JabRef/jabref/pull/6306#issuecomment-615844053",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ea8"
+  },
+  "raw_message": "@koppor I've done the manual testing and `checkStyle`, and looked at the PR diff. The only thing left to do is test it in Oracle. The code is simple and it is a hassle for me to work with Docker. I think if we merge it in, it might be easiest for GitHub's CI to tell us if it passes the Oracle tests. I know Oracle's not important, but we are so close! But for that, you have to merge it into the upstream because I can't do it from my fork.",
+  "clean_message": "I've done the manual testing and , and looked at the PR diff. The only thing left to do is test it in Oracle. The code is simple and it is a hassle for me to work with Docker. I think if we merge it in, it might be easiest for GitHub's CI to tell us if it passes the Oracle tests. I know Oracle's not important, but we are so close! But for that, you have to merge it into the upstream because I can't do it from my fork.",
+  "message_url": "https://github.com/JabRef/jabref/pull/5814#issuecomment-588476545",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615dcd"
+  },
+  "raw_message": "The fetcher tests are throwing HTTP 401, 403, and 429 errors, which are Unauthorized, Forbidden, and Rate Limit Exceeded. I only made one very minor change to a single importer, and many are throwing errors. Should I ignore the continuous integration tests for fetchers?",
+  "clean_message": "The fetcher tests are throwing HTTP 401, 403, and 429 errors, which are Unauthorized, Forbidden, and Rate Limit Exceeded. I only made one very minor change to a single importer, and many are throwing errors. Should I ignore the continuous integration tests for fetchers?",
+  "message_url": "https://github.com/JabRef/jabref/pull/5691#issuecomment-565818247",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615fcb"
+  },
+  "raw_message": "> > Seeing #5502, @Siedlerchr is our linux tester. tada\r\n> \r\n> You wish. Nope, I have only a slow Ubuntu VM (running on my hdd cause my ssd is too small) for testing stuff.\r\n\r\n:smile: \r\n\r\nI tested on a live image with no jabref version, with the version in the ubuntu repo and reinstalling the deb.\r\nThe install seems to never fail and copies the proper json file.\r\n@Siedlerchr if you want to test it to be sure, then you're free to merge",
+  "clean_message": ":smile:  I tested on a live image with no jabref version, with the version in the ubuntu repo and reinstalling the deb. The install seems to never fail and copies the proper json file.  if you want to test it to be sure, then you're free to merge",
+  "message_url": "https://github.com/JabRef/jabref/pull/5503#issuecomment-546736751",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c083561612c"
+  },
+  "raw_message": "Fixes #5485 \r\nChanged the query parameter `query.title` (which is deprecated) to\r\n`query.bibliographic`.\r\n\r\n<!-- describe the changes you have made here: what, why, ... \r\n     Link issues by using the following pattern: [#333](https://github.com/JabRef/jabref/issues/333) or [koppor#49](https://github.com/koppor/jabref/issues/47).\r\n     The title of the PR must not reference an issue, because GitHub does not support autolinking there. -->\r\n\r\n\r\n----\r\n\r\n- [ ] Change in CHANGELOG.md described\r\n- [ ] Tests created for changes\r\n- [ ] Manually tested changed features in running JabRef\r\n- [ ] Screenshots added in PR description (for bigger UI changes)\r\n- [ ] Ensured that [the git commit message is a good one](https://github.com/joelparkerhenderson/git_commit_message)\r\n- [ ] Check documentation status (Issue created for outdated help page at [help.jabref.org](https://github.com/JabRef/help.jabref.org/issues)?)\r\n",
+  "clean_message": "Fixes #5485  Changed the query parameter  (which is deprecated) to . <!-- describe the changes you have made here: what, why, ...       Link issues by using the following pattern: #333 or koppor#49.      The title of the PR must not reference an issue, because GitHub does not support autolinking there. --   [ ] Change in CHANGELOG.md described [ ] Tests created for changes [ ] Manually tested changed features in running JabRef [ ] Screenshots added in PR description (for bigger UI changes) [ ] Ensured that the git commit message is a good one [ ] Check documentation status (Issue created for outdated help page at help.jabref.org?) ",
+  "message_url": "https://github.com/JabRef/jabref/pull/5495",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f14"
+  },
+  "raw_message": "These are 2 installers plus one portable version. So in the end 200mb for one installer, which is approximately the same size as install4j",
+  "clean_message": "These are 2 installers plus one portable version. So in the end 200mb for one installer, which is approximately the same size as install4j",
+  "message_url": "https://github.com/JabRef/jabref/pull/5312#issuecomment-531460517",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f29"
+  },
+  "raw_message": "I went through all the changes and created a follow-up PR at https://github.com/JabRef/jabref/pull/5578.",
+  "clean_message": "I went through all the changes and created a follow-up PR at .",
+  "message_url": "https://github.com/JabRef/jabref/pull/5283#issuecomment-551771425",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615fe1"
+  },
+  "raw_message": "<!-- describe the changes you have made here: what, why, ... \r\n     Link issues by using the following pattern: [#333](https://github.com/JabRef/jabref/issues/333) or [koppor#49](https://github.com/koppor/jabref/issues/47).\r\n     The title of the PR must not reference an issue, because GitHub does not support autolinking there. -->\r\n\r\n1. Add the following compiler arguments for the `JabRef.main` module:\r\n```\r\n--patch-module test=fastparse_2.12-1.0.0.jar --patch-module test2=fastparse-utils_2.12-1.0.0.jar --patch-module test3=sourcecode_2.12-0.1.4.jar --add-exports javafx.controls/com.sun.javafx.scene.control=org.jabref --add-exports org.controlsfx.controls/impl.org.controlsfx.skin=org.jabref --add-exports javafx.graphics/com.sun.javafx.scene=org.controlsfx.controls --add-exports javafx.graphics/com.sun.javafx.scene.traversal=org.controlsfx.controls --add-exports javafx.graphics/com.sun.javafx.css=org.controlsfx.controls --add-exports javafx.controls/com.sun.javafx.scene.control.behavior=org.controlsfx.controls --add-exports javafx.controls/com.sun.javafx.scene.control=org.controlsfx.controls --add-exports javafx.controls/com.sun.javafx.scene.control.inputmap=org.controlsfx.controls --add-exports javafx.base/com.sun.javafx.event=org.controlsfx.controls --add-exports javafx.base/com.sun.javafx.collections=org.controlsfx.controls --add-exports javafx.base/com.sun.javafx.runtime=org.controlsfx.controls --add-exports javafx.web/com.sun.webkit=org.controlsfx.controls --add-exports javafx.graphics/com.sun.javafx.css=org.controlsfx.controls --patch-module org.jabref=build\\resources\\main\r\n```\r\n2. Switch to Java 11 jdk\r\n3. Select \"Intellj IDEA\" in Settings > Build Tools > Gradle > \"Build and run using\" and \"Run tests using\"\r\n4. Use the provided run configuration.\r\n\r\nOnly problem is that I had to disable the error prone plugin. However, I would say that it is more important to have a simple compilation than this code checker.\r\n\r\n----\r\n\r\n- [ ] Change in CHANGELOG.md described\r\n- [ ] Tests created for changes\r\n- [ ] Manually tested changed features in running JabRef\r\n- [ ] Screenshots added in PR description (for bigger UI changes)\r\n- [ ] Ensured that [the git commit message is a good one](https://github.com/joelparkerhenderson/git_commit_message)\r\n- [ ] Check documentation status (Issue created for outdated help page at [help.jabref.org](https://github.com/JabRef/help.jabref.org/issues)?)\r\n",
+  "clean_message": "<!-- describe the changes you have made here: what, why, ...       Link issues by using the following pattern: #333 or koppor#49.      The title of the PR must not reference an issue, because GitHub does not support autolinking there. -- 1. Add the following compiler arguments for the  module:  Switch to Java 11 jdk Select \"Intellj IDEA\" in Settings 4. Use the provided run configuration.  Only problem is that I had to disable the error prone plugin. However, I would say that it is more important to have a simple compilation than this code checker.   [ ] Change in CHANGELOG.md described [ ] Tests created for changes [ ] Manually tested changed features in running JabRef [ ] Screenshots added in PR description (for bigger UI changes) [ ] Ensured that the git commit message is a good one [ ] Check documentation status (Issue created for outdated help page at help.jabref.org?) ",
+  "message_url": "https://github.com/JabRef/jabref/pull/5249",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615dad"
+  },
+  "raw_message": "Thanks for your feedback, @Siedlerchr and @tobiasdiez! Now all identified issues should be fixed.\r\n\r\n- TODO: Add support for multicite commands.\r\n- TODO: Expand integration test.",
+  "clean_message": "Thanks for your feedback,  and ! Now all identified issues should be fixed.  TODO: Add support for multicite commands. TODO: Expand integration test. ",
+  "message_url": "https://github.com/JabRef/jabref/pull/5011#issuecomment-500299236",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616072"
+  },
+  "raw_message": "Fixes #4703.\r\n\r\n<!-- describe the changes you have made here: what, why, ... \r\n     Link issues by using the following pattern: [#333](https://github.com/JabRef/jabref/issues/333) or [koppor#49](https://github.com/koppor/jabref/issues/47).\r\n     The title of the PR must not reference an issue, because GitHub does not support autolinking there. -->\r\n\r\n\r\n----\r\n\r\n- [ ] Change in CHANGELOG.md described\r\n- [ ] Tests created for changes\r\n- [ ] Manually tested changed features in running JabRef\r\n- [ ] Screenshots added in PR description (for bigger UI changes)\r\n- [ ] Ensured that [the git commit message is a good one](https://github.com/joelparkerhenderson/git_commit_message)\r\n- [ ] Check documentation status (Issue created for outdated help page at [help.jabref.org](https://github.com/JabRef/help.jabref.org/issues)?)\r\n",
+  "clean_message": "Fixes #4703. <!-- describe the changes you have made here: what, why, ...       Link issues by using the following pattern: #333 or koppor#49.      The title of the PR must not reference an issue, because GitHub does not support autolinking there. --   [ ] Change in CHANGELOG.md described [ ] Tests created for changes [ ] Manually tested changed features in running JabRef [ ] Screenshots added in PR description (for bigger UI changes) [ ] Ensured that the git commit message is a good one [ ] Check documentation status (Issue created for outdated help page at help.jabref.org?) ",
+  "message_url": "https://github.com/JabRef/jabref/pull/4720",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616131"
+  },
+  "raw_message": "Sorry forget to answer.\r\n\r\n> Though, it wouldn´t fully help with the outlined problem I guess? The Azure statistics couldn´t tell us how many users left the related-article tab before recommendations were displayed, right?\r\n\r\nWith azure you can track whatever events you are interested in. So if this information is really valuable to you, you can add an event for \"recommendations tab opened\" and one for \"recommendations shown\". That should give you a valid basis to gauge whether the recommendation creation takes too much time.",
+  "clean_message": "Sorry forget to answer. With azure you can track whatever events you are interested in. So if this information is really valuable to you, you can add an event for \"recommendations tab opened\" and one for \"recommendations shown\". That should give you a valid basis to gauge whether the recommendation creation takes too much time.",
+  "message_url": "https://github.com/JabRef/jabref/pull/4596#issuecomment-467391995",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f80"
+  },
+  "raw_message": "This is a comment that describes the purpose of a class.\r\n\r\n----\r\n\r\n- [ ] Change in CHANGELOG.md described\r\n- [ ] Tests created for changes\r\n- [ ] Manually tested changed features in running JabRef\r\n- [ ] Screenshots added in PR description (for bigger UI changes)\r\n- [ ] Ensured that [the git commit message is a good one](https://github.com/joelparkerhenderson/git_commit_message)\r\n- [ ] Check documentation status (Issue created for outdated help page at [help.jabref.org](https://github.com/JabRef/help.jabref.org/issues)?)\r\n",
+  "clean_message": "This is a comment that describes the purpose of a class.   [ ] Change in CHANGELOG.md described [ ] Tests created for changes [ ] Manually tested changed features in running JabRef [ ] Screenshots added in PR description (for bigger UI changes) [ ] Ensured that the git commit message is a good one [ ] Check documentation status (Issue created for outdated help page at help.jabref.org?) ",
+  "message_url": "https://github.com/JabRef/jabref/pull/4282",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616138"
+  },
+  "raw_message": "@Brainsucker92 Could you write a short personal email so that I have your contact data?",
+  "clean_message": "Could you write a short personal email so that I have your contact data?",
+  "message_url": "https://github.com/JabRef/jabref/pull/3721#issuecomment-367328287",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615fa8"
+  },
+  "raw_message": "Upon wish of @lenhard, nothing more to say here\r\n",
+  "clean_message": "Upon wish of , nothing more to say here",
+  "message_url": "https://github.com/JabRef/jabref/pull/3006",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835616103"
+  },
+  "raw_message": "Sorry, I've no deep knowledge about regular expressions in particular and about the formatters in general.",
+  "clean_message": "Sorry, I've no deep knowledge about regular expressions in particular and about the formatters in general.",
+  "message_url": "https://github.com/JabRef/jabref/pull/2663#issuecomment-296656842",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615db0"
+  },
+  "raw_message": "I can confirm that the problem still persists with \"abstract: LaTeX cleanup\" enabled in version 4.0.0-dev. Every time I enter \\%, it is immediately changed to % and % ends up as % in the bib file which causes LaTeX to fail.",
+  "clean_message": "I can confirm that the problem still persists with \"abstract: LaTeX cleanup\" enabled in version 4.0.0-dev. Every time I enter \\%, it is immediately changed to % and % ends up as % in the bib file which causes LaTeX to fail.",
+  "message_url": "https://github.com/JabRef/jabref/pull/2375#issuecomment-291977494",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615fd6"
+  },
+  "raw_message": "You could also create a discussion point at https://github.com/plk/biblatex ",
+  "clean_message": "You could also create a discussion point at  ",
+  "message_url": "https://github.com/JabRef/jabref/pull/2364#issuecomment-266296065",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615da4"
+  },
+  "raw_message": "Okay, permissons are not copied. Maybe it is enough to check for Unix OS/POSIX support:\nhttps://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html\n",
+  "clean_message": "Okay, permissons are not copied. Maybe it is enough to check for Unix OS/POSIX support:",
+  "message_url": "https://github.com/JabRef/jabref/pull/2286#issuecomment-261662530",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615f81"
+  },
+  "raw_message": "I am always interested in learning new things. Currently I'm not up to date with this PR. Is this meant to update this PR or address issues in the [Rework](https://github.com/JabRef/jabref/projects/2)?\r\nBut it eventually would be a slow process. What about the JavaFX Team from @JabRef/stupro  ? :smile: ",
+  "clean_message": "I am always interested in learning new things. Currently I'm not up to date with this PR. Is this meant to update this PR or address issues in the Rework? But it eventually would be a slow process. What about the JavaFX Team from /stupro  ? :smile: ",
+  "message_url": "https://github.com/JabRef/jabref/pull/2157#issuecomment-429619020",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+}]

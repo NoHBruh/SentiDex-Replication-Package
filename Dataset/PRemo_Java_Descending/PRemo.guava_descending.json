@@ -1,0 +1,860 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cb1"
+  },
+  "raw_message": "Oh, not really. I see your point and all that I can say is that maybe I was considering only my own use cases, where interruption is really a frequent thing, and I may have thought that this class was intended just for those situations. But thinking more carefully, it does not seem unlikely to use methods from this class, for example, just to avoid the verbosity of having to deal with InterruptedException in situations where the thread is actually never interrupted.\r\n\r\n",
+  "clean_message": "Oh, not really. I see your point and all that I can say is that maybe I was considering only my own use cases, where interruption is really a frequent thing, and I may have thought that this class was intended just for those situations. But thinking more carefully, it does not seem unlikely to use methods from this class, for example, just to avoid the verbosity of having to deal with InterruptedException in situations where the thread is actually never interrupted.",
+  "message_url": "https://github.com/google/guava/pull/6337#issuecomment-1442466609",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615be0"
+  },
+  "raw_message": "**PR: Fix #3720**\r\n\r\nUpdate:\r\nindexOf(byte[] array, byte target, int fromIndex)  [Byte.java]\r\nindexOf(byte[] array, byte[] target, int fromIndex)  [Byte.java]\r\nlastIndexOf(byte[] array, byte target, int fromIndex)  [Byte.java]\r\nlastIndexOf(byte[] array, byte[] target, int fromIndex)  [Byte.java]\r\n\r\nThese 4 methods are written strictly according to the requirements of the issue #3720.\r\n\r\nUnit Tests written:\r\ntestIndexOf_arrayTarget_fromIndex()  [ByteTest.java]\r\ntestIndexOf_fromIndex()  [ByteTest.java]\r\ntestLastIndexOf_fromIndex()  [ByteTest.java]\r\n\r\nThese tests try to cover a case coverage as comprehensively as possible.\r\n\r\nI think the requirements of this issue have been met. If there are extra requirements or bugs exists, please just comment here.\r\n\r\nThanks for reviewing it!\r\n",
+  "clean_message": "PR: Fix #3720 Update: indexOf(byte[] array, byte target, int fromIndex)  [Byte.java] indexOf(byte[] array, byte[] target, int fromIndex)  [Byte.java] lastIndexOf(byte[] array, byte target, int fromIndex)  [Byte.java] lastIndexOf(byte[] array, byte[] target, int fromIndex)  [Byte.java] These 4 methods are written strictly according to the requirements of the issue #3720. Unit Tests written: testIndexOf_arrayTarget_fromIndex()  [ByteTest.java] testIndexOf_fromIndex()  [ByteTest.java] testLastIndexOf_fromIndex()  [ByteTest.java] These tests try to cover a case coverage as comprehensively as possible. I think the requirements of this issue have been met. If there are extra requirements or bugs exists, please just comment here. Thanks for reviewing it!",
+  "message_url": "https://github.com/google/guava/pull/6218#issuecomment-1293187675",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b59"
+  },
+  "raw_message": "Thanks for this! I think it would make more sense just to keep the aarch64 exclusion in the `android/` tree and remove it in the `guava/` tree. This is easier for people on the Guava team to do, so I'll look into it.",
+  "clean_message": "Thanks for this! I think it would make more sense just to keep the aarch64 exclusion in the  tree and remove it in the  tree. This is easier for people on the Guava team to do, so I'll look into it.",
+  "message_url": "https://github.com/google/guava/pull/5954#issuecomment-1072632714",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a7e"
+  },
+  "raw_message": "Relates to https://github.com/airlift/units/pull/23#discussion_r807091300 ",
+  "clean_message": "Relates to  ",
+  "message_url": "https://github.com/google/guava/pull/5925#issuecomment-1041227549",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cf7"
+  },
+  "raw_message": "Thanks for taking a look!\r\n\r\nOh, I was convinced we skip javadocs by default, but I see it makes sense to run them [after the integration tests](\r\nhttps://github.com/google/guava/blob/master/pom.xml#L191) if we also publish them on each commit.\r\n\r\n\r\nI agree that punishing 17+ -using users and requiring a 3y-old JDK is not good :)\r\n\r\nWhat do you think would be the best thing to do:\r\n1. Support correct Javadoc generation on all JDKs (8, 9–12, 13+): requires a JDK-version activated Maven profile, like in [this POM](https://github.com/exonum/exonum-java-binding/blob/master/exonum-java-binding/pom.xml#L671-L681)):\r\n    - (+) Don’t depend on migrating all our release scripts to 17 — can fix this issue right now\r\n    - (+) Will produce correct Javadocs on all JDKs\r\n    - (-) / (?) A bit of extra complexity in the configs, but not too much\r\n    - If we eventually accept that JDK 17+ is required for development, and javadoc generation is not needed on earlier JDKs, it is a temporary measure.\r\n1. Skip Javadoc generation on 8 and 12+ (conditionally set maven.javadoc.skip through a JDK-version activated Maven profile):\r\n    - (+) Don’t depend on migrating all our release scripts to 17 — can fix this issue right now\r\n    - (-) Same complexity as ^, but less benefits\r\n1. (If you anticipate that 17 issues will get addressed soon) Wait till migrate to 17:\r\n    - (+) No changes needed , no extra complexity in the configs\r\n    - (?) Search won’t work on Javadocs generated with 11, but, arguably, [it won’t matter](https://github.com/google/guava/issues/5801#issuecomment-984637851)\r\n\r\n",
+  "clean_message": "Thanks for taking a look! Oh, I was convinced we skip javadocs by default, but I see it makes sense to run them after the integration tests if we also publish them on each commit. I agree that punishing 17+ -using users and requiring a 3y-old JDK is not good :) What do you think would be the best thing to do: 1. Support correct Javadoc generation on all JDKs (8, 9–12, 13+): requires a JDK-version activated Maven profile, like in this POM):     - (+) Don’t depend on migrating all our release scripts to 17 — can fix this issue right now     - (+) Will produce correct Javadocs on all JDKs     - (-) / (?) A bit of extra complexity in the configs, but not too much     - If we eventually accept that JDK 17+ is required for development, and javadoc generation is not needed on earlier JDKs, it is a temporary measure. 1. Skip Javadoc generation on 8 and 12+ (conditionally set maven.javadoc.skip through a JDK-version activated Maven profile):     - (+) Don’t depend on migrating all our release scripts to 17 — can fix this issue right now     - (-) Same complexity as ^, but less benefits 1. (If you anticipate that 17 issues will get addressed soon) Wait till migrate to 17:     - (+) No changes needed , no extra complexity in the configs     - (?) Search won’t work on Javadocs generated with 11, but, arguably, it won’t matter",
+  "message_url": "https://github.com/google/guava/pull/5800#issuecomment-984649546",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bf9"
+  },
+  "raw_message": "This change would not be enough to make `newCustomTable` thread-safe: While it makes calls to `getOrCreate` thread-safe (assuming that the backing map and supplier are thread-safe), it does not make other operations like `remove` thread-safe.\r\n\r\nStill, the simplification to the code is nice. Unfortunately, we currently still maintain compatibility with older versions of Java for our Android and JRE7 users, so we can't use `computeIfAbsent` in code that works there. We _can_ use `computeIfAbsent` in environments in which it's available while avoiding it when it's not, but this typically makes our code more complex. So we almost always avoid that approach.\r\n\r\nOnce we start requiring all our users to target environments that contain `computeIfAbsent`, we could make changes like this. But I expect that not to happen for years.",
+  "clean_message": "This change would not be enough to make  thread-safe: While it makes calls to  thread-safe (assuming that the backing map and supplier are thread-safe), it does not make other operations like  thread-safe. Still, the simplification to the code is nice. Unfortunately, we currently still maintain compatibility with older versions of Java for our Android and JRE7 users, so we can't use  in code that works there. We can use  in environments in which it's available while avoiding it when it's not, but this typically makes our code more complex. So we almost always avoid that approach. Once we start requiring all our users to target environments that contain , we could make changes like this. But I expect that not to happen for years.",
+  "message_url": "https://github.com/google/guava/pull/5588#issuecomment-856005353",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c6a"
+  },
+  "raw_message": "- Those `@Override`s can't be added, as explained: `@SuppressWarnings(\"MissingOverride\") // Supermethod does not exist under GWT.`\r\n- There's no reason to extract that `Pattern`, as the `newMatchResult()` method itself is only called once.",
+  "clean_message": " Those s can't be added, as explained:  There's no reason to extract that , as the  method itself is only called once. ",
+  "message_url": "https://github.com/google/guava/pull/5383#issuecomment-762981072",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c00"
+  },
+  "raw_message": "@cpovirk When it comes to security, disruption should be least of concerns.  See SolarWinds hack 2020...",
+  "clean_message": "When it comes to security, disruption should be least of concerns.  See SolarWinds hack 2020...",
+  "message_url": "https://github.com/google/guava/pull/5324#issuecomment-746772655",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 2.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a67"
+  },
+  "raw_message": "Oops, sorry, I didn't realise that one of my examples above prints the wrong value! Here's my updated code snippet:\r\n\r\n```java\r\n// If you're able to turn your Map<String, Set<String>>s into SetMultimap<String, String>s beforehand:\r\nvar merged =\r\n    ImmutableSetMultimap.builder()\r\n        .putAll(multiTags1)\r\n        .putAll(multiTags2)\r\n        .build();\r\n\r\n// Otherwise:\r\nvar merged =\r\n    Stream.of(tags1, tags2)\r\n        .flatMap(tags -> tags.entrySet().stream())\r\n        .collect(flatteningToImmutableSetMultimap(Entry::getKey, entry -> entry.getValue().stream()));\r\n```",
+  "clean_message": "Oops, sorry, I didn't realise that one of my examples above prints the wrong value! Here's my updated code snippet:",
+  "message_url": "https://github.com/google/guava/pull/4017#issuecomment-691687884",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d33"
+  },
+  "raw_message": "Sounds reasonable, thanks. Would you also:\r\n\r\n- Add your tests for the AssertionError cases\r\n\r\n- include the 2 input ranges in the exception message",
+  "clean_message": "Sounds reasonable, thanks. Would you also:   Add your tests for the AssertionError cases   include the 2 input ranges in the exception message  ",
+  "message_url": "https://github.com/google/guava/pull/4007#issuecomment-687927433",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b71"
+  },
+  "raw_message": "You're correct. Parts of the library that are important to library developers may not match the interest level of application developers using the library. This seems to touch on a broader issue of log \"composition,\" i.e., the log intentions of application developers may not coincide with the application's dependencies in general. ",
+  "clean_message": "You're correct. Parts of the library that are important to library developers may not match the interest level of application developers using the library. This seems to touch on a broader issue of log \"composition,\" i.e., the log intentions of application developers may not coincide with the application's dependencies in general. ",
+  "message_url": "https://github.com/google/guava/pull/3713#issuecomment-561436047",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cbe"
+  },
+  "raw_message": "@cpovirk I talked to the Android Gradle Plugin team team and we think the `BuildTypeAttr` solution I provided right now is not very good. They are already looking into this use cases - a library having a JVM and Android variant - and they will probably make use of another attribute for it. We are discussing what the best solution here is.\r\n\r\nI would suggest we hold off merging until that discussion resolved. I'll get back to you once this moved forward, in a few days.",
+  "clean_message": "I talked to the Android Gradle Plugin team team and we think the  solution I provided right now is not very good. They are already looking into this use cases - a library having a JVM and Android variant - and they will probably make use of another attribute for it. We are discussing what the best solution here is. I would suggest we hold off merging until that discussion resolved. I'll get back to you once this moved forward, in a few days.",
+  "message_url": "https://github.com/google/guava/pull/3683#issuecomment-712642863",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b4c"
+  },
+  "raw_message": "google3 is marginally easier for us, but I'm fine with whatever you prefer.",
+  "clean_message": "google3 is marginally easier for us, but I'm fine with whatever you prefer.",
+  "message_url": "https://github.com/google/guava/pull/3649#issuecomment-540181401",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bef"
+  },
+  "raw_message": "They have class retention, though, so they'll be in the output. Maybe they shouldn't be, but arbitrary tools don't know that :( Maybe file a bug against Animal Sniffer?",
+  "clean_message": "They have class retention, though, so they'll be in the output. Maybe they shouldn't be, but arbitrary tools don't know that :( Maybe file a bug against Animal Sniffer?",
+  "message_url": "https://github.com/google/guava/pull/3649#issuecomment-540075016",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d21"
+  },
+  "raw_message": "In order for us to consider it, you have to sign the CLA. Please follow the instructions above.",
+  "clean_message": "In order for us to consider it, you have to sign the CLA. Please follow the instructions above.",
+  "message_url": "https://github.com/google/guava/pull/3513#issuecomment-548478832",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cfd"
+  },
+  "raw_message": "Fixed in https://github.com/google/guava/commit/1b6e4067d58fae4a9966911a348177671cc99f7c .\r\nNot required anymore.",
+  "clean_message": "Fixed in  . Not required anymore.",
+  "message_url": "https://github.com/google/guava/pull/3484#issuecomment-496721041",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c58"
+  },
+  "raw_message": "Thanks. Would going all the way to 2.3.3 be worse for your dependency-agreement efforts?",
+  "clean_message": "Thanks. Would going all the way to 2.3.3 be worse for your dependency-agreement efforts?",
+  "message_url": "https://github.com/google/guava/pull/3439#issuecomment-481832123",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ca8"
+  },
+  "raw_message": "@netdpb Thank you for this feedback! That is a really interesting insight. You may be right! We will certainly consider it.",
+  "clean_message": "Thank you for this feedback! That is a really interesting insight. You may be right! We will certainly consider it.",
+  "message_url": "https://github.com/google/guava/pull/3435#issuecomment-480332660",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bb1"
+  },
+  "raw_message": "Guava is a mature, low-level, general-purpose library. Because of its maturity, much of it is quite stable. It looks like your prototype took that to mean that all logging statements should be at `FINEST`, but I'm not sure how well your interesting theory tying logging levels to code stability applies.\r\n\r\nI wonder whether your research is intended to apply more to application/service code than to general-purpose library code.",
+  "clean_message": "Guava is a mature, low-level, general-purpose library. Because of its maturity, much of it is quite stable. It looks like your prototype took that to mean that all logging statements should be at , but I'm not sure how well your interesting theory tying logging levels to code stability applies. I wonder whether your research is intended to apply more to application/service code than to general-purpose library code.",
+  "message_url": "https://github.com/google/guava/pull/3435#issuecomment-480320723",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a8e"
+  },
+  "raw_message": "I am not a Googler, but I can't see this PR being merged. You've reformatted the entire source code, so there is no way to tell what was actually changed. In general, pull requests should touch as little surrounding code as possible. \r\n\r\nBecause of all this reformatting, the diff is useless. I cannot check if the removed deprecated methods are actually allowed to be removed. According to the guava philosophy, deprecated api will not be removed anymore unless it is marked as beta:\r\n\r\n> APIs without @Beta will remain binary-compatible for the indefinite future. (Previously, we sometimes removed such APIs after a deprecation period. The last release to remove non-@Beta APIs was Guava 21.0.) Even @Deprecated APIs will remain (again, unless they are @Beta). We have no plans to start removing things again, but officially, we're leaving our options open in case of surprises (like, say, a serious security problem).\r\n\r\n",
+  "clean_message": "I am not a Googler, but I can't see this PR being merged. You've reformatted the entire source code, so there is no way to tell what was actually changed. In general, pull requests should touch as little surrounding code as possible.  Because of all this reformatting, the diff is useless. I cannot check if the removed deprecated methods are actually allowed to be removed. According to the guava philosophy, deprecated api will not be removed anymore unless it is marked as beta:",
+  "message_url": "https://github.com/google/guava/pull/3410#issuecomment-475711974",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cb4"
+  },
+  "raw_message": "@cpovirk Thanks for the review and consideration.  We can close this PR then.",
+  "clean_message": "Thanks for the review and consideration.  We can close this PR then.",
+  "message_url": "https://github.com/google/guava/pull/3408#issuecomment-571191429",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a6f"
+  },
+  "raw_message": "The change LGTM. As for the removals, I know @cpovirk had plans for addressing some of these, but I can't find the doc (if there was one) and he's currently out on leave.",
+  "clean_message": "The change LGTM. As for the removals, I know  had plans for addressing some of these, but I can't find the doc (if there was one) and he's currently out on leave.",
+  "message_url": "https://github.com/google/guava/pull/3287#issuecomment-427953057",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c67"
+  },
+  "raw_message": "@jrtom I found 26 hits inside google using \"Iterables\\.get\\(.*random\", which is more than you, but still fairly low on the ubiquity scale.\r\n\r\nI'm also generally -1 on this proposal (all of the above comments are good), but I'm happy to leave this open in the \"research\" category in case other folks want to make a stronger case for it.\r\n\r\nIn the case that you have a `List` (which I suspect is the majority case), we're not actually saving much:\r\n`list.get(random.nextInt(list.size()); // before`\r\n`Iterables.getRandom(list, random); // after`\r\n\r\nIf you have an `Iterable`/`Collection`, sure it's a little longer, but still not that much of a savings:\r\n`Iterables.get(iterable, random.nextInt(Iterables.size(iterable))); // before`\r\n`Iterables.getRandom(iterable, random); // after`",
+  "clean_message": "I found 26 hits inside google using \"Iterables.get(.*random\", which is more than you, but still fairly low on the ubiquity scale. I'm also generally -1 on this proposal (all of the above comments are good), but I'm happy to leave this open in the \"research\" category in case other folks want to make a stronger case for it. In the case that you have a  (which I suspect is the majority case), we're not actually saving much: If you have an /, sure it's a little longer, but still not that much of a savings:",
+  "message_url": "https://github.com/google/guava/pull/3266#issuecomment-422073026",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d14"
+  },
+  "raw_message": "See #3223 for details.",
+  "clean_message": "See #3223 for details.",
+  "message_url": "https://github.com/google/guava/pull/3225#issuecomment-412955468",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c84"
+  },
+  "raw_message": "`api` it is then.",
+  "clean_message": "it is then.",
+  "message_url": "https://github.com/google/guava/pull/3154#issuecomment-391498209",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b29"
+  },
+  "raw_message": "Sorry, this isn't something I see us wanting to add to Guava.",
+  "clean_message": "Sorry, this isn't something I see us wanting to add to Guava.",
+  "message_url": "https://github.com/google/guava/pull/3071#issuecomment-373122421",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c15"
+  },
+  "raw_message": "@srinivascodes I suspect this PR won't be merged anyway, so here's my two cents:\r\n\r\n- Do not check for equality using `==`. Use `equals` instead. It's possible to construct `BigInteger` equal to `BigInteger.ZERO` but not being the same instance as `BigInteger.ZERO`. One of many possibilities is to call `new BigInteger(0, new byte[0])`.\r\n- First divide, then multiply. It's more efficient. As rounding is indeed `UNNECESSARY`, don't use it at all (it is sufficient to use `BigInteger.divide`).\r\n- There's no need to call `abs()` more than once.\r\n\r\n```\r\npublic static BigInteger lcm(BigInteger a, BigInteger b) {\r\n\tif (a.equals(BigInteger.ZERO) || b.equals(BigInteger.ZERO)) {\r\n\t\treturn BigInteger.ZERO;\r\n\t}\r\n\tBigInteger gcd = a.gcd(b);\r\n\treturn a.divide(gcd).multiply(b).abs();\r\n}\r\n```",
+  "clean_message": "I suspect this PR won't be merged anyway, so here's my two cents:  Do not check for equality using . Use  instead. It's possible to construct  equal to  but not being the same instance as . One of many possibilities is to call . First divide, then multiply. It's more efficient. As rounding is indeed , don't use it at all (it is sufficient to use ). There's no need to call  more than once. ",
+  "message_url": "https://github.com/google/guava/pull/3063#issuecomment-371575976",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bf0"
+  },
+  "raw_message": "@jbduncan thanks for the very kind words and the tips 😃 I appreciate that a lot, it's good to know that it's not an ununsual case.\r\n\r\n@cpovirk also thanks for taking it serious and trying to get pull requests integrated into your triage process 👍  ",
+  "clean_message": "thanks for the very kind words and the tips 😃 I appreciate that a lot, it's good to know that it's not an ununsual case. also thanks for taking it serious and trying to get pull requests integrated into your triage process 👍  ",
+  "message_url": "https://github.com/google/guava/pull/3023#issuecomment-358808884",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c07"
+  },
+  "raw_message": "@martinfrancois I'm not on the Guava team myself, so I can't truly speak on their behalf, but as someone who's contributed to the project for a couple of years now, I think it's worth letting you know that they can be very slow addressing new issues and PRs, which I think happens because they're busy as a whole dealing with Google-internal priorities.\r\n\r\nSo if they take forever to respond (which seems likely at this stage, sadly), it absolutely won't be because you did something wrong; they're just apparently very, _very_ busy with their day-to-day jobs, and someone from the team _will_ eventually respond to this PR.\r\n\r\nIf you don't get a response as quickly as you'd like, writing a reminder message like the one you wrote [here](https://github.com/google/guava/pull/3023#issuecomment-357791229) every now and then should encourage a more timely response, even if they're a bit too busy to review the PR properly.\r\n\r\nI hope this helps! :)",
+  "clean_message": "I'm not on the Guava team myself, so I can't truly speak on their behalf, but as someone who's contributed to the project for a couple of years now, I think it's worth letting you know that they can be very slow addressing new issues and PRs, which I think happens because they're busy as a whole dealing with Google-internal priorities. So if they take forever to respond (which seems likely at this stage, sadly), it absolutely won't be because you did something wrong; they're just apparently very, very busy with their day-to-day jobs, and someone from the team will eventually respond to this PR. If you don't get a response as quickly as you'd like, writing a reminder message like the one you wrote here every now and then should encourage a more timely response, even if they're a bit too busy to review the PR properly. I hope this helps! :)",
+  "message_url": "https://github.com/google/guava/pull/3023#issuecomment-357803167",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b6c"
+  },
+  "raw_message": "This looks like a sensible approach to me. (I think @cgdecker is doing the actual review.)\r\n\r\nAside: It's a shame we can't use ImmutableMap here, of course, but c.g.common.math can't depend on c.g.common.collect without creating a circular dependency :-(.",
+  "clean_message": "This looks like a sensible approach to me. (I think  is doing the actual review.) Aside: It's a shame we can't use ImmutableMap here, of course, but c.g.common.math can't depend on c.g.common.collect without creating a circular dependency :-(.",
+  "message_url": "https://github.com/google/guava/pull/2989#issuecomment-343924819",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b7d"
+  },
+  "raw_message": "Thank you for such an in-depth explanation of your reasoning. While I still would have been confused and would likely have chosen the wrong version at first, you are right in your estimation that it would have been more logical to use `24.0` than `24.0-ga`. I therefore withdraw my initial rejection of this change.",
+  "clean_message": "Thank you for such an in-depth explanation of your reasoning. While I still would have been confused and would likely have chosen the wrong version at first, you are right in your estimation that it would have been more logical to use  than . I therefore withdraw my initial rejection of this change.",
+  "message_url": "https://github.com/google/guava/pull/2945#issuecomment-330691857",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c89"
+  },
+  "raw_message": "Thanks for the PR. I'm inclined to leave those lines because they do explain the difference between the methods and the equivalent non-\"try\" method on Integer itself. It's true that the method doesn't throw if parsing fails, but parsing failing and the input being null are different things. I do see how it could be confusing, so I'm inclined to add explicit `@throws NullPointerException` to the Javadoc instead (even though that's not a thing we normally do). We've already done that in a similar cases, as pointed out in #1259.",
+  "clean_message": "Thanks for the PR. I'm inclined to leave those lines because they do explain the difference between the methods and the equivalent non-\"try\" method on Integer itself. It's true that the method doesn't throw if parsing fails, but parsing failing and the input being null are different things. I do see how it could be confusing, so I'm inclined to add explicit  to the Javadoc instead (even though that's not a thing we normally do). We've already done that in a similar cases, as pointed out in #1259.",
+  "message_url": "https://github.com/google/guava/pull/2806#issuecomment-537676430",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bdc"
+  },
+  "raw_message": "I suspect that we want:\r\n\r\n    ( cd android && ... )\r\n\r\nInstead of:\r\n\r\n    cd android && ...\r\n\r\nSo that we restore the original directory for the later commands. Currently, I think that we're changing directory for `install` and then ending up in the wrong place for `verify`.",
+  "clean_message": "I suspect that we want: ( cd android && ... )  Instead of: cd android && ...  So that we restore the original directory for the later commands. Currently, I think that we're changing directory for  and then ending up in the wrong place for .",
+  "message_url": "https://github.com/google/guava/pull/2802#issuecomment-297804959",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a97"
+  },
+  "raw_message": "Uh... weird.  The spreadsheet is at\nhttps://docs.google.com/spreadsheets/d/1kq4ECwPjHX9B8QUCTPclgsDCXYaj7T-FlT4tB5q3ahk/edit?usp=sharing\n... not sure why the link ?changed? or what happened.  Does that look worth\nlinking to?\n\nOn Sun, Apr 23, 2017 at 12:14 PM, Eric Edens <notifications@github.com>\nwrote:\n\n> The linked Google Spreadsheet is no longer available (at least\n> externally). I think it's fine to remove since the link to unicode.org\n> details which codepoints are defined as whitespace.\n>\n> Also, I double checked, and the list hasn't changed compared to what's\n> used in CharMatchers.\n> ------------------------------\n> You can view, comment on, or merge this pull request online at:\n>\n>   https://github.com/google/guava/pull/2798\n> Commit Summary\n>\n>    - Remove broken link in JavaDoc of CharMatcher\n>\n> File Changes\n>\n>    - *M* android/guava/src/com/google/common/base/CharMatcher.java\n>    <https://github.com/google/guava/pull/2798/files#diff-0> (8)\n>    - *M* guava/src/com/google/common/base/CharMatcher.java\n>    <https://github.com/google/guava/pull/2798/files#diff-1> (8)\n>\n> Patch Links:\n>\n>    - https://github.com/google/guava/pull/2798.patch\n>    - https://github.com/google/guava/pull/2798.diff\n>\n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/google/guava/pull/2798>, or mute the thread\n> <https://github.com/notifications/unsubscribe-auth/AA5Cl6ySJDkKJwc-GtsYcLIrKw8C2C_tks5ry6MugaJpZM4NFgVV>\n> .\n>\n\n\n\n-- \nKevin Bourrillion | Java Librarian | Google, Inc. | kevinb@google.com\n",
+  "clean_message": "Uh... weird.  The spreadsheet is at ... not sure why the link ?changed? or what happened.  Does that look worth linking to? On Sun, Apr 23, 2017 at 12:14 PM, Eric Edens <wrote: --  Kevin Bourrillion | Java Librarian | Google, Inc. | ",
+  "message_url": "https://github.com/google/guava/pull/2798#issuecomment-300380386",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b37"
+  },
+  "raw_message": "(I think I have it working.)",
+  "clean_message": "(I think I have it working.)",
+  "message_url": "https://github.com/google/guava/pull/2687#issuecomment-268151259",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a85"
+  },
+  "raw_message": "Sorry for the trouble that this caused you. This is indeed intentional. The best documentation I know of at the moment is [Error Prone's](http://errorprone.info/bugpattern/CollectionIncompatibleType). We do want to extend Error Prone to catch bugs not just with the use of JDK collections but also with `Cache`, but we haven't gotten there yet. Our hope is to do so by introducing some kind of `@TypeCompatibleWith` annotation. If we do that, then IntelliJ could read the annotation and provide the same warning. (Or they could just special-case `Cache` today.)\n",
+  "clean_message": "Sorry for the trouble that this caused you. This is indeed intentional. The best documentation I know of at the moment is Error Prone's. We do want to extend Error Prone to catch bugs not just with the use of JDK collections but also with , but we haven't gotten there yet. Our hope is to do so by introducing some kind of  annotation. If we do that, then IntelliJ could read the annotation and provide the same warning. (Or they could just special-case  today.)",
+  "message_url": "https://github.com/google/guava/pull/2481#issuecomment-219427998",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c2b"
+  },
+  "raw_message": "Hello,\nIf you wanna add many byte values and you don't know how many. You can't this structure.\nThanks your comment.\n",
+  "clean_message": "Hello, If you wanna add many byte values and you don't know how many. You can't this structure. Thanks your comment.",
+  "message_url": "https://github.com/google/guava/pull/2424#issuecomment-197202222",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b45"
+  },
+  "raw_message": "I signed it!\n",
+  "clean_message": "I signed it!",
+  "message_url": "https://github.com/google/guava/pull/2422#issuecomment-197250253",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a5d"
+  },
+  "raw_message": "Bulk closing all pull requests that are listed as needing CLA signing. If you'd like us to look at your pull request, you'll need to sign the CLA and report back here.\r\n\r\nIf this is a false positive, I apologize. Please reopen the pull request, and we'll have a look.",
+  "clean_message": "Bulk closing all pull requests that are listed as needing CLA signing. If you'd like us to look at your pull request, you'll need to sign the CLA and report back here. If this is a false positive, I apologize. Please reopen the pull request, and we'll have a look.",
+  "message_url": "https://github.com/google/guava/pull/2236#issuecomment-271392269",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b96"
+  },
+  "raw_message": "I saw that gwtproject/gwt#9206 seems to be resolved.\n\nCould someone restart following builds, please?\n- https://travis-ci.org/google/guava/builds/86643322\n- https://travis-ci.org/google/guava/builds/86655829\n\nI'd like to avoid pushing commits just to trigger rebuild.\n",
+  "clean_message": "I saw that gwtproject/gwt#9206 seems to be resolved. Could someone restart following builds, please?    I'd like to avoid pushing commits just to trigger rebuild.",
+  "message_url": "https://github.com/google/guava/pull/2197#issuecomment-150305170",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ba5"
+  },
+  "raw_message": "Thanks, updated the commit message and posted a response to the Issue :)\n",
+  "clean_message": "Thanks, updated the commit message and posted a response to the Issue :)",
+  "message_url": "https://github.com/google/guava/pull/2164#issuecomment-141764032",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b1d"
+  },
+  "raw_message": "Both Quasar and Akka rely on plain old threads eventually, so the concurrency models may be different but they base on the same building blocks. In http://docs.paralleluniverse.co/quasar/ is says: \n\n\"Using ThreadLocals in a fiber works as you’d expect – the values are local to the fiber.\"\n\nBecause a fiber is nothing but a wrapped Thread at the end of the day. Every concurrency library out there is based on plain old threads and ThreadLocal cannot be \"tricked\" out of working, so there is nothing to worry about. As long as every code execution in java happens in the context of a java thread, ThreadLocals will work and this patch will work. \n",
+  "clean_message": "Both Quasar and Akka rely on plain old threads eventually, so the concurrency models may be different but they base on the same building blocks. In  is says:  \"Using ThreadLocals in a fiber works as you’d expect – the values are local to the fiber.\" Because a fiber is nothing but a wrapped Thread at the end of the day. Every concurrency library out there is based on plain old threads and ThreadLocal cannot be \"tricked\" out of working, so there is nothing to worry about. As long as every code execution in java happens in the context of a java thread, ThreadLocals will work and this patch will work. ",
+  "message_url": "https://github.com/google/guava/pull/2112#issuecomment-259922973",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ac2"
+  },
+  "raw_message": "This is a very, very old merge request. I don't see any chance this will be merged anytime, to be honest :-(",
+  "clean_message": "This is a very, very old merge request. I don't see any chance this will be merged anytime, to be honest :-(",
+  "message_url": "https://github.com/google/guava/pull/2100#issuecomment-1008751140",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+}]

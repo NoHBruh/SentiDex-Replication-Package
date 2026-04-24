@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f55c"
+  },
+  "raw_message": "I believe the build failure is unrelated to the PR. Looks like the build is also failing on master.",
+  "clean_message": "I believe the build failure is unrelated to the PR. Looks like the build is also failing on master.",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1777#issuecomment-373095607",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f541"
+  },
+  "raw_message": "@erichhsun Yes, there are more flaky tests unfortunately. I'll have a look – the master build failed as well after my PR was merged.",
+  "clean_message": "Yes, there are more flaky tests unfortunately. I'll have a look – the master build failed as well after my PR was merged.",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1757#issuecomment-379649225",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f3db"
+  },
+  "raw_message": "Sorry for the delay on this @dmgcodevil .  I'm still trying to figure out how much value this adds if `hystrix-core` doesn't contain the equivalent functionality.\r\n\r\nMy understanding of this feature is that it will take a user-provided Single/Completable and convert that into a `HystrixObservableCommand`.\r\n\r\nI'm writing a unit test to check that submitting a `Completable` even works in vanilla Hystrix",
+  "clean_message": "Sorry for the delay on this  .  I'm still trying to figure out how much value this adds if  doesn't contain the equivalent functionality. My understanding of this feature is that it will take a user-provided Single/Completable and convert that into a . I'm writing a unit test to check that submitting a  even works in vanilla Hystrix",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1524#issuecomment-300329097",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f3f3"
+  },
+  "raw_message": "@mattrjacobs : Changes looks good to me.\n",
+  "clean_message": ": Changes looks good to me.",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1412#issuecomment-259502948",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f455"
+  },
+  "raw_message": "@dmgcodevil Thats weird - I don't see any unresolved comments on https://github.com/Netflix/Hystrix/pull/1397. It shows just myself and @mattrjacobs as the only _participants_ on my screen.\n",
+  "clean_message": "Thats weird - I don't see any unresolved comments on . It shows just myself and  as the only participants on my screen.",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1412#issuecomment-259375223",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "positive",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f44c"
+  },
+  "raw_message": "Thanks for investigating! In the meantime I started to set my server up freshly. Out of whatever reasons, the class loading error does not show up any more when using the originally released hystrix-core 1.5.6 artifact.\n\nSo the whole thing turned out to be due to some misconfiguration of my environment. \n\nSorry for the inconvenience.\n\nAlexander\n",
+  "clean_message": "Thanks for investigating! In the meantime I started to set my server up freshly. Out of whatever reasons, the class loading error does not show up any more when using the originally released hystrix-core 1.5.6 artifact. So the whole thing turned out to be due to some misconfiguration of my environment.  Sorry for the inconvenience. Alexander",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1401#issuecomment-256059927",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f446"
+  },
+  "raw_message": "Thanks @stevegury.  Just modified the state in `AbstractCommand` to be volatile whenever possible\n",
+  "clean_message": "Thanks .  Just modified the state in  to be volatile whenever possible",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1204#issuecomment-219140880",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f561"
+  },
+  "raw_message": "Thanks @spencergibb .  I'll also backport this to 1.4.x so the fix is available there\n",
+  "clean_message": "Thanks  .  I'll also backport this to 1.4.x so the fix is available there",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1167#issuecomment-205279183",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f5b1"
+  },
+  "raw_message": "@mattrjacobs I have finished adding Unit tests and Javadoc. The only thing I noticed/changed is how the HystrixPlugin is loaded as a singleton eagerly.\n\n``` java\n    //We should not load unless we are requested to. This avoids accidental initialization. @agentgt\n    //See https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom\n    private static class LazyHolder { private static final HystrixPlugins INSTANCE = HystrixPlugins.create(); }\n```\n\nI prefer lazy loading so you don't accidentally kick off loading by just importing `HystrixPlugin`. There is a slight chance this could affect backward compatibility and or performance (but this is very dubious). This may have been even done on purpose. Perhaps @benjchristensen would know?\n\nLet me know if and when you want me to squash the commits.\n",
+  "clean_message": "I have finished adding Unit tests and Javadoc. The only thing I noticed/changed is how the HystrixPlugin is loaded as a singleton eagerly. I prefer lazy loading so you don't accidentally kick off loading by just importing . There is a slight chance this could affect backward compatibility and or performance (but this is very dubious). This may have been even done on purpose. Perhaps  would know? Let me know if and when you want me to squash the commits.",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/1083#issuecomment-179297083",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f443"
+  },
+  "raw_message": "@mattrjacobs  ... sounds good. thank you. \n",
+  "clean_message": "... sounds good. thank you. ",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/959#issuecomment-152633998",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f6cf"
+  },
+  "raw_message": "Thanks @mwhipple.  I'm going to try to summarize your changes, to make sure I understand what you've done and the implications.  Please correct anything I get wrong.\n\nThere are 4 cases:\n1) No concurrency strategy supplied, HystrixRequestLog or request caching are on (default)\n2) No concurrency strategy supplied, no request functionality needed\n3) Custom concurrency strategy supplied, HystrixRequestLog or request caching is on (default)\n4) Custom concurrency strategy supplied, no request functionality supplied\n\nI've added unit tests in #953 that demonstrate the custom concurrency cases.\n\nIn master without your PR, the situation is as follows:\n1) `HystrixConcurrencyStrategyDefault` gets supplied on the first lookup to resolve `HystrixConcurrencyStrategy`.  If an initialized context is found, it is used for the request log.  If not, then the request log is null for the command.  \n2) `HystrixConcurrencyStrategyDefault` gets supplied on the first lookup to resolve `HystrixConcurrencyStrategy`.  The request log is unconditionally null for the command, since the request log is unwanted.\n3) The custom `HystrixConcurrencyStrategy` is found when accessing it for the first time and cached for the JVM lifetime.  `HystrixRequestContext.initializeContext()` and `shutdown()` must be called in order for command construction to succeed.  Without that, the call to resolve `HystrixRequestLog.getCurrentRequest(concurrencyStrategy)` throws an exception.\n4) The custom `HystrixConcurrencyStrategy` is found when accessing it for the first time and cached for the JVM lifetime. The call to resolve `HystrixRequestLog.getCurrentRequest(concurrencyStrategy)` would throw an exception but it is never made, since the requestLog functionality is off.  The currentRequestLog is null.\n\nAfter your PR:\n1) Same as above\n2) Same as above\n3) Same as 1 above\n4) Same as 2 above\n\nIf I'm interpreting this correctly, this basically drops the distinction between custom and default concurrency strategies.  The only important bit is if the request context has been initialized.  If it has been, then objects that need request-scoped access (like `HystrixRequestLog`) work properly.  Otherwise, they are null.\n\nOn the compatibility side, I think this should never change the result of any method call that was already returning a value. It will now return a null instead of throwing an `IllegalStateException` in cases where the `HystrixRequestContext` is null for 2 cases:\n1) Computing `currentRequestLog` at command-construction time when `HystrixRequestContext` is null and custom concurrency strategy is used\n2) Static access to `HystrixRequestLog.getCurrentRequest()` when `HystrixRequestContext` is null\n\nThe 3 method calls that were throwing exceptions in #953 all return null instead with your change.  \n\nThe downside to this change is that the immediate feedback of the `IllegalStateException` is missing when using a custom concurrency strategy, request log is enabled, and the request context is missing.\n\nThis is also the upside, as it allows forward progress when request log is only enabled by default, and your custom concurrency strategy doesn't care about request context, and you've not initialized it.\n\nOn balance, this seems like a good change and a good opportunity to document all of the above.\n\nAnything I missed, @mwhipple / @amitcse / @ruhkopf / @benjchristensen ?\n",
+  "clean_message": "Thanks .  I'm going to try to summarize your changes, to make sure I understand what you've done and the implications.  Please correct anything I get wrong. There are 4 cases: 1) No concurrency strategy supplied, HystrixRequestLog or request caching are on (default) 2) No concurrency strategy supplied, no request functionality needed 3) Custom concurrency strategy supplied, HystrixRequestLog or request caching is on (default) 4) Custom concurrency strategy supplied, no request functionality supplied I've added unit tests in #953 that demonstrate the custom concurrency cases. In master without your PR, the situation is as follows: 1)  gets supplied on the first lookup to resolve .  If an initialized context is found, it is used for the request log.  If not, then the request log is null for the command. 2)  gets supplied on the first lookup to resolve .  The request log is unconditionally null for the command, since the request log is unwanted. 3) The custom  is found when accessing it for the first time and cached for the JVM lifetime.   and  must be called in order for command construction to succeed.  Without that, the call to resolve  throws an exception. 4) The custom  is found when accessing it for the first time and cached for the JVM lifetime. The call to resolve  would throw an exception but it is never made, since the requestLog functionality is off.  The currentRequestLog is null. After your PR: 1) Same as above 2) Same as above 3) Same as 1 above 4) Same as 2 above If I'm interpreting this correctly, this basically drops the distinction between custom and default concurrency strategies.  The only important bit is if the request context has been initialized.  If it has been, then objects that need request-scoped access (like ) work properly.  Otherwise, they are null. On the compatibility side, I think this should never change the result of any method call that was already returning a value. It will now return a null instead of throwing an  in cases where the  is null for 2 cases: 1) Computing  at command-construction time when  is null and custom concurrency strategy is used 2) Static access to  when  is null The 3 method calls that were throwing exceptions in #953 all return null instead with your change.   The downside to this change is that the immediate feedback of the  is missing when using a custom concurrency strategy, request log is enabled, and the request context is missing. This is also the upside, as it allows forward progress when request log is only enabled by default, and your custom concurrency strategy doesn't care about request context, and you've not initialized it. On balance, this seems like a good change and a good opportunity to document all of the above. Anything I missed,  /  /  /  ?",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/951#issuecomment-149571011",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f68b"
+  },
+  "raw_message": "The changes seem good to me. Good unit test coverage. \n\nPerhaps this should be canaried before release though to ensure both functionality and performance has not impacted existing high-throughput use cases since this changes the guts of a hot code path?\n",
+  "clean_message": "The changes seem good to me. Good unit test coverage.  Perhaps this should be canaried before release though to ensure both functionality and performance has not impacted existing high-throughput use cases since this changes the guts of a hot code path?",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/881#issuecomment-137175902",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a83f525a5101f2e821f6b0"
+  },
+  "raw_message": "Actually I did not. Now I did. The facts make sense in my particular context. Thanks for pointing me to that discussion!\n\n I actually tried to migrate some code from an HystrixCommand to an asynchronous callback like code. Therefore, as mentioned, the observable is already matched on a pool. \n",
+  "clean_message": "Actually I did not. Now I did. The facts make sense in my particular context. Thanks for pointing me to that discussion! I actually tried to migrate some code from an HystrixCommand to an asynchronous callback like code. Therefore, as mentioned, the observable is already matched on a pool. ",
+  "message_url": "https://github.com/Netflix/Hystrix/pull/844#issuecomment-127645646",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+}]

@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d62"
+  },
+  "raw_message": "Fixed via https://github.com/google/dagger/pull/2317/commits/fa38278321b1c0274866708ab91a2fc1fec3afb2. Thanks for your contribution! ",
+  "clean_message": "Fixed via . Thanks for your contribution! ",
+  "message_url": "https://github.com/google/dagger/pull/2036#issuecomment-767944913",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615d42"
+  },
+  "raw_message": "Thanks for making this, it looks good to me so I'll go ahead and patch it internally.",
+  "clean_message": "Thanks for making this, it looks good to me so I'll go ahead and patch it internally.",
+  "message_url": "https://github.com/google/dagger/pull/1741#issuecomment-588374235",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b62"
+  },
+  "raw_message": "Oops. Didn't merge yesterday's PR. Let me do that and try again.",
+  "clean_message": "Oops. Didn't merge yesterday's PR. Let me do that and try again.",
+  "message_url": "https://github.com/google/dagger/pull/1712#issuecomment-572609887",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bf2"
+  },
+  "raw_message": "Is there any feedback on this?",
+  "clean_message": "Is there any feedback on this?",
+  "message_url": "https://github.com/google/dagger/pull/1082#issuecomment-370881220",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615ce5"
+  },
+  "raw_message": "Thanks! I'll submit internally and a commit will reflect this when we sync later today!",
+  "clean_message": "Thanks! I'll submit internally and a commit will reflect this when we sync later today!",
+  "message_url": "https://github.com/google/dagger/pull/1049#issuecomment-361293757",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bac"
+  },
+  "raw_message": "I've edited the contact info.",
+  "clean_message": "I've edited the contact info.",
+  "message_url": "https://github.com/google/dagger/pull/858#issuecomment-325098444",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a8d"
+  },
+  "raw_message": "FYI I'm leaving for vacation on Wednesday. Back July 5. Sorry that I can't comment while I'm away.",
+  "clean_message": "FYI I'm leaving for vacation on Wednesday. Back July 5. Sorry that I can't comment while I'm away.",
+  "message_url": "https://github.com/google/dagger/pull/670#issuecomment-309567790",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615bba"
+  },
+  "raw_message": "I'm looking at this pr. I'll have some comments tomorrow. Sorry about the delay!",
+  "clean_message": "I'm looking at this pr. I'll have some comments tomorrow. Sorry about the delay!",
+  "message_url": "https://github.com/google/dagger/pull/670#issuecomment-295948257",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b65"
+  },
+  "raw_message": "Belated thanks for the review!\r\n\r\nI'm working on this now. Do you like updates squashed?",
+  "clean_message": "Belated thanks for the review! I'm working on this now. Do you like updates squashed?",
+  "message_url": "https://github.com/google/dagger/pull/606#issuecomment-288585775",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+}]

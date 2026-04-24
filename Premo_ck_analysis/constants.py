@@ -1,0 +1,6 @@
+BASE = "base"
+HEAD = "head"
+CLASS_MD = "Diff"
+METHOD_MD = "Methods_DIff_metrics"
+ADDED = "Added_By_PR"
+REMOVED = "Removed_by_PR"

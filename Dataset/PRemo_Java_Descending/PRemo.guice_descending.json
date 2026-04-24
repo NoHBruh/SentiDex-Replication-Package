@@ -1,0 +1,281 @@
+[{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a62"
+  },
+  "raw_message": "@mcculls I ended up tweaking your PR..  sending for review internally, will show up externally soon.  Thanks!",
+  "clean_message": "I ended up tweaking your PR..  sending for review internally, will show up externally soon.  Thanks!",
+  "message_url": "https://github.com/google/guice/pull/1448#issuecomment-772796674",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.3333333333333335,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "positive",
+    "SentiCR": "neutral",
+    "DEVA": "positive",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b07"
+  },
+  "raw_message": "I just tested out the \"user passes in their own `MethodHandle.lookups()`\" approach, and it solves the problem (when combined with your PR).\r\n\r\n@mcculls, do you want to take a stab at incorporating this properly?  I'd imagine an optional `withLookups(MethodHandles.Lookup)` method on FactoryModuleBuilder that passes the lookups to FactoryProvider2, down through the new `superMethodHandle` methods.  `superMethodHandle` would fallback to a Guice-constructed lookups if the user didn't supply one, and warn the user that they need to start supplying one if the factory type is non-public.\r\n\r\nWe'd also want to do something about the thread-safety issue (if indeed there is one) with the mutable static state.",
+  "clean_message": "I just tested out the \"user passes in their own \" approach, and it solves the problem (when combined with your PR). , do you want to take a stab at incorporating this properly?  I'd imagine an optional  method on FactoryModuleBuilder that passes the lookups to FactoryProvider2, down through the new  methods.   would fallback to a Guice-constructed lookups if the user didn't supply one, and warn the user that they need to start supplying one if the factory type is non-public. We'd also want to do something about the thread-safety issue (if indeed there is one) with the mutable static state.",
+  "message_url": "https://github.com/google/guice/pull/1448#issuecomment-772733105",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b20"
+  },
+  "raw_message": "Hi @mcculls -- extremely sorry for the delay in replying.  Life (and my actual job) got in the way.\r\n\r\nI still had some reservations about if this worked if the params or return types were package private, so I tested it out to see if my concerns had merit, and it turns out they do.  This [gist](https://gist.github.com/sameb/35226b7a375ab0c02e555efb49a66685) illustrates the problem.  I basically just copied FactoryProvider2Test.testGeneratedDefaultMethodsForwardCorrectly (and its associated classes) to a [subpackage \"subpkg\"](https://gist.github.com/sameb/d0344fae29a6e9695989fa8a37961528), and [commented out the fallback](https://gist.github.com/sameb/806cd0f634e423fb0e330aadeeedc9b8) to the java 8 (PRIVATE) behavior.  Note that if we don't move the test to another package, then nothing fails because the test is in the same package as the code trying to do the lookup, so everything is otherwise copacetic.\r\n\r\nThe test fails with the error message:\r\n```\r\n1) An exception was caught and reported. Message: Unable to access method: public default PackageTests$AbstractAssisted PackageTests$ConcreteAssistedWithOverride$Factory.create(CharSequence)\r\n  at PackageTests$2.configure(PackageTests.java:81)\r\n  [...]\r\nCaused by: IllegalAccessException: symbolic reference class is not accessible: interface PackageTests$ConcreteAssistedWithOverride$Factory, from PackageTests$ConcreteAssistedWithOverride$Factory/noaccess (unnamed module @175b9425)\r\n\tat java.base/MemberName.makeAccessException(MemberName.java:943)\r\n\tat java.base/MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:2054)\r\n\tat java.base/MethodHandles$Lookup.resolveOrFail(MethodHandles.java:2026)\r\n\tat java.base/MethodHandles$Lookup.findSpecial(MethodHandles.java:1395)\r\n\tat FactoryProvider2$SuperMethodLookup$2.superMethodHandle(FactoryProvider2.java:931)\r\n\tat FactoryProvider2$SuperMethodLookup$1.superMethodHandle(FactoryProvider2.java:920)\r\n\tat FactoryProvider2.superMethodHandle(FactoryProvider2.java:901)\r\n\t... 56 more\r\n```\r\n\r\nThe problem AFAICT is that neither UNREFLECT_SPECIAL nor FIND_SPECIAL will work when any of the params (or return type) isn't public, regardless of the method signature of the method itself (which as you say will always be public).\r\n\r\nAs-is the PR doesn't fail because it falls back to PRIVATE_LOOKUP using the reflection... but the fallback is global for the whole injector... so if some factory doesn't need it (b/c it only has public types) but a prior one did need it, then it will still use PRIVATE_LOOKUP.\r\n\r\nAs a whole, I don't really see the benefit in the complexity of the PR, since we're going to need PRIVATE_LOOKUP no matter what (since we need to support non-public types).  And worse: the PR adds some non-determinism in that the order of your factory installations will impact what kind of lookup it uses (b/c a prior one impacts a later one).\r\n\r\nIf there were a way to do this w/o the private lookup while also supporting non-public types, I'll happily merge it.  But as-is, it doesn't look like this does much to help?",
+  "clean_message": "Hi  -- extremely sorry for the delay in replying.  Life (and my actual job) got in the way. I still had some reservations about if this worked if the params or return types were package private, so I tested it out to see if my concerns had merit, and it turns out they do.  This gist illustrates the problem.  I basically just copied FactoryProvider2Test.testGeneratedDefaultMethodsForwardCorrectly (and its associated classes) to a subpackage \"subpkg\", and commented out the fallback to the java 8 (PRIVATE) behavior.  Note that if we don't move the test to another package, then nothing fails because the test is in the same package as the code trying to do the lookup, so everything is otherwise copacetic. The test fails with the error message: The problem AFAICT is that neither UNREFLECT_SPECIAL nor FIND_SPECIAL will work when any of the params (or return type) isn't public, regardless of the method signature of the method itself (which as you say will always be public). As-is the PR doesn't fail because it falls back to PRIVATE_LOOKUP using the reflection... but the fallback is global for the whole injector... so if some factory doesn't need it (b/c it only has public types) but a prior one did need it, then it will still use PRIVATE_LOOKUP. As a whole, I don't really see the benefit in the complexity of the PR, since we're going to need PRIVATE_LOOKUP no matter what (since we need to support non-public types).  And worse: the PR adds some non-determinism in that the order of your factory installations will impact what kind of lookup it uses (b/c a prior one impacts a later one). If there were a way to do this w/o the private lookup while also supporting non-public types, I'll happily merge it.  But as-is, it doesn't look like this does much to help?",
+  "message_url": "https://github.com/google/guice/pull/1448#issuecomment-772070023",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "negative"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a7f"
+  },
+  "raw_message": "@kevinb9n @mcculls @sameb Can you please give a short update when do you think the next Guice release will be cut? Are there any plans?",
+  "clean_message": "Can you please give a short update when do you think the next Guice release will be cut? Are there any plans?",
+  "message_url": "https://github.com/google/guice/pull/1359#issuecomment-676294238",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a4f"
+  },
+  "raw_message": "Thank you for this PR.  This is an interesting idea, but unfortunately I don't think the additional API is worthwhile to include. This is because of a few reasons:\r\n  * `requireExplicitBindings` is intended as a wholesale measure to prevent accidental JIT usage of _anything_.  OTOH`, `requireExplicitBindings(Class...)` would be a targeted measure, and can be sidestepped by not including that module that requires explicit bindings for that class, or by including a `bind(ThatClass.class)` statement, which defeats the initial goal of \"don't let people use the <this type>\".\r\n  *  Guice has since added a @RestrictedBindingSource annotation (see https://github.com/google/guice/wiki/RestrictedBindingSource), which feels like it's slightly better suited for your use-case of wanting to prevent people from using the \"wrong\" type. Unfortunately, @RestrictedBindingSource doesn't apply to your use-case, because it's intended as an annotation to prevent folks from _binding_ things, as opposed to preventing folks from _using_ things. It's also limited to restricted types you own, because the type or qualifier itself has to be annotated. However, I could imagine extending @RestrictedBindingSource to support some kind of Binder integration, like `binder.restrictBindingSource(RestrictionInfo, ClassOrAnnotation...)`, or something similar to that, which could potentially prevent usage + other bindings. This may not make sense, though, because folks could just bind the types by removing that module altogether.\r\n  * Overall, this feels like something that's better suited to a test: use the [Guice SPI](https://github.com/google/guice/wiki/ExtendingGuice) to iterate over what's injected and confirm that no \"bad\" types are used.",
+  "clean_message": "Thank you for this PR.  This is an interesting idea, but unfortunately I don't think the additional API is worthwhile to include. This is because of a few reasons:   *  is intended as a wholesale measure to prevent accidental JIT usage of anything.  OTOHrequireExplicitBindings(Class...)bind(ThatClass.class)binder.restrictBindingSource(RestrictionInfo, ClassOrAnnotation...)`, or something similar to that, which could potentially prevent usage + other bindings. This may not make sense, though, because folks could just bind the types by removing that module altogether.   * Overall, this feels like something that's better suited to a test: use the Guice SPI to iterate over what's injected and confirm that no \"bad\" types are used.",
+  "message_url": "https://github.com/google/guice/pull/1349#issuecomment-1513663903",
+  "part2_aggregate": {
+    "polarity": "undefined",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "undefined"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  },
+  "discussion_polarity": "neutral"
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615cd9"
+  },
+  "raw_message": "https://github.com/google/guice/commit/1a410a8bef1ec721e16f9f16a447235f09951f05 has done some work for type annotations. That may be sufficient for your needs (though I don't believe there's been a release yet).",
+  "clean_message": "has done some work for type annotations. That may be sufficient for your needs (though I don't believe there's been a release yet).",
+  "message_url": "https://github.com/google/guice/pull/1311#issuecomment-766957349",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "negative",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c7d"
+  },
+  "raw_message": "@frankgrimes97 See these comments here: https://github.com/google/guice/issues/1198#issuecomment-423221773 - Seems like we get an updated Guice very soon.",
+  "clean_message": "See these comments here:  - Seems like we get an updated Guice very soon.",
+  "message_url": "https://github.com/google/guice/pull/1203#issuecomment-425088685",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b58"
+  },
+  "raw_message": "An example is Lightbend's Lagom Framework: it is based on Play! Framework, which uses Guice. It is stuck on Java 8 until these problems are sorted out. They have recently decided to jump directly to 11 (citing Cassandra's team same decision).\r\n\r\nWork on Guice for JDK 10/11 seems ongoing here:\r\nhttps://github.com/google/guice/pull/1169\r\n\r\nRelevant discussions:\r\nhttps://github.com/playframework/playframework/issues/8454\r\nhttps://github.com/lagom/lagom/issues/1276\r\nhttps://github.com/lagom/lagom/issues/1417\r\n\r\nThanks to all the contributors for their work!",
+  "clean_message": "An example is Lightbend's Lagom Framework: it is based on Play! Framework, which uses Guice. It is stuck on Java 8 until these problems are sorted out. They have recently decided to jump directly to 11 (citing Cassandra's team same decision). Work on Guice for JDK 10/11 seems ongoing here: Relevant discussions: Thanks to all the contributors for their work!",
+  "message_url": "https://github.com/google/guice/pull/1195#issuecomment-402057062",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c37"
+  },
+  "raw_message": "hi. I see many other opensource projects using Guice. They are moving on java 10, so they are forced to delete Guice as dependency unless Guice move to java 10 too",
+  "clean_message": "hi. I see many other opensource projects using Guice. They are moving on java 10, so they are forced to delete Guice as dependency unless Guice move to java 10 too",
+  "message_url": "https://github.com/google/guice/pull/1195#issuecomment-401721959",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.333333333333333,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c85"
+  },
+  "raw_message": " I signed it",
+  "clean_message": "I signed it",
+  "message_url": "https://github.com/google/guice/pull/1195#issuecomment-401555629",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 4.666666666666667,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b91"
+  },
+  "raw_message": "It should have said `org.apache.ant:ant:1.10.3` but GitHub mangled it.",
+  "clean_message": "It should have said  but GitHub mangled it.",
+  "message_url": "https://github.com/google/guice/pull/1174#issuecomment-491358169",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "neuro_and_comp"
+  },
+  "tools": {
+    "SentiStrength": "neutral",
+    "SentiStrengthSE": "neutral",
+    "SentiCR": "neutral",
+    "DEVA": "neutral",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615a5b"
+  },
+  "raw_message": "Lol @pshirshov Same here, already completed a full JPMS xD\r\nMigrated the Microsoft SQL Server driver to JPMS, shit you not 40 minutes approved and merged.\r\n\r\nIt's like opposite world, since when does google not give a shit xD",
+  "clean_message": "Lol  Same here, already completed a full JPMS xD Migrated the Microsoft SQL Server driver to JPMS, shit you not 40 minutes approved and merged. It's like opposite world, since when does google not give a shit xD",
+  "message_url": "https://github.com/google/guice/pull/1130#issuecomment-487284410",
+  "part2_aggregate": {
+    "polarity": "negative",
+    "avg_confidence": 3.6666666666666665,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "negative",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615b5a"
+  },
+  "raw_message": "Speaking as a Governator owner, @dimo414 is correct in that this implementation does raise some larger questions. The behavior of this in combination with Modules.override for example is poorly defined. I'd definitely +1 for a solution to this issue, but this implementation by itself feels incomplete. ",
+  "clean_message": "Speaking as a Governator owner,  is correct in that this implementation does raise some larger questions. The behavior of this in combination with Modules.override for example is poorly defined. I'd definitely +1 for a solution to this issue, but this implementation by itself feels incomplete. ",
+  "message_url": "https://github.com/google/guice/pull/1127#issuecomment-330661104",
+  "part2_aggregate": {
+    "polarity": "neutral",
+    "avg_confidence": 2.6666666666666665,
+    "agreement_type": "comp_only"
+  },
+  "tools": {
+    "SentiStrength": "negative",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "neutral"
+  }
+},
+{
+  "_id": {
+    "$oid": "699eca2528bb2c0835615c83"
+  },
+  "raw_message": "Thank you! :smile: ",
+  "clean_message": "Thank you! :smile: ",
+  "message_url": "https://github.com/google/guice/pull/1108#issuecomment-632402252",
+  "part2_aggregate": {
+    "polarity": "positive",
+    "avg_confidence": 5,
+    "agreement_type": "all"
+  },
+  "tools": {
+    "SentiStrength": "positive",
+    "SentiStrengthSE": "negative",
+    "SentiCR": "neutral",
+    "DEVA": "negative",
+    "Senti4SD": "positive"
+  }
+}]
