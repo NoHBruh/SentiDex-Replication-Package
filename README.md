@@ -6,7 +6,7 @@ This package contains a script of automated extraction of CK metrics in Java pro
 
 ## Content
 
-- **CK** : folder containing an executable JAR snapshot of [Mauricio Aniche's CK tool](https://github.com/mauricioaniche/ck), used for metrics extraction in Java projects
+- **CK** : folder containing an executable JAR snapshot of [Mauricio Aniche's CK tool](https://github.com/mauricioaniche/ck), used for metrics extraction in Java projects. You just need to unzip the CK folder to the project root
 - **Dataset** : contains the different datasets used and produced
     - PRemo_Java_Descending : extracted pull requests per Java project from the [PRemo Dataset](https://github.com/opus-research/sentiment-replication/)
 - **PRemo_ck_analysis** : contains the main script and utils files of automated ck metrics extraction from projects pull requests using Github API
