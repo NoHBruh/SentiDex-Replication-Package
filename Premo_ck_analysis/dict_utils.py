@@ -12,7 +12,19 @@ date_reg = re.compile(r'On\s\d+\s\w+\s\d+\s\d+\:\d+')
 user_mention = re.compile(r'\@[\w\-?]+')
 regex = [md_hdr, user_mention, brackets_reg, ireg, url_reg, code_reg, md_quoting, html_reg]
 
-def comment_routine(pr : int) :
+def comment_routine(pr) :
+    """Routine function that calls the comment-related functions
+
+    Args:
+        pr (PullRequest): The current PullRequest object
+
+    Returns:
+        unsanitized_comments (list) : the original comments of the PR
+        cleaned_comments (list) : the sanitized comments of the PR 
+        valence (list[dict]) : list of the valence (Vader) for each comment of the PR 
+        
+        None if the current PR has no comments or if the api fails to fetch them
+    """
     cleaned_comments = []
     valence_list = []
     
@@ -29,7 +41,17 @@ def comment_routine(pr : int) :
     return  unsanitized_comments, cleaned_comments, valence_list
 
 def sanitize_text(text : str) :
+    """sanitizes the text
+
+    Args:
+        text (str): a PR comment, that is
+
+    Returns:
+        cleaned_text (str) : the sanitized comment
     
+    Note
+        Regex are iterated over to find patterns to remove inside the text (markdown quotes, code blocks,...), to minimize bias during sentiment analysis
+    """
     #iterate through regex patterns
     for reg in regex :
         if reg == user_mention :
@@ -53,12 +75,20 @@ def sanitize_text(text : str) :
     return text
 
 
-def extract_comments(issue_or_PR ) :
+def extract_comments(PR ) :
+    """Gets comments from the PR
+
+    Args:
+        issue_or_PR (PullRequest): the current PullRequest object
+
+    Returns:
+        list of original and cleaned comments
+    """
     comments = []
     unsanitized_comments = []
-    all_comments = issue_or_PR.get_comments()
+    all_comments = PR.get_comments()
     if all_comments.totalCount < 1 :
-        all_comments = issue_or_PR.get_issue_comments()
+        all_comments = PR.get_issue_comments()
     
     
     if all_comments.totalCount > 0 :
@@ -72,6 +102,17 @@ def extract_comments(issue_or_PR ) :
 
 
 def get_PR_metadata( repo , pr, data_dict : dict, modified_class_files : int) :
+    """Gets metadata about the repository and current pull request
+
+    Args:
+        repo : the project name (owner/name)
+        pr (PullRequest): the current PullRequest object
+        data_dict (dict): the dictionnary containing the data about the current PR
+        modified_class_files (list) : list of the modified classes by the PR
+
+    Returns:
+        data_dict : the updated data dictionnary of the current PR
+    """
     meta_dict = {}
     meta_dict["org"] =  repo.owner.login
     meta_dict["project_name"] = repo.name

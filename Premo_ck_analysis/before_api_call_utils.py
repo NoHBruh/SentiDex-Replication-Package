@@ -3,9 +3,21 @@ import json
 import os
 int_pattern = re.compile(r'\d+')
 java_method_declaration = re.compile(r'(?:(?:public|private|protected|static|final|native|synchronized|abstract|transient)+\s+)+[$_\w<>\[\]\s]*')
-    #r'(?:(?:public|private|protected|static|final|native|synchronized|abstract|transient)+\s+)+[$_\w<>\[\]\s]*\s+[\$_\w]+')
+    
 
 def get_class_files(modified_files : list) :
+    """Gets the name of modified class files from all the modified files by a PR
+
+    Args:
+        modified_files (list): list of modified files by the PR
+
+    Returns:
+        a list of the name of modified class files by the PR, None otherwise
+        
+    
+    Note:
+        the "/" and ".java" are replace/removed in the class names to later match their names in the CK analysis
+    """
     modified_files_names = []
     for file in modified_files :
         filename = file.filename
@@ -23,6 +35,14 @@ def get_class_files(modified_files : list) :
         return None
     
 def get_file_paths(directory) :
+    """Gets the paths to the PRemo java datasets
+
+    Args:
+        directory (dir/str): directory name containing the datasets 
+
+    Returns:
+        file_paths (list): lists of paths to the PRemo java datasets
+    """
     file_paths = []
     
     for file in os.listdir(directory) :
@@ -34,6 +54,19 @@ def get_file_paths(directory) :
     return file_paths
 
 def get_pr_numbers(json_file) :
+    """Gets the PR numbers from the PRemo Java datasets
+
+    Args:
+        json_file (str): path to a json dataset file
+
+    Returns:
+        repo_name (str) : name of the project the PR are extracted from
+        pr_nb_list (list) : list of the PR extracted from the json dataset
+        
+    Notes :
+        the project name and the PR numbers are extracted from the "message_url" key in the dataset.
+        pr_nb_list returns a set, as some messages are from the same PR
+    """
     repo_name = ""
     pr_nb_list = []
     with open (json_file, 'r+' ,encoding="utf8") as f :
@@ -72,9 +105,6 @@ def get_methods_name_from_patch(modified_classes : list, modified_files) :
             
             if file_patch != None : #if can't get patch from api, it is removed from diff
             
-                #filename = str(filename).replace('/', '.')
-                #filename = str(filename).replace('.java', '')
-
                 class_name = sanitized_file_name
                 class_methods = re.findall(java_method_declaration, file_patch)
 
