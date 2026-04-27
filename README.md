@@ -19,7 +19,7 @@ This package contains a script of automated extraction of CK metrics in Java pro
     ### Libraries
     - [Pygithub](https://pygithub.readthedocs.io/en/stable/) : to facilitate API calls
     - [Pymongo](https://www.mongodb.com/docs/languages/python/pymongo-driver/current/) : Mongo client in Python, used to instantiate and insert results inside a database
-    - [vaderSentiment](https://vadersentiment.readthedocs.io/en/latest/pages/installation.html) : library for sentiments analysis. used on PR converesation comments
+    - [vaderSentiment](https://vadersentiment.readthedocs.io/en/latest/pages/installation.html) : library for sentiments analysis. used on PR conversation comments
 
     To install all the needed dependencies, start by cloning the repository, then set up a virtual environnement, activate it and launch at the repo's root the following command : ```pip install -r requirements.txt```
 
