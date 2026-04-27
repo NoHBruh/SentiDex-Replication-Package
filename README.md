@@ -14,7 +14,7 @@ This package contains a script of automated extraction of CK metrics in Java pro
 - [**Python**](https://www.python.org/) : 3.10+
 - [**MongoDB**](https://www.mongodb.com/try/download/community) (optionnal but recommended : [**Mongo Compass**](https://www.mongodb.com/products/tools/compass))
 - Github API token :
-        To create a token (if you don't already have one), go to your Github account settings, then ``Developper Seetings > Personal acces tokens > Fine-grained tokens`` then create a token. Save it somewhere, as you will not see its value again otherwise. 
+        To create a token (if you don't already have one), go to your Github account settings, then ``Developper Settings > Personal acces tokens > Fine-grained tokens`` then create a token. Save it somewhere, as you will not see its value again otherwise. 
 
     ### Libraries
     - [Pygithub](https://pygithub.readthedocs.io/en/stable/) : to facilitate API calls
