@@ -8,7 +8,7 @@ Contains the script and utils files
  
 - **constants\.py** : contains constants values
 
-- **dict_utils\.py** : contains utils functions to metadata extraction and comments sanitization
+- **dict_utils\.py** : contains utils functions for metadata extraction and comments sanitization
 - **folder_utils\.py** : contains utils functions related to folders creation and folder paths
 - **info\.py** : the file wherein you should paste you Github API token (the file is inside the .gitignore). create it and add the following line ``access_token = "replace_with_your_token_value"``
 - **json_utils\.py** : contains utils functions related to json file manipulation
