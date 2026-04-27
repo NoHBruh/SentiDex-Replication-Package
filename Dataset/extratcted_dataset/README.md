@@ -87,6 +87,6 @@ The Diff structure is very similar to Base and Head, except more fields are adde
 ### Valences Array content
 
 Valences contains Objects giving the positive, negative and neutral value of a Pull Request comment, with the associated compound value returned by the `sentiment_score` method of the ` SentimentIntensityAnalyzer` class from `vaderSentiment` Python library. The `Sentiment` value is given based on compound value (ranging from -1 to 1) :
-- `Positive` if `compound` > 0.5
-- `Neutral` if `compound` < -0.5
+- `Positive` if `compound` >= 0.5
+- `Negative` if `compound` <= -0.5
 - `Neutral` otherwise
