@@ -2,7 +2,7 @@
 Replication Package of the SentiDex Master's thesis
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-This package contains a script of automated extraction of CK metrics in Java projects using GitHub API. A sentiment analysis
+This package contains a script of automated extraction of CK metrics in Java projects Pull Requests using GitHub API. A sentiment analysis is conducted on the conversation comments of the Pull Requests. The latter are retrieved from the [PRemo Dataset](https://github.com/opus-research/sentiment-replication/) by parsing the Pull Request numbers from the message link URLs.
 ## Content
 
 - **CK** : folder containing an executable JAR snapshot of [Mauricio Aniche's CK tool](https://github.com/mauricioaniche/ck), used for metrics extraction in Java projects. You just need to unzip the CK folder to the project root
