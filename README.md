@@ -11,6 +11,8 @@ This package contains a script of automated extraction of CK metrics in Java pro
     - PRemo_Java_Descending : extracted pull requests per Java project from the [PRemo Dataset](https://github.com/opus-research/sentiment-replication/)
 - **PRemo_ck_analysis** : contains the main script and utils files of automated ck metrics extraction from projects pull requests using Github API
 
+- **Stats_analysis** : contains files for statistical analysis and sub-datasets created to do so
+
 ## Requirements
 - [**Python**](https://www.python.org/) : 3.10+
 - [**MongoDB**](https://www.mongodb.com/try/download/community) (optionnal but recommended : [**Mongo Compass**](https://www.mongodb.com/products/tools/compass))
