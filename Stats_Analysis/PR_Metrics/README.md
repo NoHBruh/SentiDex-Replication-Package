@@ -4,8 +4,8 @@ Contains the (sub-)datasets used for the statistical analysis
 
 ## Files
 
-`extracted_dataset` : the sub-dataset (in csv and Json format) created to answer the first 2 research questions
-`Spring-boot_with_authors` : contains the data extracted from the PR of the Spring-boot project, with the additions of the username of the aothor of the PR and of each comment
+`extracted_dataset.csv` : the sub-dataset (in csv format) created to answer the first 2 research questions
+`Spring-boot_with_authors.json` : contains the data extracted from the PR of the Spring-boot project, with the additions of the username of the aothor of the PR and of each comment
 
 ## Keys of the extracted dataset
 
@@ -14,6 +14,7 @@ Contains the (sub-)datasets used for the statistical analysis
 | `Polarity_median` | `int` | Median value of polarities of the messages of PR discussion threads                     |
 | `Polarity_mean` | `int` |   Mean value of polarities of the messages of PR discussion threads |
 | `Polarity_mode` | `int` | Mode value of polarities of the messages of PR discussion threads                                    |
+| `Polarity_stdev` | `int` | Standard deviation value of polarities of the messages of PR discussion threads                                    |
 | `PR_nb_comments` | `int` | Number of comments in PR discussion threads                                                                                                                           |
 | `PR_state` | `int` | State of PR (merged : 1, open : 0, closed : -1)                          |
 | `lines_added` | `int` | Number of lines added by PR                |
