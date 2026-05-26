@@ -25,8 +25,6 @@ def get_contributor_maintainers(path : str) :
                maintainers_list.append(com_author) 
                
                
-            
-    
     return contributors_list, maintainers_list, data
 
 def message_valence_per_contributor(table_dict, data) :
@@ -57,9 +55,7 @@ if __name__ == "__main__" :
             table_dict[contributor][maintainer]['Neutral'] = 0
             
     table_dict = message_valence_per_contributor(table_dict=table_dict, data=data)
-    #pprint(table_dict)
-    
-    
+      
     matrix = []
     for i in (contributors_list) :
         row = []
@@ -143,6 +139,15 @@ if __name__ == "__main__" :
     #plt.show()
     
     
+    #--------------------------------------------------------------------------------------
+    
+    
+    bleu   = "#5f6fe0"
+    rouge  = "#e77657"
+    vert   = "#1abc9c"
+
+    
+    
     maintainers_tuple_list = list(zip(*matrix))
     
     
@@ -161,22 +166,22 @@ if __name__ == "__main__" :
     row_grouped = list(zip(matrix))
 
     
-    # ✅ somme des interactions par contributeur
+    # somme des interactions par contributeur
     result_contrib = [
         tuple(map(sum, zip(*row)))
         for row in matrix
     ]
 
-    # ✅ total global par contributeur
+    # total global par contributeur
     contrib_total = [sum(t) for t in result_contrib]
 
-    # ✅ indices top 20
+    # indices top 20
     contrib_indices = np.argsort(contrib_total)[-20:]
 
-    # ✅ sélection des contributeurs
+    # sélection des contributeurs
     contrib_top = [contributors_list[i] for i in contrib_indices]
 
-    # ✅ extraire pos / neg / neu
+    # extraire pos / neg / neu
     pos_top = [result_contrib[i][0] for i in contrib_indices]
     neg_top = [result_contrib[i][1] for i in contrib_indices]
     neu_top = [result_contrib[i][2] for i in contrib_indices]
@@ -185,29 +190,123 @@ if __name__ == "__main__" :
     fig = go.Figure()
 
     fig.add_trace(go.Bar(
+        y=contributors_list,
+        x=pos_list,
+        name='Positifs',
+        orientation='h',
+        marker=dict(color=vert)
+    ))
+
+    fig.add_trace(go.Bar(
+        y=contributors_list,
+        x=neg_list,
+        name='Négatifs',
+        orientation='h',
+        marker=dict(color=rouge)
+    ))
+
+    fig.add_trace(go.Bar(
+        y=contributors_list,
+        x=neu_list,
+        name='Neutres',
+        orientation='h',
+        marker=dict(color=bleu)
+    ))
+
+    fig.update_layout(
+        barmode='stack',
+        height=80 * len(contrib_top),
+        width = 1200,
+        title="Distribution des messages reçus par les contributeurs",
+        
+        xaxis_title="Nombre de messages reçus",
+        yaxis_title="Contributeurs",
+ 
+        yaxis=dict(
+            tickmode='linear'  
+        )
+    )
+
+    fig.show()
+    
+    vals1 = [t[0] for t in result]
+    vals2 = [t[1] for t in result]
+    vals3 = [t[2] for t in result]
+    
+    fig = go.Figure()
+
+    fig.add_trace(go.Bar(
+        y=maintainers_list,
+        x=vals1,
+        name='Positifs',
+        orientation='h',
+        marker=dict(color=vert)
+    ))
+
+    fig.add_trace(go.Bar(
+        y=maintainers_list,
+        x=vals2,
+        name='Négatifs',
+        orientation='h',
+        marker=dict(color=rouge)
+    ))
+
+    fig.add_trace(go.Bar(
+        y=maintainers_list,
+        x=vals3,
+        name='Neutres',
+        orientation='h',
+        marker=dict(color=bleu)
+    ))
+
+    fig.update_layout(
+        barmode='stack',
+        height=90 * len(contrib_top),
+        width = 1200,
+        title="Distribution des messages envoyés par les mainteneurs",
+        
+        xaxis_title="Nombre de messages envoyés",
+        yaxis_title="Mainteneurs",
+ 
+        yaxis=dict(
+            tickmode='linear'  
+        )
+    )
+
+    fig.show()
+    
+    
+    
+    fig = go.Figure()
+
+    fig.add_trace(go.Bar(
         y=contrib_top,
         x=pos_top,
         name='Positifs',
-        orientation='h'
+        orientation='h',
+        marker=dict(color=vert)
     ))
 
     fig.add_trace(go.Bar(
         y=contrib_top,
         x=neg_top,
         name='Négatifs',
-        orientation='h'
+        orientation='h',
+        marker=dict(color=rouge)
     ))
 
     fig.add_trace(go.Bar(
         y=contrib_top,
         x=neu_top,
         name='Neutres',
-        orientation='h'
+        orientation='h',
+        marker=dict(color=bleu)
     ))
 
     fig.update_layout(
         barmode='stack',
-        height=40 * len(contrib_top),
+        height=30 * len(contrib_top),
+        width = 1200,
         title="Distribution des messages reçus par les contributeurs (Top 20)",
         
         xaxis_title="Nombre de messages reçus",
@@ -233,26 +332,30 @@ if __name__ == "__main__" :
         y=names_top,
         x=vals1,
         name='Positifs',
-        orientation='h'
+        orientation='h',
+        marker=dict(color = vert)
     ))
 
     fig.add_trace(go.Bar(
         y=names_top,
         x=vals2,
         name='Négatifs',
-        orientation='h'
+        orientation='h',
+        marker=dict(color=rouge)
     ))
 
     fig.add_trace(go.Bar(
         y=names_top,
         x=vals3,
         name='Neutres',
-        orientation='h'
+        orientation='h',
+        marker=dict(color=bleu)
     ))
 
     fig.update_layout(
         barmode='stack',
-        height=40 * len(names_top),  
+        height=30 * len(names_top),
+        width = 1200,  
         title="Distribution des messages envoyés par les mainteneurs (Top 20)",
         
         xaxis_title="Nombre de messages envoyés",
