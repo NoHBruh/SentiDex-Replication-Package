@@ -1,0 +1,5663 @@
+[{
+  "_id": "google/guice_PR_1108",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 123688752,
+    "PR_number": 1108,
+    "PR_url": "https://github.com/google/guice/pull/1108",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 25,
+    "PR_deletions": 0,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2017-06-02T10:33:54+00:00",
+    "Base_SHA": "e7bef34ef6379735e2a58df1b23f351bb7e30e44",
+    "Head_SHA": "f72e6ebd04f485c0df75bde9cc3a3c65f823579d",
+    "PR_nb_comments": 11
+  },
+  "base": {
+    "com-google-inject-KeyTest": {
+      "cboModified": 28,
+      "wmc": 26,
+      "lcom*": 0.94736844,
+      "totalMethodsQty": 19,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 16,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 17,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 239
+    },
+    "com-google-inject-Key": {
+      "cboModified": 283,
+      "wmc": 42,
+      "lcom*": 0.7,
+      "totalMethodsQty": 35,
+      "staticMethodsQty": 14,
+      "publicMethodsQty": 20,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 3,
+      "defaultMethodsQty": 7,
+      "visibleMethodsQty": 30,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 6,
+      "synchronizedMethodsQty": 0,
+      "loc": 237,
+      "withoutAttributes": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "head": {
+    "com-google-inject-KeyTest": {
+      "cboModified": 28,
+      "wmc": 27,
+      "lcom*": 0.95,
+      "totalMethodsQty": 20,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 17,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 18,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 245,
+      "testWithAnnotation": {
+        "loc": 6,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-Key": {
+      "cboModified": 283,
+      "wmc": 44,
+      "lcom*": 0.7027027,
+      "totalMethodsQty": 37,
+      "staticMethodsQty": 14,
+      "publicMethodsQty": 22,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 3,
+      "defaultMethodsQty": 7,
+      "visibleMethodsQty": 32,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 6,
+      "synchronizedMethodsQty": 0,
+      "loc": 243,
+      "withoutAttributes": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "withAnnotation": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    }
+  },
+  "Diff": {
+    "com-google-inject-KeyTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 1,
+      "lcom*": 0.0026315599999999773,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "testWithAnnotation": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 6,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-Key": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 2,
+      "lcom*": 0.002702700000000058,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "withoutAttributes": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "withAnnotation": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    }
+  },
+  "original_comments": [
+    "Don't really think this is necessary. Trivial to do already:\r\n   `Key.get(key.getTypeLiteral(), annotation)`",
+    "It was to provide the opposite of `Key#ofType` which makes sense to have as it deals with the `AnnotationStrategy` itself.\r\n\r\nThere's not a huge difference with changing the annotation, one just involves less duplication:\r\n`key.withAnnotation(annotation)`\r\n`Key.get(key.getTypeLiteral(), annotation)`\r\n\r\nIf you don't think this is necessary, that's fine - feel free to close.",
+    "ofType is slightly more necessary, as construction a new variant with a different type requires some branching (to deal with annotation instances vs annotation types).",
+    "Personally, the discoverability here is at least a bit of a selling point. More than once I've looked for an `ofType()` sibling for annotations in `Key` and realized I need to instead use the factory method.",
+    "if you think it's worth it extra methods, feel free to merge in.  ",
+    "Any chance of this being pulled soon, @dimo414?",
+    "Any chance of getting this in soon? :smiley_cat: ",
+    "Is there a chance of this getting in soon?",
+    "I'll take a swing at it over the long weekend :)",
+    "Thank you! :smile: ",
+    "Thanks for the contribution, and your patience :)"
+  ],
+  "cleaned_comments": [
+    "Don't really think this is necessary. Trivial to do already:\r   Key.get(key.getTypeLiteral(), annotation)",
+    "It was to provide the opposite of Key#ofType which makes sense to have as it deals with the AnnotationStrategy itself.\r\rThere's not a huge difference with changing the annotation, one just involves less duplication:\rkey.withAnnotation(annotation)\rKey.get(key.getTypeLiteral(), annotation)\r\rIf you don't think this is necessary, that's fine - feel free to close.",
+    "ofType is slightly more necessary, as construction a new variant with a different type requires some branching (to deal with annotation instances vs annotation types).",
+    "Personally, the discoverability here is at least a bit of a selling point. More than once I've looked for an ofType() sibling for annotations in Key and realized I need to instead use the factory method.",
+    "if you think it's worth it extra methods, feel free to merge in.  ",
+    "Any chance of this being pulled soon, @User",
+    "Any chance of getting this in soon? :smiley_cat: ",
+    "Is there a chance of this getting in soon?",
+    "I'll take a swing at it over the long weekend :)",
+    "Thank you! :smile: ",
+    "Thanks for the contribution, and your patience :)"
+  ],
+  "valences": [
+    {
+      "neg": 0.091,
+      "neu": 0.909,
+      "pos": 0,
+      "compound": -0.0258,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.036,
+      "neu": 0.872,
+      "pos": 0.093,
+      "compound": 0.4833,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.679,
+      "pos": 0.321,
+      "compound": 0.6369,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.778,
+      "pos": 0.222,
+      "compound": 0.25,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.778,
+      "pos": 0.222,
+      "compound": 0.25,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.8,
+      "pos": 0.2,
+      "compound": 0.25,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.769,
+      "pos": 0.231,
+      "compound": 0.4588,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.159,
+      "pos": 0.841,
+      "compound": 0.6476,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.504,
+      "pos": 0.496,
+      "compound": 0.7096,
+      "Sentiment": "Positive"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1127",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 141844239,
+    "PR_number": 1127,
+    "PR_url": "https://github.com/google/guice/pull/1127",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 64,
+    "PR_deletions": 0,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2017-09-19T13:09:00+00:00",
+    "Base_SHA": "e7bef34ef6379735e2a58df1b23f351bb7e30e44",
+    "Head_SHA": "1a5f85fc27e35e66b0a41750f4badb1774251ad1",
+    "PR_nb_comments": 6
+  },
+  "base": {},
+  "head": {
+    "com-google-inject-SingletonModule": {
+      "cboModified": 3,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 14,
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 3,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-SingletonModuleTest": {
+      "cboModified": 7,
+      "wmc": 3,
+      "lcom*": 0,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 24,
+      "testInstallBaseModuleOnlyOnce": {
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testInstallAbstractModuleMoreThanOnce": {
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "setUp": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "Diff": {
+    "com-google-inject-SingletonModule": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 3,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 14,
+      "hashCode": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 3,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-SingletonModuleTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 7,
+      "wmc": 3,
+      "lcom*": 0,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 24,
+      "testInstallBaseModuleOnlyOnce": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testInstallAbstractModuleMoreThanOnce": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "setUp": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "original_comments": [
+    "Thanks for your pull request.  It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\n:memo: **Please visit <https://cla.developers.google.com/> to sign.**\n\nOnce you've signed, please reply here (e.g. `I signed it!`) and we'll verify.  Thanks.\n\n---\n\n- If you've already signed a CLA, it's possible we don't have your GitHub username or you're using a different email address.  Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n- If your company signed a CLA, they designated a Point of Contact who decides which employees are authorized to participate. You may need to contact the Point of Contact for your company and ask to be added to the group of authorized contributors. If you don't know who your Point of Contact is, direct the project maintainer to go/cla#troubleshoot.\n- In order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again.\n\n<!-- need_sender_cla -->",
+    "I signed it!\n\nOn Tue, Sep 19, 2017 at 9:09 AM, googlebot <notifications@github.com> wrote:\n\n> Thanks for your pull request. It looks like this may be your first\n> contribution to a Google open source project. Before we can look at your\n> pull request, you'll need to sign a Contributor License Agreement (CLA).\n>\n> 📝 *Please visit https://cla.developers.google.com/\n> <https://cla.developers.google.com/> to sign.*\n>\n> Once you've signed, please reply here (e.g. I signed it!) and we'll\n> verify. Thanks.\n> ------------------------------\n>\n>    - If you've already signed a CLA, it's possible we don't have your\n>    GitHub username or you're using a different email address. Check your\n>    existing CLA data <https://cla.developers.google.com/clas> and verify\n>    that your email is set on your git commits\n>    <https://help.github.com/articles/setting-your-email-in-git/>.\n>    - If your company signed a CLA, they designated a Point of Contact who\n>    decides which employees are authorized to participate. You may need to\n>    contact the Point of Contact for your company and ask to be added to the\n>    group of authorized contributors. If you don't know who your Point of\n>    Contact is, direct the project maintainer to go/cla#troubleshoot.\n>    - In order to pass this check, please resolve this problem and have\n>    the pull request author add another comment and the bot will run again.\n>\n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/google/guice/pull/1127#issuecomment-330533534>, or mute\n> the thread\n> <https://github.com/notifications/unsubscribe-auth/AAa04QQtrBr8PCh3WDIU0f0S3dEifBevks5sj70HgaJpZM4PcXbQ>\n> .\n>\n",
+    "CLAs look good, thanks!\n\n<!-- ok -->",
+    "@mveitas thanks for the contribution! We actually have an internal class that does the same thing as your proposed module, though we've hesitated to open-source it since it takes advantage of (presently) undocumented behavior.\r\n\r\nI would suggest filing a bug asking to add such a class to Guice, then we can evaluate whether that makes sense. The change itself is small, but choosing to make this implementation detail part of the contract is a bigger question.",
+    "It's worth noting that a version of this class exists in quite a few projects that use Guice.\r\nA couple examples:\r\n- Governator: [here](https://github.com/Netflix/governator/blob/master/governator-core/src/main/java/com/netflix/governator/SingletonModule.java) and [here](https://github.com/Netflix/governator/blob/master/governator-legacy/src/main/java/com/netflix/governator/guice/SingletonModule.java)\r\n- [guice-dedupe](https://github.com/fzakaria/guide-dedupe/blob/master/src/main/java/com/github/fzakaria/guice/dedupe/SingletonModule.java) (http://blog.fzakaria.com/2016/12/11/large-scale-guice-projects-module-deduplication/)",
+    "Speaking as a Governator owner, @dimo414 is correct in that this implementation does raise some larger questions. The behavior of this in combination with Modules.override for example is poorly defined. I'd definitely +1 for a solution to this issue, but this implementation by itself feels incomplete. "
+  ],
+  "cleaned_comments": [
+    "Thanks for your pull request.  It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).:memo: **Please visit < to sign.**Once you've signed, please reply here (e.g. I signed it!) and we'll verify.  Thanks.---- If you've already signed a CLA, it's possible we don't have your GitHub username or you're using a different email address.  Check - If your company signed a CLA, they designated a Point of Contact who decides which employees are authorized to participate. You may need to contact the Point of Contact for your company and ask to be added to the group of authorized contributors. If you don't know who your Point of Contact is, direct the project maintainer to go/cla#troubleshoot.- In order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again.<!-- need_sender_cla -->",
+    "I signed it!On Tue, Sep 19, 2017 at 9:09 AM, googlebot <notifications@User.com>>>>>",
+    "CLAs look good, thanks!<!-- ok -->",
+    "@User thanks for the contribution! We actually have an internal class that does the same thing as your proposed module, though we've hesitated to open-source it since it takes advantage of (presently) undocumented behavior.\r\rI would suggest filing a bug asking to add such a class to Guice, then we can evaluate whether that makes sense. The change itself is small, but choosing to make this implementation detail part of the contract is a bigger question.",
+    "It's worth noting that a version of this class exists in quite a few projects that use Guice.\rA couple examples:\r- Governator:  ",
+    "Speaking as a Governator owner, @User is correct in that this implementation does raise some larger questions. The behavior of this in combination with Modules.override for example is poorly defined. I'd definitely +1 for a solution to this issue, but this implementation by itself feels incomplete. "
+  ],
+  "valences": [
+    {
+      "neg": 0.015,
+      "neu": 0.865,
+      "pos": 0.12,
+      "compound": 0.9508,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.259,
+      "pos": 0.741,
+      "compound": 0.8217,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.021,
+      "neu": 0.931,
+      "pos": 0.048,
+      "compound": 0.2714,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.921,
+      "pos": 0.079,
+      "compound": 0.2263,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.926,
+      "pos": 0.074,
+      "compound": 0.3612,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1130",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 142389452,
+    "PR_number": 1130,
+    "PR_url": "https://github.com/google/guice/pull/1130",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 62,
+    "PR_deletions": 9,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2017-09-21T16:28:49+00:00",
+    "Base_SHA": "e7bef34ef6379735e2a58df1b23f351bb7e30e44",
+    "Head_SHA": "7dc8ef48697b3847e6e71cab116b25096854b223",
+    "PR_nb_comments": 13
+  },
+  "base": {
+    "com-google-inject-internal-InjectorImpl": {
+      "cboModified": 118,
+      "wmc": 126,
+      "lcom*": 0.92198586,
+      "totalMethodsQty": 47,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 19,
+      "privateMethodsQty": 15,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 13,
+      "visibleMethodsQty": 32,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 608,
+      "createJustInTimeBinding": {
+        "loc": 38,
+        "cboModified": 24,
+        "wmc": 12,
+        "parametersQty": 4
+      },
+      "toString": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "createJustInTimeBindingRecursive": {
+        "loc": 21,
+        "cboModified": 14,
+        "wmc": 8,
+        "parametersQty": 4
+      }
+    }
+  },
+  "head": {
+    "com-google-inject-internal-InjectorImpl": {
+      "cboModified": 120,
+      "wmc": 129,
+      "lcom*": 0.92198586,
+      "totalMethodsQty": 47,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 19,
+      "privateMethodsQty": 15,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 13,
+      "visibleMethodsQty": 32,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 632,
+      "createJustInTimeBindingRecursive": {
+        "loc": 21,
+        "cboModified": 14,
+        "wmc": 8,
+        "parametersQty": 4
+      },
+      "createJustInTimeBinding": {
+        "loc": 46,
+        "cboModified": 31,
+        "wmc": 15,
+        "parametersQty": 4
+      },
+      "toString": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-spi-CustomJitProvider": {
+      "cboModified": 8,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4
+    }
+  },
+  "Diff": {
+    "com-google-inject-internal-InjectorImpl": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 2,
+      "wmc": 3,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 24,
+      "createJustInTimeBinding": {
+        "loc": 8,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 7,
+        "wmc": 3,
+        "parametersQty": 0
+      },
+      "toString": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "createJustInTimeBindingRecursive": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-spi-CustomJitProvider": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 8,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4
+    }
+  },
+  "original_comments": [
+    "We found a Contributor License Agreement for you (the sender of this pull request), but were unable to find agreements for the commit author(s).  If you authored these, maybe you used a different email address in the git commits than was used to sign the CLA ([login here](https://cla.developers.google.com/) to double check)?  If these were authored by someone else, then they will need to sign a CLA as well, and confirm that they're okay with these being contributed to Google.\nIn order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again.\n\n<!-- need_author_cla -->",
+    "CLAs look good, thanks!\n\n<!-- ok -->",
+    "Eh, guys. I've already wrote [my very own DI framework](/7mind/izumi) which outperforms Guice in almost any aspect but you didn't even consider accepting this branch yet. :/",
+    "Lol @pshirshov Same here, already completed a full JPMS xD\r\nMigrated the Microsoft SQL Server driver to JPMS, shit you not 40 minutes approved and merged.\r\n\r\nIt's like opposite world, since when does google not give a shit xD",
+    "@pshirshov if possible, could you please try create a pull request on https://github.com/GedMarc/guice/tree/master ?\r\nThis  is fully up to date and JPMS 100% \r\n\r\nIt's maven location is https://search.maven.org/artifact/com.jwebmp.inject/guice/0.67.0.4/jar\r\n\r\n:)",
+    "Thank you for the contribution, and sorry that you had to wait this unacceptably long time for a reply. The PR as proposed is not something we'd want to add to the Guice API, as it makes provisioning somewhat non-deterministic (based on the order it encounters a \"custom provider\", which isn't defined).\r\n\r\nEven with a better API, I don't think we'd want to support such custom JIT provisioning, though I could possibly be convinced.",
+    "Guice itself is completely non-deterministic and so badly designed that it can't be fixed. So this P/R won't make it worse.\r\n\r\nThough I don't care anymore, I've created a lot better and sound DI framework: https://izumi.7mind.io/distage/index.html",
+    "Lol @pshirshov \r\nHow to know you're a second grade developer, you rip off the DI running the entire of Google thinking a CDI or some other one is better...\r\n\r\nTry not to rip off people's tools, you may actually be in the wrong.....\r\nA thank you for the notice and hard work might have been more appreciative ",
+    "😉",
+    "@all - please remember to be kind to each other. It's OK to have opinions on projects and/or disagree with them, but it's not OK to insult or attack individuals.",
+    "@sameb : well, if you are still replying here, could you please tell me  how do you imagine me convincing someone? Should I spend six more years to convince then six more years to get the \"proper\" patch accepted? :smile: ",
+    "@pshirshov, there's nothing I can say to remove the frustration of years of radio silence.\r\n\r\nGuice, by and large, is a stable and \"finished\" project. It's a backbone of millions (if not billions) of QPS within Google, and does its job well enough. As a result, there's little priority given to its evolution. Changes (when they do happen) tend to be in the form of \"add handcuffs\", as opposed to \"enable more\", because we've found its flexibility is also its greatest poison.\r\n\r\nAs to why I've suddenly shown up after years of silence... in light of [@crazybob's passing](https://news.ycombinator.com/item?id=35457341), I wanted to do _something_ to honor Bob's memory. I was incredibly lucky to have been able to engage with Bob & others during the early stages of Guice's life, and it's unfortunate that we've let Guice's community stagnate over the years. It seemed like scrubbing the open PRs and issues was the least I could do.\r\n\r\nAs to your specific question of how to land such a change: I think the best way would be to show how this concept has no possible workaround, how lack of it causes significant problems, and how incorporating it won't prevent developers from making sense of their object graph & dependencies.",
+    "Eh, if this conversation happens back in 2017 I would show and explain, now I have zero motivation for this.\r\n\r\nStill, I would like to add a couple of crticial comments. \r\n\r\n1. I'm not sure why you call Guice \"flexible\", it won't allow me to resolve the problem described in #1128  nor, for example, dump a graphviz file effectlessly.\r\n2. It doesn't matter how widely a library is adopted if it's outdated and badly designed. In my opinion, Guice promotes extremely outdated practices, is extremely badly designed (too ad-hoc; no planning; too many things happen just in time; no resource management; too many things happen in runtime; no proper support for resource/lifecycle management, memoization, context inheritance; invasive; nondetermenistic; unpredictable outside of happy paths; no sane conflict resolution; laziness instead of graph roots) and poorly implemented (unmaintainable overcoupled code full of singletons). A proper theory (project networks) allows to implement orders of magnitude more sound and determenistic DI.\r\n2. I'm wondering how the world where Google won't use a subpar and extremely imperfect tech as one of the cornerstones would look like.\r\n\r\n"
+  ],
+  "cleaned_comments": [
+    "We found a Contributor License Agreement for you (the sender of this pull request), but were unable to find agreements for the commit author(s).  If you authored these, maybe you used a different email address in the git commits than was used to sign the CLA  to double check)?  If these were authored by someone else, then they will need to sign a CLA as well, and confirm that they're okay with these being contributed to Google.In order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again.<!-- need_author_cla -->",
+    "CLAs look good, thanks!<!-- ok -->",
+    "Eh, guys. I've already wrote (/7mind/izumi) which outperforms Guice in almost any aspect but you didn't even consider accepting this branch yet. :/",
+    "Lol @User Same here, already completed a full JPMS xD\rMigrated the Microsoft SQL Server driver to JPMS, shit you not 40 minutes approved and merged.\r\rIt's like opposite world, since when does google not give a shit xD",
+    "@User if possible, could you please try create a pull request on  ?\rThis  is fully up to date and JPMS 100% \r\rIt's maven location is \r\r:)",
+    "Thank you for the contribution, and sorry that you had to wait this unacceptably long time for a reply. The PR as proposed is not something we'd want to add to the Guice API, as it makes provisioning somewhat non-deterministic (based on the order it encounters a \"custom provider\", which isn't defined).\r\rEven with a better API, I don't think we'd want to support such custom JIT provisioning, though I could possibly be convinced.",
+    "Guice itself is completely non-deterministic and so badly designed that it can't be fixed. So this P/R won't make it worse.\r\rThough I don't care anymore, I've created a lot better and sound DI framework: ",
+    "Lol @User \rHow to know you're a second grade developer, you rip off the DI running the entire of Google thinking a CDI or some other one is better...\r\rTry not to rip off people's tools, you may actually be in the wrong.....\rA thank you for the notice and hard work might have been more appreciative ",
+    "😉",
+    "@User - please remember to be kind to each other. It's OK to have opinions on projects and/or disagree with them, but it's not OK to insult or attack individuals.",
+    "@User : well, if you are still replying here, could you please tell me  how do you imagine me convincing someone? Should I spend six more years to convince then six more years to get the \"proper\" patch accepted? :smile: ",
+    "@User, there's nothing I can say to remove the frustration of years of radio silence.\r\rGuice, by and large, is a stable and \"finished\" project. It's a backbone of millions (if not billions) of QPS within Google, and does its job well enough. As a result, there's little priority given to its evolution. Changes (when they do happen) tend to be in the form of \"add handcuffs\", as opposed to \"enable more\", because we've found its flexibility is also its greatest poison.\r\rAs to why I've suddenly shown up after years of silence... in light of  I wanted to do _something_ to honor Bob's memory. I was incredibly lucky to have been able to engage with Bob & others during the early stages of Guice's life, and it's unfortunate that we've let Guice's community stagnate over the years. It seemed like scrubbing the open PRs and issues was the least I could do.\r\rAs to your specific question of how to land such a change: I think the best way would be to show how this concept has no possible workaround, how lack of it causes significant problems, and how incorporating it won't prevent developers from making sense of their object graph & dependencies.",
+    "Eh, if this conversation happens back in 2017 I would show and explain, now I have zero motivation for this.\r\rStill, I would like to add a couple of crticial comments. \r\r1. I'm not sure why you call Guice \"flexible\", it won't allow me to resolve the problem described in #1128  nor, for example, dump a graphviz file effectlessly.\r2. It doesn't matter how widely a library is adopted if it's outdated and badly designed. In my opinion, Guice promotes extremely outdated practices, is extremely badly designed (too ad-hoc; no planning; too many things happen just in time; no resource management; too many things happen in runtime; no proper support for resource/lifecycle management, memoization, context inheritance; invasive; nondetermenistic; unpredictable outside of happy paths; no sane conflict resolution; laziness instead of graph roots) and poorly implemented (unmaintainable overcoupled code full of singletons). A proper theory (project networks) allows to implement orders of magnitude more sound and determenistic DI.\r2. I'm wondering how the world where Google won't use a subpar and extremely imperfect tech as one of the cornerstones would look like.\r\r"
+  ],
+  "valences": [
+    {
+      "neg": 0.03,
+      "neu": 0.805,
+      "pos": 0.165,
+      "compound": 0.9134,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.259,
+      "pos": 0.741,
+      "compound": 0.8217,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.219,
+      "neu": 0.781,
+      "pos": 0,
+      "compound": -0.7074,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.11,
+      "neu": 0.595,
+      "pos": 0.294,
+      "compound": 0.8718,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.764,
+      "pos": 0.236,
+      "compound": 0.7506,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.046,
+      "neu": 0.822,
+      "pos": 0.132,
+      "compound": 0.8425,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.15,
+      "neu": 0.681,
+      "pos": 0.169,
+      "compound": -0.0426,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.067,
+      "neu": 0.755,
+      "pos": 0.179,
+      "compound": 0.8221,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.219,
+      "neu": 0.555,
+      "pos": 0.226,
+      "compound": -0.1843,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.704,
+      "pos": 0.296,
+      "compound": 0.9067,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.077,
+      "neu": 0.803,
+      "pos": 0.121,
+      "compound": 0.8812,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.131,
+      "neu": 0.763,
+      "pos": 0.106,
+      "compound": -0.5267,
+      "Sentiment": "Negative"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1195",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 198369841,
+    "PR_number": 1195,
+    "PR_url": "https://github.com/google/guice/pull/1195",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 153,
+    "PR_deletions": 122,
+    "PR_changed_files": 12,
+    "PR_modified_class_files": 4,
+    "PR_creation": "2018-06-29T16:46:00+00:00",
+    "Base_SHA": "35caaec1b4af0f20ab8b3fae8a1fc98afc0fd13e",
+    "Head_SHA": "37772b42e44e0b9b707b55aea62a62d4bf294b0a",
+    "PR_nb_comments": 9
+  },
+  "base": {
+    "com-google-inject-persist-jpa-EnsureJpaCanTakeObjectsInPropertiesTest": {
+      "cboModified": 10,
+      "wmc": 8,
+      "lcom*": 0.33333334,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 1,
+      "synchronizedMethodsQty": 0,
+      "loc": 54,
+      "startPersistService": {
+        "loc": 5,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "setUp": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testWorksIfPassDataSource": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "tearDown": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "getDataSource": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testFailsIfNoDataSource": {
+        "loc": 9,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 0
+      }
+    }
+  },
+  "head": {
+    "com-google-inject-persist-jpa-EnsureJpaCanTakeObjectsInPropertiesTest": {
+      "cboModified": 12,
+      "wmc": 8,
+      "lcom*": 0.33333334,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 1,
+      "synchronizedMethodsQty": 0,
+      "loc": 73,
+      "getDataSource": {
+        "loc": 7,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testFailsIfNoDataSource": {
+        "loc": 9,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "tearDown": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "startPersistService": {
+        "loc": 5,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "setUp": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testWorksIfPassDataSource": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-jdk10-DefaultMethodInterceptionTest": {
+      "cboModified": 11,
+      "wmc": 7,
+      "lcom*": 0.42857143,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 129,
+      "setUp": {
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-jdk10-StaticInterfaceMethodsTest": {
+      "cboModified": 5,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 24
+    },
+    "com-google-inject-jdk10-Java8LanguageFeatureBindingTest": {
+      "cboModified": 6,
+      "wmc": 9,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 106
+    }
+  },
+  "Diff": {
+    "com-google-inject-persist-jpa-EnsureJpaCanTakeObjectsInPropertiesTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 2,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 19,
+      "startPersistService": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "setUp": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testWorksIfPassDataSource": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "tearDown": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "getDataSource": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 2,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testFailsIfNoDataSource": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-jdk10-DefaultMethodInterceptionTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 11,
+      "wmc": 7,
+      "lcom*": 0.42857143,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 129,
+      "setUp": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-jdk10-StaticInterfaceMethodsTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 5,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 24
+    },
+    "com-google-inject-jdk10-Java8LanguageFeatureBindingTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 6,
+      "wmc": 9,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 106
+    }
+  },
+  "original_comments": [
+    "\nThanks for your pull request. It looks like this may be your first contribution to a Google open source project (if not, look below for help). Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\n:memo: **Please visit <https://cla.developers.google.com/> to sign.**\n\nOnce you've signed (or fixed any issues), please reply here (e.g. `I signed it!`) and we'll verify it.\n\n----\n\n#### What to do if you already signed the CLA\n\n##### Individual signers\n\n*   It's possible we don't have your GitHub username or you're using a different email address on your commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n\n##### Corporate signers\n\n*   Your company has a Point of Contact who decides which employees are authorized to participate. Ask your POC to be added to the group of authorized contributors. If you don't know who your Point of Contact is, direct the Google project maintainer to [go/cla#troubleshoot](go/cla#troubleshoot) ([Public version](https://opensource.google.com/docs/cla/#troubleshoot)).\n*   The email used to register you as an authorized contributor must be the email used for the Git commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n*   The email used to register you as an authorized contributor must also be [attached to your GitHub account](https://github.com/settings/emails).\n\t\t\n\n<!-- need_sender_cla -->",
+    "Ok .  The other subprojects work. Missing only to test the following projects:\r\n\r\n[INFO] Google Guice - Extensions - Persist ................ FAILURE [ 5.614 s]\r\n[INFO] Google Guice - Extensions - Servlet ................ SKIPPED\r\n[INFO] Google Guice - Extensions - Struts2 ................ SKIPPED",
+    " I signed it",
+    "We found a Contributor License Agreement for you (the sender of this pull request), but were unable to find agreements for all the commit author(s) or Co-authors.  If you authored these, maybe you used a different email address in the git commits than was used to sign the CLA ([login here](https://cla.developers.google.com/) to double check)?  If these were authored by someone else, then they will need to sign a CLA as well, and confirm that they're okay with these being contributed to Google.\nIn order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again. If the bot doesn't comment, it means it doesn't think anything has changed.\n\n<!-- need_author_cla -->",
+    "What's the motivation for this PR? Is Guice not working in your project? Guice is intentionally still on Java 8 in order to support such users.",
+    "hi. I see many other opensource projects using Guice. They are moving on java 10, so they are forced to delete Guice as dependency unless Guice move to java 10 too",
+    "> they are forced to delete Guice as dependency unless Guice move to java 10 too\r\n\r\nCan you share some concrete examples of this? We are not aware of any such limitation, and it's unlikely that upgrading Guice to Java 10 (which *would* break all projects that haven't updated) is the appropriate fix. There should be no problem with a Java 10 project depending on Guice.",
+    "An example is Lightbend's Lagom Framework: it is based on Play! Framework, which uses Guice. It is stuck on Java 8 until these problems are sorted out. They have recently decided to jump directly to 11 (citing Cassandra's team same decision).\r\n\r\nWork on Guice for JDK 10/11 seems ongoing here:\r\nhttps://github.com/google/guice/pull/1169\r\n\r\nRelevant discussions:\r\nhttps://github.com/playframework/playframework/issues/8454\r\nhttps://github.com/lagom/lagom/issues/1276\r\nhttps://github.com/lagom/lagom/issues/1417\r\n\r\nThanks to all the contributors for their work!",
+    "Thanks for the cross-reference @michelemauro - #1169 is definitely a more appropriate fix than updating Guice wholesale."
+  ],
+  "cleaned_comments": [
+    "Thanks for your pull request. It looks like this may be your first contribution to a Google open source project (if not, look below for help). Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).:memo: **Please visit < to sign.**Once you've signed (or fixed any issues), please reply here (e.g. I signed it!) and we'll verify it.----#### What to do if you already signed the CLA##### Individual signers*   It's possible we don't have your GitHub username or you're using a different email address on your commit. Check \t\t<!-- need_sender_cla -->",
+    "Ok .  The other subprojects work. Missing only to test the following projects:\r\r Google Guice - Extensions - Struts2 ................ SKIPPED",
+    " I signed it",
+    "We found a Contributor License Agreement for you (the sender of this pull request), but were unable to find agreements for all the commit author(s) or Co-authors.  If you authored these, maybe you used a different email address in the git commits than was used to sign the CLA  to double check)?  If these were authored by someone else, then they will need to sign a CLA as well, and confirm that they're okay with these being contributed to Google.In order to pass this check, please resolve this problem and have the pull request author add another comment and the bot will run again. If the bot doesn't comment, it means it doesn't think anything has changed.<!-- need_author_cla -->",
+    "What's the motivation for this PR? Is Guice not working in your project? Guice is intentionally still on Java 8 in order to support such users.",
+    "hi. I see many other opensource projects using Guice. They are moving on java 10, so they are forced to delete Guice as dependency unless Guice move to java 10 too",
+    "\rCan you share some concrete examples of this? We are not aware of any such limitation, and it's unlikely that upgrading Guice to Java 10 (which *would* break all projects that haven't updated) is the appropriate fix. There should be no problem with a Java 10 project depending on Guice.",
+    "An example is Lightbend's Lagom Framework: it is based on Play! Framework, which uses Guice. It is stuck on Java 8 until these problems are sorted out. They have recently decided to jump directly to 11 (citing Cassandra's team same decision).\r\rWork on Guice for JDK 10/11 seems ongoing here:\r\r\rRelevant discussions:\r\r\r\r\rThanks to all the contributors for their work!",
+    "Thanks for the cross-reference @User - #1169 is definitely a more appropriate fix than updating Guice wholesale."
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 0.83,
+      "pos": 0.17,
+      "compound": 0.9492,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.094,
+      "neu": 0.812,
+      "pos": 0.094,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.027,
+      "neu": 0.828,
+      "pos": 0.145,
+      "compound": 0.9134,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.815,
+      "pos": 0.185,
+      "compound": 0.6662,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.098,
+      "neu": 0.902,
+      "pos": 0,
+      "compound": -0.5046,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.041,
+      "neu": 0.876,
+      "pos": 0.083,
+      "compound": 0.3089,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.071,
+      "neu": 0.841,
+      "pos": 0.088,
+      "compound": 0.2924,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.728,
+      "pos": 0.272,
+      "compound": 0.6808,
+      "Sentiment": "Positive"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1203",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 210946851,
+    "PR_number": 1203,
+    "PR_url": "https://github.com/google/guice/pull/1203",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 4,
+    "PR_deletions": 4,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 1,
+    "PR_creation": "2018-08-26T11:27:56+00:00",
+    "Base_SHA": "cab3f07f15bdf904561fc9d30dd4f9697719993b",
+    "Head_SHA": "1ce2fa0f14cb5c51648b5d60a78ffd8899c0f6d4",
+    "PR_nb_comments": 5
+  },
+  "base": {
+    "com-google-inject-internal-util-LineNumbers": {
+      "cboModified": 10,
+      "wmc": 15,
+      "lcom*": 0.75,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 131
+    }
+  },
+  "head": {
+    "com-google-inject-internal-util-LineNumbers": {
+      "cboModified": 10,
+      "wmc": 15,
+      "lcom*": 0.75,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 131
+    }
+  },
+  "Diff": {
+    "com-google-inject-internal-util-LineNumbers": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    }
+  },
+  "original_comments": [
+    "What are the compatibility implications of this? The docs [1] for `ASM7_EXPERIMENTAL` say:\r\n\r\n> Experimental, use at your own risk. This field will be renamed when it becomes stable, this will break existing code using it.\r\n\r\nSo there's going to be a source compatibility issue, but I'm not sure if it's also a binary compatibility issue: `ASM7_EXPERIMENTAL` is a `static final` field that will be inlined, but will future ASM releases continue to accept that option, or will the eventual non-experimental `ASM7` have a different value?\r\n\r\n[1] https://gitlab.ow2.org/asm/asm/blob/3f7d6ba206ec6280a584bc135cd86c2b2cf5c279/asm/src/main/java/org/objectweb/asm/Opcodes.java#L50",
+    "@davido I think just updating the `pom.xml` isn't enough: You also have to upgrade the `jar` file, see how that was done earlier: #1197 (and also #1169)",
+    "@mkurz, Ah thanks for pointing this out. Apparently Guice is supporting both build tools Apache Ant and Apache Maven? I tested this PR with Maven and it worked for Gerrit Code Review purpose (Build and run with JDK11).",
+    "OpenJDK 11 has now been released... any ETA on when we might expect this to be addressed?",
+    "@frankgrimes97 See these comments here: https://github.com/google/guice/issues/1198#issuecomment-423221773 - Seems like we get an updated Guice very soon."
+  ],
+  "cleaned_comments": [
+    "What are the compatibility implications of this? The docs  ",
+    "@User I think just updating the pom.xml isn't enough: You also have to upgrade the jar file, see how that was done earlier: #1197 (and also #1169)",
+    "@User, Ah thanks for pointing this out. Apparently Guice is supporting both build tools Apache Ant and Apache Maven? I tested this PR with Maven and it worked for Gerrit Code Review purpose (Build and run with JDK11).",
+    "OpenJDK 11 has now been released... any ETA on when we might expect this to be addressed?",
+    "@User See these comments here:  - Seems like we get an updated Guice very soon."
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.861,
+      "pos": 0.139,
+      "compound": 0.7003,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.848,
+      "pos": 0.152,
+      "compound": 0.3612,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1311",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 401495397,
+    "PR_number": 1311,
+    "PR_url": "https://github.com/google/guice/pull/1311",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 103,
+    "PR_deletions": 1,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2020-04-09T15:34:38+00:00",
+    "Base_SHA": "581922ab06e1b80de878e04bbb9110a5fff45746",
+    "Head_SHA": "410dfb7d7bdb5acf6a17c66911addde752a60c5f",
+    "PR_nb_comments": 5
+  },
+  "base": {
+    "com-google-inject-spi-InjectionPoint": {
+      "cboModified": 83,
+      "wmc": 86,
+      "lcom*": 0.8129032,
+      "totalMethodsQty": 31,
+      "staticMethodsQty": 18,
+      "publicMethodsQty": 17,
+      "privateMethodsQty": 10,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 21,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 490
+    }
+  },
+  "head": {
+    "com-google-inject-spi-NullableTypeAnnotationTest": {
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 11,
+      "testTypeTargetedNullable": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-spi-InjectionPoint": {
+      "cboModified": 83,
+      "wmc": 95,
+      "lcom*": 0.87878793,
+      "totalMethodsQty": 33,
+      "staticMethodsQty": 20,
+      "publicMethodsQty": 17,
+      "privateMethodsQty": 12,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 22,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 535,
+      "getAllAnnotations": {
+        "loc": 21,
+        "cboModified": 2,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "getConstructorParameterTypeAnnotation": {
+        "loc": 12,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    }
+  },
+  "Diff": {
+    "com-google-inject-spi-InjectionPoint": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 9,
+      "lcom*": 0.06588472999999995,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 45,
+      "getAllAnnotations": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 21,
+        "cboModified": 2,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "getConstructorParameterTypeAnnotation": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 12,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-spi-NullableTypeAnnotationTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 11,
+      "testTypeTargetedNullable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "original_comments": [
+    "\nThanks for your pull request. It looks like this may be your first contribution to a Google open source project (if not, look below for help). Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\n:memo: **Please visit <https://cla.developers.google.com/> to sign.**\n\nOnce you've signed (or fixed any issues), please reply here with `@googlebot I signed it!` and we'll verify it.\n\n----\n\n#### What to do if you already signed the CLA\n\n##### Individual signers\n\n*   It's possible we don't have your GitHub username or you're using a different email address on your commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n\n##### Corporate signers\n\n*   Your company has a Point of Contact who decides which employees are authorized to participate. Ask your POC to be added to the group of authorized contributors. If you don't know who your Point of Contact is, direct the Google project maintainer to [go/cla#troubleshoot](http://go/cla#troubleshoot) ([Public version](https://opensource.google/docs/cla/#troubleshoot)).\n*   The email used to register you as an authorized contributor must be the email used for the Git commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n*   The email used to register you as an authorized contributor must also be [attached to your GitHub account](https://github.com/settings/emails).\n\t\t\n\nℹ️ **Googlers: [Go here](https://goto.google.com/prinfo/https%3A%2F%2Fgithub.com%2Fgoogle%2Fguice%2Fpull%2F1311) for more info**.\n\n<!-- need_sender_cla -->",
+    "@googlebot I signed it!",
+    "CLAs look good, thanks!\n\nℹ️ **Googlers: [Go here](https://goto.google.com/prinfo/https%3A%2F%2Fgithub.com%2Fgoogle%2Fguice%2Fpull%2F1311) for more info**.\n\n<!-- ok -->",
+    "https://github.com/google/guice/commit/1a410a8bef1ec721e16f9f16a447235f09951f05 has done some work for type annotations. That may be sufficient for your needs (though I don't believe there's been a release yet).",
+    "Indeed that commit already fixed this."
+  ],
+  "cleaned_comments": [
+    "Thanks for your pull request. It looks like this may be your first contribution to a Google open source project (if not, look below for help). Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).:memo: **Please visit < to sign.**Once you've signed (or fixed any issues), please reply here with @User I signed it! and we'll verify it.----#### What to do if you already signed the CLA##### Individual signers*   It's possible we don't have your GitHub username or you're using a different email address on your commit. Check  for more info**.<!-- need_sender_cla -->",
+    "@User I signed it!",
+    "CLAs look good, thanks!ℹ️ **Googlers:  for more info**.<!-- ok -->",
+    " has done some work for type annotations. That may be sufficient for your needs (though I don't believe there's been a release yet).",
+    "Indeed that commit already fixed this."
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 0.834,
+      "pos": 0.166,
+      "compound": 0.9492,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.474,
+      "pos": 0.526,
+      "compound": 0.8344,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.694,
+      "pos": 0.306,
+      "compound": 0.296,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1349",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 434109564,
+    "PR_number": 1349,
+    "PR_url": "https://github.com/google/guice/pull/1349",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 190,
+    "PR_deletions": 6,
+    "PR_changed_files": 6,
+    "PR_modified_class_files": 6,
+    "PR_creation": "2020-06-14T07:54:19+00:00",
+    "Base_SHA": "11667ab03d90e0b90d7d2a60694e1a3d0eed458e",
+    "Head_SHA": "659fb1da1a8834e6ee9ee70a24bdc75e780e83c7",
+    "PR_nb_comments": 2
+  },
+  "base": {
+    "com-google-inject-JitBindingsTest": {
+      "cboModified": 29,
+      "wmc": 62,
+      "lcom*": 0,
+      "totalMethodsQty": 35,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 27,
+      "privateMethodsQty": 8,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 27,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 643,
+      "testImplementedBySomethingThatIsAnnotated": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testLinkedEagerSingleton": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testChildInjectorAddsOption": {
+        "loc": 44,
+        "cboModified": 11,
+        "wmc": 2,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-Binder": {
+      "cboModified": 175,
+      "wmc": 30,
+      "lcom*": 0,
+      "totalMethodsQty": 30,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 30,
+      "visibleMethodsQty": 30,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 32,
+      "disableCircularProxies": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requireAtInjectOnConstructors": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requireExplicitBindings": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-InjectorOptionsProcessor": {
+      "cboModified": 10,
+      "wmc": 7,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 35,
+      "visit": {
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-spi-RequireExplicitBindingsOption": {
+      "cboModified": 11,
+      "wmc": 4,
+      "lcom*": 0.5,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 15,
+      "getSource": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "applyTo": {
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-spi-Elements": {
+      "cboModified": 39,
+      "wmc": 10,
+      "lcom*": 0.85714287,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 7,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 404
+    },
+    "com-google-inject-internal-InjectorImpl": {
+      "cboModified": 125,
+      "wmc": 128,
+      "lcom*": 0.92621666,
+      "totalMethodsQty": 49,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 21,
+      "privateMethodsQty": 15,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 13,
+      "visibleMethodsQty": 34,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 627,
+      "toString": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "getJustInTimeBinding": {
+        "loc": 20,
+        "cboModified": 9,
+        "wmc": 9,
+        "parametersQty": 3
+      },
+      "createJustInTimeBindingRecursive": {
+        "loc": 21,
+        "cboModified": 14,
+        "wmc": 8,
+        "parametersQty": 4
+      }
+    }
+  },
+  "head": {
+    "com-google-inject-JitBindingsTest": {
+      "cboModified": 29,
+      "wmc": 68,
+      "lcom*": 0,
+      "totalMethodsQty": 40,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 32,
+      "privateMethodsQty": 8,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 32,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 740,
+      "testMoreBasicWorksWithSpecificTypeRequired": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testChildInjectorAddsOption": {
+        "loc": 44,
+        "cboModified": 11,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "testImplementedByWithSpecificTypeRequired": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testChildInjectorInheritsOptionWithSpecificTypeRequired": {
+        "loc": 43,
+        "cboModified": 12,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "testChildInjectorExtendsExplicitlyRequiredTypes": {
+        "loc": 18,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testLinkedEagerSingleton": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testImplementedBySomethingThatIsAnnotated": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testOptionMultipleInvocationsExtendExplicitRequiredTypes": {
+        "loc": 14,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-Binder": {
+      "cboModified": 182,
+      "wmc": 31,
+      "lcom*": 0,
+      "totalMethodsQty": 31,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 31,
+      "visibleMethodsQty": 31,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33,
+      "requireExplicitBindings": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requireAtInjectOnConstructors": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "disableCircularProxies": {
+        "loc": 1,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-InjectorOptionsProcessor": {
+      "cboModified": 14,
+      "wmc": 8,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 42,
+      "visit": {
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-spi-RequireExplicitBindingsOption": {
+      "cboModified": 12,
+      "wmc": 7,
+      "lcom*": 0.5,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 28,
+      "getSource": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "applyTo": {
+        "loc": 8,
+        "cboModified": 4,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-spi-Elements": {
+      "cboModified": 39,
+      "wmc": 10,
+      "lcom*": 0.85714287,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 7,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 407
+    },
+    "com-google-inject-internal-InjectorImpl": {
+      "cboModified": 125,
+      "wmc": 128,
+      "lcom*": 0.92621666,
+      "totalMethodsQty": 49,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 21,
+      "privateMethodsQty": 15,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 13,
+      "visibleMethodsQty": 34,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 635,
+      "getJustInTimeBinding": {
+        "loc": 20,
+        "cboModified": 10,
+        "wmc": 9,
+        "parametersQty": 3
+      },
+      "toString": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "createJustInTimeBindingRecursive": {
+        "loc": 21,
+        "cboModified": 15,
+        "wmc": 8,
+        "parametersQty": 4
+      }
+    }
+  },
+  "Diff": {
+    "com-google-inject-JitBindingsTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 6,
+      "lcom*": 0,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 5,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 97,
+      "testImplementedBySomethingThatIsAnnotated": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testLinkedEagerSingleton": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testChildInjectorAddsOption": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testMoreBasicWorksWithSpecificTypeRequired": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testImplementedByWithSpecificTypeRequired": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testChildInjectorInheritsOptionWithSpecificTypeRequired": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 43,
+        "cboModified": 12,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "testChildInjectorExtendsExplicitlyRequiredTypes": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 18,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testOptionMultipleInvocationsExtendExplicitRequiredTypes": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 14,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-Binder": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 7,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 1,
+      "disableCircularProxies": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "requireAtInjectOnConstructors": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "requireExplicitBindings": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-InjectorOptionsProcessor": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 7,
+      "visit": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-spi-RequireExplicitBindingsOption": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 3,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 13,
+      "getSource": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "applyTo": {
+        "loc": 5,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-spi-Elements": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    },
+    "com-google-inject-internal-InjectorImpl": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 8,
+      "toString": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "getJustInTimeBinding": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "createJustInTimeBindingRecursive": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    }
+  },
+  "original_comments": [
+    "To be honest, I'm not sure what is better here, please advise."
+  ],
+  "cleaned_comments": [
+    "To be honest, I'm not sure what is better here, please advise."
+  ],
+  "valences": [
+    {
+      "neg": 0.106,
+      "neu": 0.433,
+      "pos": 0.46,
+      "compound": 0.7606,
+      "Sentiment": "Positive"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1359",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 447137988,
+    "PR_number": 1359,
+    "PR_url": "https://github.com/google/guice/pull/1359",
+    "PR_state": "closed",
+    "PR_is_merged": true,
+    "PR_additions": 2965,
+    "PR_deletions": 683,
+    "PR_changed_files": 36,
+    "PR_modified_class_files": 30,
+    "PR_creation": "2020-07-09T23:11:34+00:00",
+    "Base_SHA": "4e8a119c5498575fb75fd9db7e5ddfc2e4ae223d",
+    "Head_SHA": "2d867c5f39760556bb4f23d4b277512654391fca",
+    "PR_nb_comments": 5
+  },
+  "base": {
+    "com-google-inject-assistedinject-FactoryProvider": {
+      "cboModified": 83,
+      "wmc": 43,
+      "lcom*": 0.6153846,
+      "totalMethodsQty": 13,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 6,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 181,
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-ConstructionContext": {
+      "cboModified": 15,
+      "wmc": 13,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 8,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 8,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 47,
+      "createProxy": {
+        "loc": 15,
+        "cboModified": 4,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "setProxyDelegates": {
+        "loc": 8,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-ProxyFactoryTest": {
+      "cboModified": 18,
+      "wmc": 5,
+      "lcom*": 0,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 5,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 116,
+      "testInterceptOneMethod": {
+        "loc": 17,
+        "cboModified": 16,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testNotProxied": {
+        "loc": 8,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testSimpleCase": {
+        "loc": 11,
+        "cboModified": 9,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "cboModified": 46,
+      "wmc": 118,
+      "lcom*": 0.90769225,
+      "totalMethodsQty": 26,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 12,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 14,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 529,
+      "invoke": {
+        "loc": 47,
+        "cboModified": 7,
+        "wmc": 13,
+        "parametersQty": 3
+      },
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-googlecode-guice-BytecodeGenTest": {
+      "cboModified": 22,
+      "wmc": 11,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 9,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 248,
+      "testClassLoaderBridging": {
+        "loc": 13,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testFastClassUsesBridgeClassloader": {
+        "loc": 12,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testProxyClassUnloading": {
+        "loc": 10,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-IntegrationTest": {
+      "cboModified": 9,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33
+    },
+    "com-google-inject-internal-DefaultConstructionProxyFactory": {
+      "cboModified": 11,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 75,
+      "create": {
+        "loc": 14,
+        "cboModified": 6,
+        "wmc": 3,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ProxyFactory": {
+      "cboModified": 29,
+      "wmc": 20,
+      "lcom*": 0.3333333,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 165,
+      "create": {
+        "loc": 23,
+        "cboModified": 11,
+        "wmc": 5,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-BytecodeGen": {
+      "cboModified": 21,
+      "wmc": 30,
+      "lcom*": 0.89285713,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 8,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 4,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 204,
+      "getClassLoader": {
+        "loc": 19,
+        "cboModified": 5,
+        "wmc": 7,
+        "parametersQty": 2
+      },
+      "hasSameVersionOfCglib": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "canonicalize": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "isPubliclyCallable": {
+        "loc": 22,
+        "cboModified": 1,
+        "wmc": 6,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-InternalFlags": {
+      "cboModified": 11,
+      "wmc": 13,
+      "lcom*": 0.8888889,
+      "totalMethodsQty": 9,
+      "staticMethodsQty": 9,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 62
+    },
+    "com-google-inject-internal-SingleMethodInjector": {
+      "cboModified": 15,
+      "wmc": 11,
+      "lcom*": 0.41666666,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 53,
+      "createMethodInvoker": {
+        "loc": 26,
+        "cboModified": 5,
+        "wmc": 5,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-MethodInterceptionTest": {
+      "cboModified": 21,
+      "wmc": 17,
+      "lcom*": 0.7,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 291
+    },
+    "com-google-inject-internal-InterceptorStackCallback": {
+      "cboModified": 10,
+      "wmc": 7,
+      "lcom*": 0.5555556,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 58,
+      "InterceptorStackCallback": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "intercept": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 4
+      },
+      "pruneStacktrace": {
+        "loc": 13,
+        "cboModified": 2,
+        "wmc": 5,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-Scopes": {
+      "cboModified": 17,
+      "wmc": 18,
+      "lcom*": 0.73333335,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 104,
+      "isCircularProxy": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "getInjector": {
+        "loc": 6,
+        "cboModified": 3,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-ProviderMethod": {
+      "cboModified": 38,
+      "wmc": 32,
+      "lcom*": 0.7265625,
+      "totalMethodsQty": 16,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 11,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 15,
+      "abstractMethodsQty": 1,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 135,
+      "doProvision": {
+        "loc": 16,
+        "cboModified": 8,
+        "wmc": 6,
+        "parametersQty": 2
+      },
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "create": {
+        "loc": 17,
+        "cboModified": 4,
+        "wmc": 6,
+        "parametersQty": 7
+      },
+      "configure": {
+        "loc": 12,
+        "cboModified": 5,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "ProviderMethod": {
+        "loc": 10,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 6
+      }
+    },
+    "com-google-inject-CircularDependencyTest": {
+      "cboModified": 27,
+      "wmc": 35,
+      "lcom*": 0,
+      "totalMethodsQty": 22,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 20,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 21,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 501
+    }
+  },
+  "head": {
+    "com-google-inject-assistedinject-FactoryProvider": {
+      "cboModified": 83,
+      "wmc": 43,
+      "lcom*": 0.6153846,
+      "totalMethodsQty": 13,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 6,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 181,
+      "equals": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ConstructionContext": {
+      "cboModified": 14,
+      "wmc": 13,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 8,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 8,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 46,
+      "setProxyDelegates": {
+        "loc": 8,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "createProxy": {
+        "loc": 14,
+        "cboModified": 4,
+        "wmc": 4,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-ClassBuilding": {
+      "cboModified": 13,
+      "wmc": 59,
+      "lcom*": 0.9,
+      "totalMethodsQty": 20,
+      "staticMethodsQty": 19,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 13,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 167,
+      "ClassBuilding": {
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "signature": {
+        "loc": 3,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "visitMethodHierarchy": {
+        "loc": 23,
+        "cboModified": 6,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "partitionMethod": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "canEnhance": {
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "mergeMethods": {
+        "loc": 7,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "pushInterfaces": {
+        "loc": 5,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "getOverridableObjectMethods": {
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 5,
+        "parametersQty": 0
+      },
+      "isPublic": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "visitFastMethods": {
+        "loc": 12,
+        "cboModified": 3,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "visitMembers": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "mergeInterface": {
+        "loc": 13,
+        "cboModified": 1,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "canAccess": {
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "packageName": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "canFastInvoke": {
+        "loc": 15,
+        "cboModified": 4,
+        "wmc": 6,
+        "parametersQty": 1
+      },
+      "visitFastConstructors": {
+        "loc": 10,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-AbstractGlueGenerator": {
+      "cboModified": 15,
+      "wmc": 18,
+      "lcom*": 0.85714287,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 3,
+      "protectedMethodsQty": 6,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 4,
+      "finalMethodsQty": 2,
+      "synchronizedMethodsQty": 0,
+      "loc": 95,
+      "asIfUnchecked": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "proxyName": {
+        "loc": 8,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "generateTrampoline": {
+        "loc": 27,
+        "cboModified": 14,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "generateMethodInvoker": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateConstructorInvoker": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "lookupInvokerTable": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "AbstractGlueGenerator": {
+        "loc": 5,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-Enhancer": {
+      "cboModified": 12,
+      "wmc": 25,
+      "lcom*": 0.8076924,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 4,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 172,
+      "setupInvokerTable": {
+        "loc": 22,
+        "cboModified": 11,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "generateConstructorInvoker": {
+        "loc": 10,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateVirtualBridge": {
+        "loc": 23,
+        "cboModified": 15,
+        "wmc": 4,
+        "parametersQty": 3
+      },
+      "exceptionNames": {
+        "loc": 6,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "lookupInvokerTable": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "enhanceConstructor": {
+        "loc": 18,
+        "cboModified": 12,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "loc": 28,
+        "cboModified": 12,
+        "wmc": 5,
+        "parametersQty": 1
+      },
+      "enhanceMethod": {
+        "loc": 27,
+        "cboModified": 17,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "generateMethodInvoker": {
+        "loc": 15,
+        "cboModified": 8,
+        "wmc": 4,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-ProxyFactoryTest": {
+      "cboModified": 18,
+      "wmc": 5,
+      "lcom*": 0,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 5,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 116,
+      "testInterceptOneMethod": {
+        "loc": 17,
+        "cboModified": 16,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testNotProxied": {
+        "loc": 8,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testSimpleCase": {
+        "loc": 11,
+        "cboModified": 9,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-aop-GlueException": {
+      "cboModified": 1,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "GlueException": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-UnsafeClassDefiner": {
+      "cboModified": 12,
+      "wmc": 20,
+      "lcom*": 0.7818182,
+      "totalMethodsQty": 11,
+      "staticMethodsQty": 10,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 93,
+      "tryAccessDefineMethod": {
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "isAccessible": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "findDefineMethod": {
+        "loc": 11,
+        "cboModified": 3,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "buildDefineClassAccess": {
+        "loc": 18,
+        "cboModified": 12,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "bindTheUnsafe": {
+        "loc": 6,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "bindAnonymousDefineMethod": {
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "accessDefineMethod": {
+        "loc": 5,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isAnonymousHost": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "tryPrivileged": {
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "cboModified": 46,
+      "wmc": 118,
+      "lcom*": 0.90769225,
+      "totalMethodsQty": 26,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 12,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 14,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 529,
+      "invoke": {
+        "loc": 47,
+        "cboModified": 7,
+        "wmc": 13,
+        "parametersQty": 3
+      },
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-ImmutableStringTrieTest": {
+      "cboModified": 7,
+      "wmc": 9,
+      "lcom*": 0.5,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 40,
+      "testMethodStrings": {
+        "loc": 8,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "testRandomStrings": {
+        "loc": 15,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 0
+      },
+      "testSingletonTrie": {
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "randomize": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-googlecode-guice-BytecodeGenTest": {
+      "cboModified": 22,
+      "wmc": 11,
+      "lcom*": 0.65000004,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 9,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 250,
+      "testClassLoaderBridging": {
+        "loc": 13,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testFastClassWithDifferentVersionsOfGuice": {
+        "loc": 12,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testProxyClassUnloading": {
+        "loc": 12,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-aop-MethodPartition": {
+      "cboModified": 4,
+      "wmc": 28,
+      "lcom*": 0.4,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 79,
+      "MethodPartition": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "collectEnhanceableMethods": {
+        "loc": 48,
+        "cboModified": 3,
+        "wmc": 20,
+        "parametersQty": 3
+      },
+      "parametersKey": {
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "addCandidate": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "resolvedParametersMatch": {
+        "loc": 10,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 3
+      }
+    },
+    "com-google-inject-IntegrationTest": {
+      "cboModified": 9,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33
+    },
+    "com-google-inject-internal-DefaultConstructionProxyFactory": {
+      "cboModified": 9,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 76,
+      "create": {
+        "loc": 12,
+        "cboModified": 4,
+        "wmc": 3,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ProxyFactory": {
+      "cboModified": 23,
+      "wmc": 15,
+      "lcom*": 0.33333334,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 103,
+      "create": {
+        "loc": 11,
+        "cboModified": 8,
+        "wmc": 3,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-BytecodeGen": {
+      "cboModified": 17,
+      "wmc": 11,
+      "lcom*": 0.85,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 8,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 49,
+      "isCircularProxy": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "newCircularProxy": {
+        "loc": 5,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "fastClass": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "enhancerBuilder": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-ClassDefiner": {
+      "cboModified": 5,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    },
+    "com-google-inject-internal-InternalFlags": {
+      "cboModified": 11,
+      "wmc": 13,
+      "lcom*": 0.8888889,
+      "totalMethodsQty": 9,
+      "staticMethodsQty": 9,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 64
+    },
+    "com-google-inject-internal-aop-FastClass": {
+      "cboModified": 11,
+      "wmc": 11,
+      "lcom*": 0.7380952,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 4,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 87,
+      "generateConstructorInvoker": {
+        "loc": 6,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "loc": 33,
+        "cboModified": 18,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "generateMethodInvoker": {
+        "loc": 20,
+        "cboModified": 8,
+        "wmc": 6,
+        "parametersQty": 2
+      },
+      "setupInvokerTable": {
+        "loc": 12,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "lookupInvokerTable": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-SingleMethodInjector": {
+      "cboModified": 13,
+      "wmc": 11,
+      "lcom*": 0.41666666,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 57,
+      "createMethodInvoker": {
+        "loc": 30,
+        "cboModified": 3,
+        "wmc": 5,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-MethodInterceptionTest": {
+      "cboModified": 30,
+      "wmc": 19,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 12,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 12,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 12,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 353,
+      "testSetterInterception": {
+        "loc": 15,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testDefaultMethodInterception": {
+        "loc": 15,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-aop-BytecodeTasks": {
+      "cboModified": 6,
+      "wmc": 32,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 151,
+      "box": {
+        "loc": 41,
+        "cboModified": 5,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "BytecodeTasks": {
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "loadArgument": {
+        "loc": 9,
+        "cboModified": 7,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "packArguments": {
+        "loc": 15,
+        "cboModified": 7,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "pushInteger": {
+        "loc": 17,
+        "cboModified": 6,
+        "wmc": 5,
+        "parametersQty": 2
+      },
+      "unbox": {
+        "loc": 51,
+        "cboModified": 5,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "unpackArguments": {
+        "loc": 14,
+        "cboModified": 11,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-InterceptorStackCallback": {
+      "cboModified": 8,
+      "wmc": 8,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 58,
+      "invoke": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 3
+      },
+      "pruneStacktrace": {
+        "loc": 13,
+        "cboModified": 2,
+        "wmc": 6,
+        "parametersQty": 1
+      },
+      "InterceptorStackCallback": {
+        "loc": 5,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 3
+      }
+    },
+    "com-google-inject-internal-aop-ImmutableStringTrie": {
+      "cboModified": 7,
+      "wmc": 32,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 143,
+      "nextPivotColumn": {
+        "loc": 10,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 4
+      },
+      "applyAsInt": {
+        "loc": 31,
+        "cboModified": 1,
+        "wmc": 9,
+        "parametersQty": 1
+      },
+      "nextPivotRow": {
+        "loc": 9,
+        "cboModified": 2,
+        "wmc": 4,
+        "parametersQty": 5
+      },
+      "singletonTrie": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "buildSubTrie": {
+        "loc": 47,
+        "cboModified": 5,
+        "wmc": 10,
+        "parametersQty": 5
+      },
+      "buildTrie": {
+        "loc": 14,
+        "cboModified": 6,
+        "wmc": 2,
+        "parametersQty": 4
+      }
+    },
+    "com-google-inject-Scopes": {
+      "cboModified": 17,
+      "wmc": 18,
+      "lcom*": 0.73333335,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 104,
+      "isCircularProxy": {
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "getInjector": {
+        "loc": 6,
+        "cboModified": 3,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-ClassDefining": {
+      "cboModified": 13,
+      "wmc": 8,
+      "lcom*": 0.6,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 38,
+      "isAnonymousHost": {
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "bindClassDefiner": {
+        "loc": 19,
+        "cboModified": 4,
+        "wmc": 4,
+        "parametersQty": 0
+      },
+      "ClassDefining": {
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "hasPackageAccess": {
+        "loc": 3,
+        "cboModified": 7,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-aop-ChildClassDefiner": {
+      "cboModified": 9,
+      "wmc": 4,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33,
+      "childLoader": {
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "doPrivileged": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-ProviderMethod": {
+      "cboModified": 37,
+      "wmc": 32,
+      "lcom*": 0.7265625,
+      "totalMethodsQty": 16,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 11,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 16,
+      "abstractMethodsQty": 1,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 138,
+      "doProvision": {
+        "loc": 16,
+        "cboModified": 8,
+        "wmc": 6,
+        "parametersQty": 2
+      },
+      "hashCode": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "create": {
+        "loc": 17,
+        "cboModified": 4,
+        "wmc": 6,
+        "parametersQty": 7
+      },
+      "configure": {
+        "loc": 12,
+        "cboModified": 5,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "ProviderMethod": {
+        "loc": 10,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 6
+      }
+    },
+    "com-google-inject-internal-aop-EnhancerBuilderImpl": {
+      "cboModified": 7,
+      "wmc": 7,
+      "lcom*": 0.4375,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 37,
+      "getEnhanceableMethods": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-CircularDependencyTest": {
+      "cboModified": 27,
+      "wmc": 35,
+      "lcom*": 0,
+      "totalMethodsQty": 22,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 20,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 21,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 501
+    }
+  },
+  "Diff": {
+    "com-google-inject-assistedinject-FactoryProvider": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "hashCode": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ConstructionContext": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": -1,
+      "createProxy": {
+        "loc": -1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "setProxyDelegates": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ProxyFactoryTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "testInterceptOneMethod": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testNotProxied": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testSimpleCase": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "invoke": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "hashCode": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-googlecode-guice-BytecodeGenTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": -0.016666659999999944,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 2,
+      "testClassLoaderBridging": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testFastClassUsesBridgeClassloader": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 12,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testProxyClassUnloading": {
+        "loc": 2,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "testFastClassWithDifferentVersionsOfGuice": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 12,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-IntegrationTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "com-google-inject-internal-DefaultConstructionProxyFactory": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -2,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 1,
+      "create": {
+        "loc": -2,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": -2,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ProxyFactory": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -6,
+      "wmc": -5,
+      "lcom*": 3.9999999978945766e-8,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": -62,
+      "create": {
+        "loc": -12,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": -3,
+        "wmc": -2,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-BytecodeGen": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -4,
+      "wmc": -19,
+      "lcom*": -0.04285713000000002,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": -3,
+      "privateMethodsQty": -3,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": -155,
+      "getClassLoader": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 19,
+        "cboModified": 5,
+        "wmc": 7,
+        "parametersQty": 2
+      },
+      "hasSameVersionOfCglib": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "canonicalize": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "isPubliclyCallable": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 22,
+        "cboModified": 1,
+        "wmc": 6,
+        "parametersQty": 1
+      },
+      "isCircularProxy": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "newCircularProxy": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 5,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "fastClass": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "enhancerBuilder": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-InternalFlags": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 2
+    },
+    "com-google-inject-internal-SingleMethodInjector": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -2,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4,
+      "createMethodInvoker": {
+        "loc": 4,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": -2,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-MethodInterceptionTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 9,
+      "wmc": 2,
+      "lcom*": -0.03333330000000001,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 62,
+      "testSetterInterception": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "testDefaultMethodInterception": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-InterceptorStackCallback": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -2,
+      "wmc": 1,
+      "lcom*": 0.11111109999999991,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "InterceptorStackCallback": {
+        "loc": 1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 1
+      },
+      "intercept": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 4
+      },
+      "pruneStacktrace": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "invoke": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 3
+      }
+    },
+    "com-google-inject-Scopes": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "isCircularProxy": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "getInjector": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-ProviderMethod": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": -1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3,
+      "doProvision": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "hashCode": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "equals": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "create": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "configure": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "ProviderMethod": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-CircularDependencyTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "com-google-inject-internal-aop-ClassBuilding": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 13,
+      "wmc": 59,
+      "lcom*": 0.9,
+      "totalMethodsQty": 20,
+      "staticMethodsQty": 19,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 13,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 167,
+      "ClassBuilding": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "signature": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "visitMethodHierarchy": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 23,
+        "cboModified": 6,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "partitionMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "canEnhance": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "mergeMethods": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 7,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "pushInterfaces": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 5,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "getOverridableObjectMethods": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 5,
+        "parametersQty": 0
+      },
+      "isPublic": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "visitFastMethods": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 12,
+        "cboModified": 3,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "visitMembers": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "mergeInterface": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 13,
+        "cboModified": 1,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "canAccess": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "packageName": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "canFastInvoke": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 4,
+        "wmc": 6,
+        "parametersQty": 1
+      },
+      "visitFastConstructors": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-AbstractGlueGenerator": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 15,
+      "wmc": 18,
+      "lcom*": 0.85714287,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 3,
+      "protectedMethodsQty": 6,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 4,
+      "finalMethodsQty": 2,
+      "synchronizedMethodsQty": 0,
+      "loc": 95,
+      "asIfUnchecked": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "proxyName": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 8,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "generateTrampoline": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 27,
+        "cboModified": 14,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "generateMethodInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateConstructorInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "lookupInvokerTable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "AbstractGlueGenerator": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 5,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-Enhancer": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 12,
+      "wmc": 25,
+      "lcom*": 0.8076924,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 4,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 172,
+      "setupInvokerTable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 22,
+        "cboModified": 11,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "generateConstructorInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateVirtualBridge": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 23,
+        "cboModified": 15,
+        "wmc": 4,
+        "parametersQty": 3
+      },
+      "exceptionNames": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 6,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "lookupInvokerTable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "enhanceConstructor": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 18,
+        "cboModified": 12,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 28,
+        "cboModified": 12,
+        "wmc": 5,
+        "parametersQty": 1
+      },
+      "enhanceMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 27,
+        "cboModified": 17,
+        "wmc": 3,
+        "parametersQty": 3
+      },
+      "generateMethodInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 8,
+        "wmc": 4,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-GlueException": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "GlueException": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-UnsafeClassDefiner": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 12,
+      "wmc": 20,
+      "lcom*": 0.7818182,
+      "totalMethodsQty": 11,
+      "staticMethodsQty": 10,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 93,
+      "tryAccessDefineMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "isAccessible": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "findDefineMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 11,
+        "cboModified": 3,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "buildDefineClassAccess": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 18,
+        "cboModified": 12,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "bindTheUnsafe": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 6,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "bindAnonymousDefineMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "accessDefineMethod": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 5,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isAnonymousHost": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 1
+      },
+      "tryPrivileged": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 2,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-ImmutableStringTrieTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 7,
+      "wmc": 9,
+      "lcom*": 0.5,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 40,
+      "testMethodStrings": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 8,
+        "cboModified": 2,
+        "wmc": 2,
+        "parametersQty": 0
+      },
+      "testRandomStrings": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 0
+      },
+      "testSingletonTrie": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "randomize": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-MethodPartition": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 28,
+      "lcom*": 0.4,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 79,
+      "MethodPartition": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "collectEnhanceableMethods": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 48,
+        "cboModified": 3,
+        "wmc": 20,
+        "parametersQty": 3
+      },
+      "parametersKey": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 1
+      },
+      "addCandidate": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "resolvedParametersMatch": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 3,
+        "wmc": 3,
+        "parametersQty": 3
+      }
+    },
+    "com-google-inject-internal-aop-ClassDefiner": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 5,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    },
+    "com-google-inject-internal-aop-FastClass": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 11,
+      "wmc": 11,
+      "lcom*": 0.7380952,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 4,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 87,
+      "generateConstructorInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 6,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateGlue": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 33,
+        "cboModified": 18,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "generateMethodInvoker": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 20,
+        "cboModified": 8,
+        "wmc": 6,
+        "parametersQty": 2
+      },
+      "setupInvokerTable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 12,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "lookupInvokerTable": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-BytecodeTasks": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 6,
+      "wmc": 32,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 151,
+      "box": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 41,
+        "cboModified": 5,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "BytecodeTasks": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "loadArgument": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 7,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "packArguments": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 15,
+        "cboModified": 7,
+        "wmc": 3,
+        "parametersQty": 2
+      },
+      "pushInteger": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 17,
+        "cboModified": 6,
+        "wmc": 5,
+        "parametersQty": 2
+      },
+      "unbox": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 51,
+        "cboModified": 5,
+        "wmc": 9,
+        "parametersQty": 2
+      },
+      "unpackArguments": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 14,
+        "cboModified": 11,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    },
+    "com-google-inject-internal-aop-ImmutableStringTrie": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 7,
+      "wmc": 32,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 5,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 143,
+      "nextPivotColumn": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 10,
+        "cboModified": 2,
+        "wmc": 3,
+        "parametersQty": 4
+      },
+      "applyAsInt": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 31,
+        "cboModified": 1,
+        "wmc": 9,
+        "parametersQty": 1
+      },
+      "nextPivotRow": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 2,
+        "wmc": 4,
+        "parametersQty": 5
+      },
+      "singletonTrie": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "buildSubTrie": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 47,
+        "cboModified": 5,
+        "wmc": 10,
+        "parametersQty": 5
+      },
+      "buildTrie": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 14,
+        "cboModified": 6,
+        "wmc": 2,
+        "parametersQty": 4
+      }
+    },
+    "com-google-inject-internal-aop-ClassDefining": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 13,
+      "wmc": 8,
+      "lcom*": 0.6,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 4,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 38,
+      "isAnonymousHost": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "bindClassDefiner": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 19,
+        "cboModified": 4,
+        "wmc": 4,
+        "parametersQty": 0
+      },
+      "ClassDefining": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "hasPackageAccess": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 7,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "com-google-inject-internal-aop-ChildClassDefiner": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 9,
+      "wmc": 4,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33,
+      "childLoader": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "doPrivileged": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "com-google-inject-internal-aop-EnhancerBuilderImpl": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 7,
+      "wmc": 7,
+      "lcom*": 0.4375,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 37,
+      "getEnhanceableMethods": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "original_comments": [
+    "All (the pull request submitter and all commit authors) CLAs are signed, **but** one or more commits were authored or co-authored by someone other than the pull request submitter.\n\nWe need to confirm that all authors are ok with their commits being contributed to this project.  Please have them confirm that by leaving a comment that contains only `@googlebot I consent.` in this pull request.\n\n*Note to project maintainer:* There may be cases where the author cannot leave a comment, or the comment is not properly detected as consent.  In those cases, you can manually confirm consent of the commit author(s), and set the `cla` label to `yes` (if enabled on your project).\n\nℹ️ **Googlers: [Go here](https://goto.google.com/prinfo/https%3A%2F%2Fgithub.com%2Fgoogle%2Fguice%2Fpull%2F1359) for more info**.\n\n<!-- need_author_consent -->",
+    "@googlebot I consent.",
+    "CLAs look good, thanks!\n\nℹ️ **Googlers: [Go here](https://goto.google.com/prinfo/https%3A%2F%2Fgithub.com%2Fgoogle%2Fguice%2Fpull%2F1359) for more info**.\n\n<!-- ok -->",
+    "@kevinb9n @mcculls I guess this finally fixes  #1133 and can therefore be closed?\r\nAny ETA when a new release with this sync here will be available?",
+    "@kevinb9n @mcculls @sameb Can you please give a short update when do you think the next Guice release will be cut? Are there any plans?"
+  ],
+  "cleaned_comments": [
+    "All (the pull request submitter and all commit authors) CLAs are signed, **but** one or more commits were authored or co-authored by someone other than the pull request submitter.We need to confirm that all authors are ok with their commits being contributed to this project.  Please have them confirm that by leaving a comment that contains only @User I consent. in this pull request.*Note to project maintainer:* There may be cases where the author cannot leave a comment, or the comment is not properly detected as consent.  In those cases, you can manually confirm consent of the commit author(s), and set the cla label to yes (if enabled on your project).ℹ️ **Googlers:  for more info**.<!-- need_author_consent -->",
+    "@User I consent.",
+    "CLAs look good, thanks!ℹ️ **Googlers:  for more info**.<!-- ok -->",
+    "@User @User I guess this finally fixes  #1133 and can therefore be closed?\rAny ETA when a new release with this sync here will be available?",
+    "@User @User @User Can you please give a short update when do you think the next Guice release will be cut? Are there any plans?"
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 0.811,
+      "pos": 0.189,
+      "compound": 0.9638,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 0.513,
+      "pos": 0.487,
+      "compound": 0.2263,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.474,
+      "pos": 0.526,
+      "compound": 0.8344,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.076,
+      "neu": 0.829,
+      "pos": 0.096,
+      "compound": 0.1431,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/guice_PR_1448",
+  "Meta": {
+    "org": "google",
+    "project_name": "guice",
+    "PR_id": 513708899,
+    "PR_number": 1448,
+    "PR_url": "https://github.com/google/guice/pull/1448",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 83,
+    "PR_deletions": 41,
+    "PR_changed_files": 1,
+    "PR_modified_class_files": 1,
+    "PR_creation": "2020-11-01T23:04:26+00:00",
+    "Base_SHA": "dc5a782524fa9cc0923ba9173050b20c8c9c8311",
+    "Head_SHA": "859f76bac645629867e2e420be80378b983705e7",
+    "PR_nb_comments": 12
+  },
+  "base": {
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "cboModified": 37,
+      "wmc": 122,
+      "lcom*": 0.9111112,
+      "totalMethodsQty": 27,
+      "staticMethodsQty": 5,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 13,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 14,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 543,
+      "createMethodHandle": {
+        "loc": 21,
+        "cboModified": 0,
+        "wmc": 4,
+        "parametersQty": 2
+      }
+    }
+  },
+  "head": {
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "cboModified": 38,
+      "wmc": 116,
+      "lcom*": 0.908,
+      "totalMethodsQty": 25,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 11,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 4,
+      "visibleMethodsQty": 14,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 577,
+      "superMethodHandle": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    }
+  },
+  "Diff": {
+    "com-google-inject-assistedinject-FactoryProvider2": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": -6,
+      "lcom*": -0.0031111999999999806,
+      "totalMethodsQty": -2,
+      "staticMethodsQty": -2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": -2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 34,
+      "createMethodHandle": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 21,
+        "cboModified": 0,
+        "wmc": 4,
+        "parametersQty": 2
+      },
+      "superMethodHandle": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 3,
+        "parametersQty": 2
+      }
+    }
+  },
+  "original_comments": [
+    "we should add a TODO that when we drop jdk8 support we can rm this 'else' branch, because its only needed as a fallback since using reflection wasn't a reliable way to do things.",
+    "OOC, in what ways does findSpecial differ from unreflectSpecial?   are the two functionally equivalent (ignoring the JDK bugs), except one stards with reflect data (Method) and the other with a signature (MethodType)?\r\n\r\nif so, is it worthwhile simplifying this to _just_ use findSpecial?\r\n\r\nalso: does this change have any impact on the calculus of who has access?  if the types (args or return) are private, package-private or protected, will unreflectSpecial|findSpecial fail whereas the reflected approach would have succeeded, because we explicitly set the modes to all access levels?\r\n",
+    "`unreflectSpecial` is intended to be equivalent to `findSpecial` but slightly faster because it avoids an extra resolution step. (The JVM can re-use detail in the reflected method so it doesn't need to match the given name+type signature against potential candidates.) It also skips security checks which have already been performed during reflection.\r\n\r\nJust using `findSpecial` would save one call to `unreflectSpecial` at the cost of always re-resolving default methods on Java14+... note it would only save one call because if `unreflectSpecial` fails then we remember that and avoid trying it again.\r\n\r\nI'm tempted to leave it in because I don't think removing it would simplify the code that much - we'd still want to remember falling back to the private lookup if/when that happens because otherwise we'd penalise Java8 users by always attempting a different approach even when we knew it would never work. (That's if we still follow the same general pattern - did you have a different suggestion?)\r\n\r\nRegarding access, since this PR always falls back to the `privateLookup` approach if all of the other approaches fail then this shouldn't change existing behaviour. What it does do is avoid the `privateLookup` if any of the other approaches succeed first (which is more likely on recent JDKs.)",
+    "If leaving it in if it makes a difference (even it's just a single resolution step), then keeping it makes sense to me.\r\n\r\nInsofar as falling back to privateLookup because of access issues... that makes less sense to me, particularly because the fallback mechanism is static.  So if using unreflectSpecial|findSpecial fails for non-public members, then if you have just a single non-public usage in your code, you can expect all your code to ultimately be using the reflection-based approach and continuing to receive the warnings about that.\r\n\r\nThat's not to say that I think we should use try the tiered approach every time... but it does make me wonder about the utility of it  (Also because the fallback in the PR is using only jdk8 constructor params, so I think it would end up failing on later JDKs.)",
+    "Fundamentally we either take a versioned approach, using the JDK version to decide what to do - or we take a behaviour-based approach, starting with the available public API and falling back to internal API when that fails. Because it would be expensive to continually fall-through the different approaches on Java 8, this PR caches (statically) which approach worked for all the scenarios so far.\r\n\r\nIMHO this is reasonable because if we've fallen through to use the private lookup then it's likely this will happen again. At that point we've already done the hard bit (looking up the constructor and making it accessible) so re-using the now accessible constructor is simple and doesn't trigger further warnings. In other words since we've got access to it we might as well skip straight to it.\r\n\r\nAlso in this case we know we're dealing with public methods, because default methods are always public. This coupled with the `unreflectSpecial` fixes in Java 14+ means that approach works even when the interface itself is private. If the JVM is older then we fall back to `findSpecial` which works for Java9+ even when the interface itself is private. Finally for Java8 we fall back to the internal API.\r\n\r\nRegarding the different `Lookup` constructor, that appeared in Java14 - so far I haven't found a situation where `unreflectSpecial` fails on Java14 even for private interfaces, but I haven't tested all JPMS scenarios. But we can easily add support for the Java14+ Lookup constructor just in case. The alternative would be to grab the trusted `IMPL_LOOKUP` field, but that feels more risky."
+  ],
+  "cleaned_comments": [
+    "we should add a TODO that when we drop jdk8 support we can rm this 'else' branch, because its only needed as a fallback since using reflection wasn't a reliable way to do things.",
+    "OOC, in what ways does findSpecial differ from unreflectSpecial?   are the two functionally equivalent (ignoring the JDK bugs), except one stards with reflect data (Method) and the other with a signature (MethodType)?\r\rif so, is it worthwhile simplifying this to _just_ use findSpecial?\r\ralso: does this change have any impact on the calculus of who has access?  if the types (args or return) are private, package-private or protected, will unreflectSpecial|findSpecial fail whereas the reflected approach would have succeeded, because we explicitly set the modes to all access levels?\r",
+    "unreflectSpecial is intended to be equivalent to findSpecial but slightly faster because it avoids an extra resolution step. (The JVM can re-use detail in the reflected method so it doesn't need to match the given name+type signature against potential candidates.) It also skips security checks which have already been performed during reflection.\r\rJust using findSpecial would save one call to unreflectSpecial at the cost of always re-resolving default methods on Java14+... note it would only save one call because if unreflectSpecial fails then we remember that and avoid trying it again.\r\rI'm tempted to leave it in because I don't think removing it would simplify the code that much - we'd still want to remember falling back to the private lookup if/when that happens because otherwise we'd penalise Java8 users by always attempting a different approach even when we knew it would never work. (That's if we still follow the same general pattern - did you have a different suggestion?)\r\rRegarding access, since this PR always falls back to the privateLookup approach if all of the other approaches fail then this shouldn't change existing behaviour. What it does do is avoid the privateLookup if any of the other approaches succeed first (which is more likely on recent JDKs.)",
+    "If leaving it in if it makes a difference (even it's just a single resolution step), then keeping it makes sense to me.\r\rInsofar as falling back to privateLookup because of access issues... that makes less sense to me, particularly because the fallback mechanism is static.  So if using unreflectSpecial|findSpecial fails for non-public members, then if you have just a single non-public usage in your code, you can expect all your code to ultimately be using the reflection-based approach and continuing to receive the warnings about that.\r\rThat's not to say that I think we should use try the tiered approach every time... but it does make me wonder about the utility of it  (Also because the fallback in the PR is using only jdk8 constructor params, so I think it would end up failing on later JDKs.)",
+    "Fundamentally we either take a versioned approach, using the JDK version to decide what to do - or we take a behaviour-based approach, starting with the available public API and falling back to internal API when that fails. Because it would be expensive to continually fall-through the different approaches on Java 8, this PR caches (statically) which approach worked for all the scenarios so far.\r\rIMHO this is reasonable because if we've fallen through to use the private lookup then it's likely this will happen again. At that point we've already done the hard bit (looking up the constructor and making it accessible) so re-using the now accessible constructor is simple and doesn't trigger further warnings. In other words since we've got access to it we might as well skip straight to it.\r\rAlso in this case we know we're dealing with public methods, because default methods are always public. This coupled with the unreflectSpecial fixes in Java 14+ means that approach works even when the interface itself is private. If the JVM is older then we fall back to findSpecial which works for Java9+ even when the interface itself is private. Finally for Java8 we fall back to the internal API.\r\rRegarding the different Lookup constructor, that appeared in Java14 - so far I haven't found a situation where unreflectSpecial fails on Java14 even for private interfaces, but I haven't tested all JPMS scenarios. But we can easily add support for the Java14+ Lookup constructor just in case. The alternative would be to grab the trusted IMPL_LOOKUP field, but that feels more risky."
+  ],
+  "valences": [
+    {
+      "neg": 0.057,
+      "neu": 0.87,
+      "pos": 0.073,
+      "compound": 0.1531,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.063,
+      "neu": 0.845,
+      "pos": 0.092,
+      "compound": 0.4329,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.083,
+      "neu": 0.842,
+      "pos": 0.075,
+      "compound": 0.0387,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.065,
+      "neu": 0.935,
+      "pos": 0,
+      "compound": -0.8047,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.038,
+      "neu": 0.907,
+      "pos": 0.055,
+      "compound": 0.7618,
+      "Sentiment": "Positive"
+    }
+  ]
+}]

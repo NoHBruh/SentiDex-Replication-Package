@@ -1,0 +1,3983 @@
+[{
+  "_id": "google/dagger_PR_606",
+  "Meta": {
+    "org": "google",
+    "project_name": "dagger",
+    "PR_id": 108868735,
+    "PR_number": 606,
+    "PR_url": "https://github.com/google/dagger/pull/606",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 185,
+    "PR_deletions": 55,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2017-03-02T22:46:05+00:00",
+    "Base_SHA": "bb2d3a9f142f91156cfa39d5d5894ade0e146c4c",
+    "Head_SHA": "1219f44b619dbc79dd4781517d60ddc811c48297",
+    "PR_nb_comments": 18
+  },
+  "base": {
+    "dagger-internal-codegen-SubcomponentValidationTest": {
+      "cboModified": 4,
+      "wmc": 14,
+      "lcom*": 0,
+      "totalMethodsQty": 14,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 14,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 14,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 92,
+      "subcomponentSimpleNamesDisambiguated": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "multipleSubcomponentsWithSameSimpleNamesCanExistInSameComponent": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBuilderNamesShouldNotConflict": {
+        "loc": 5,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentImplNameUsesFullyQualifiedClassNameIfNecessary": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-ComponentWriter": {
+      "cboModified": 14,
+      "wmc": 10,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 5,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 74
+    }
+  },
+  "head": {
+    "dagger-internal-codegen-SubcomponentValidationTest": {
+      "cboModified": 4,
+      "wmc": 15,
+      "lcom*": 0,
+      "totalMethodsQty": 15,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 15,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 15,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 99,
+      "subcomponentSimpleNamesDisambiguated": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentSimpleNamesDisambiguatedInRoot": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentImplNameUsesFullyQualifiedClassNameIfNecessary": {
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "multipleSubcomponentsWithSameSimpleNamesCanExistInSameComponent": {
+        "loc": 9,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBuilderNamesShouldNotConflict": {
+        "loc": 5,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-ComponentWriter": {
+      "cboModified": 14,
+      "wmc": 10,
+      "lcom*": 0,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 5,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 102
+    }
+  },
+  "Diff": {
+    "dagger-internal-codegen-SubcomponentValidationTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 7,
+      "subcomponentSimpleNamesDisambiguated": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "multipleSubcomponentsWithSameSimpleNamesCanExistInSameComponent": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentBuilderNamesShouldNotConflict": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentImplNameUsesFullyQualifiedClassNameIfNecessary": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentSimpleNamesDisambiguatedInRoot": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 7,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-ComponentWriter": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 28
+    }
+  },
+  "original_comments": [
+    "It looks like this is actually an `ImmutableMap`, so let's hold references to `ImmutableMap`.",
+    "private?",
+    "Could we simplify this to just be `CharMatcher.javaLowerCase().removeFrom(…)`?",
+    "```\r\ncomponents\r\n    .stream()\r\n    .map(componentNamers::get)\r\n    .map(Namer::simpleName)\r\n    .allMatch(new HashSet<>()::add)\r\n```\r\n(or something like that) will tell you if you have a unique collection",
+    "Can you use `dagger.internal.codegen.UniqueNameSet` for this?",
+    "Sorry, my stream fu is weak. If this passes, won't it require me to iterate a second time to actually build the map?",
+    "Can you remove `final` from this and the next line?",
+    "Done, pushed.",
+    "Won't this actually result in longer names when simple names are used now that we're not splitting the qualified name?"
+  ],
+  "cleaned_comments": [
+    "It looks like this is actually an ImmutableMap, so let's hold references to ImmutableMap.",
+    "private?",
+    "Could we simplify this to just be CharMatcher.javaLowerCase().removeFrom(…)?",
+    "\r(or something like that) will tell you if you have a unique collection",
+    "Can you use dagger.internal.codegen.UniqueNameSet for this?",
+    "Sorry, my stream fu is weak. If this passes, won't it require me to iterate a second time to actually build the map?",
+    "Can you remove final from this and the next line?",
+    "Done, pushed.",
+    "Won't this actually result in longer names when simple names are used now that we're not splitting the qualified name?"
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 0.839,
+      "pos": 0.161,
+      "compound": 0.3612,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.828,
+      "pos": 0.172,
+      "compound": 0.3612,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.308,
+      "neu": 0.692,
+      "pos": 0,
+      "compound": -0.836,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/dagger_PR_670",
+  "Meta": {
+    "org": "google",
+    "project_name": "dagger",
+    "PR_id": 113053817,
+    "PR_number": 670,
+    "PR_url": "https://github.com/google/dagger/pull/670",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 451,
+    "PR_deletions": 21,
+    "PR_changed_files": 11,
+    "PR_modified_class_files": 10,
+    "PR_creation": "2017-03-28T19:58:18+00:00",
+    "Base_SHA": "7649d68ff02a8a759a9df82f25794f460207000b",
+    "Head_SHA": "6f645f5733156184493252e1f39f2001ca82dc9f",
+    "PR_nb_comments": 13
+  },
+  "base": {
+    "dagger-internal-codegen-GraphValidationTest": {
+      "cboModified": 6,
+      "wmc": 42,
+      "lcom*": 0.8095238,
+      "totalMethodsQty": 42,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 41,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 41,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 258,
+      "bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWithNullableViolationAsWarning": {
+        "loc": 5,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParent": {
+        "loc": 10,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-BindingGraph": {
+      "cboModified": 37,
+      "wmc": 11,
+      "lcom*": 0.7,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 10,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 4,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 515
+    },
+    "dagger-internal-codegen-DependencyRequest": {
+      "cboModified": 59,
+      "wmc": 16,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 7,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 5,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 236,
+      "builder": {
+        "loc": 3,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-ResolvedBindings": {
+      "cboModified": 36,
+      "wmc": 42,
+      "lcom*": 0,
+      "totalMethodsQty": 30,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 27,
+      "visibleMethodsQty": 30,
+      "abstractMethodsQty": 7,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 104
+    }
+  },
+  "head": {
+    "dagger-functional-subcomponent-membersinject-ParentComponent": {
+      "cboModified": 4,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4,
+      "child": {
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "inject": {
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ParentModule": {
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 5,
+      "string": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-GraphValidationTest": {
+      "cboModified": 7,
+      "wmc": 46,
+      "lcom*": 0.82608694,
+      "totalMethodsQty": 46,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 45,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 45,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 290,
+      "subcomponentTransitiveBindingConflictsWithParent": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWithNullableViolationAsWarning": {
+        "loc": 5,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent": {
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWhenSubcomponentPerformsMembersInjection": {
+        "loc": 8,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWhenBothComponentsPerformMembersInjection": {
+        "loc": 8,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParent": {
+        "loc": 10,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentGeneratedCorrectlyWhenBothComponentsPerformMembersInjection": {
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ChildComponent": {
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3,
+      "inject": {
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ChildModule": {
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 5,
+      "string": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-BindingGraph": {
+      "cboModified": 37,
+      "wmc": 11,
+      "lcom*": 0.7,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 10,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 4,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 518
+    },
+    "dagger-functional-subcomponent-membersinject-SubcomponentMembersInjectTest": {
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 10,
+      "injectCorrectWhenBothComponentsPerformMultiboundMembersInjection": {
+        "loc": 8,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-DependencyRequest": {
+      "cboModified": 59,
+      "wmc": 16,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 7,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 5,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 236,
+      "builder": {
+        "loc": 3,
+        "cboModified": 10,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-Injected": {
+      "cboModified": 4,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    },
+    "dagger-internal-codegen-ResolvedBindings": {
+      "cboModified": 36,
+      "wmc": 42,
+      "lcom*": 0,
+      "totalMethodsQty": 30,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 27,
+      "visibleMethodsQty": 30,
+      "abstractMethodsQty": 7,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 104
+    }
+  },
+  "Diff": {
+    "dagger-internal-codegen-GraphValidationTest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 4,
+      "lcom*": 0.01656314000000003,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 32,
+      "bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWithNullableViolationAsWarning": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParent": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "subcomponentTransitiveBindingConflictsWithParent": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 7,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWhenSubcomponentPerformsMembersInjection": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 8,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentBindingConflictsWithParentWhenBothComponentsPerformMembersInjection": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 8,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "subcomponentGeneratedCorrectlyWhenBothComponentsPerformMembersInjection": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 9,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-BindingGraph": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    },
+    "dagger-internal-codegen-DependencyRequest": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "builder": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-ResolvedBindings": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-functional-subcomponent-membersinject-ParentComponent": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4,
+      "child": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "inject": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ParentModule": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 5,
+      "string": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ChildComponent": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3,
+      "inject": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-ChildModule": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 3,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 5,
+      "string": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-SubcomponentMembersInjectTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 10,
+      "injectCorrectWhenBothComponentsPerformMultiboundMembersInjection": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 8,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-functional-subcomponent-membersinject-Injected": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 3
+    }
+  },
+  "original_comments": [
+    "Can you revert this?",
+    ":scissors: ",
+    "Maybe rename this to just `Parent`?",
+    "This was already correct before this PR right? I wonder if we already have coverage for this, though I guess it can't hurt",
+    ":scissors: ",
+    "Can you use `.equals()` instead of `==`? we prefer the former.",
+    "Done.",
+    "Done.",
+    "It was correct before this PR. This adds test coverage for subcomponent members injection which didn't exist previously.",
+    "Done.",
+    "Done.",
+    "Done.",
+    "Hm. This shouldn't be created because it should just use the `injectedMembersInjector` from` `DaggerParent`.",
+    "Ok this is good. As expected, a new members injector is created here because there are updates to the multibindings",
+    "I'm not sure this is the right fix, given my comment below about the duplicated members injector. My hunch is that there's something not working right with the call to `getLocalExplicitBindings()` when used on a `Key` for members injection. Maybe that's always returning empty?",
+    "This should probably be a functional test, since what we care about is that injection from the child gives a different value than from the parent. The previous test should be kept, because we do care about the internals of the code (i.e. that a MembersInjector isn't recreated",
+    "I looked more into this and here's what I've got: \r\n\r\n```java\r\nif (getPreviouslyResolvedBindings(bindingKey).isPresent()) {\r\n  /* Resolve in the parent in case there are multibinding contributions or conflicts in some\r\n   * component between this one and the previously-resolved one. */\r\n  parentResolver.get().resolve(bindingKey);\r\n  boolean localExplicit;\r\n  if (bindingKey.kind().equals(BindingKey.Kind.CONTRIBUTION)) {\r\n    localExplicit = getLocalExplicitBindings(bindingKey.key()).isEmpty();\r\n  } else {\r\n    localExplicit =\r\n        getPreviouslyResolvedBindings(bindingKey)\r\n            .get()\r\n            .bindings()\r\n            .stream()\r\n            .flatMap(binding -> binding.dependencies().stream())\r\n            .anyMatch(dependency -> getLocalExplicitBindings(dependency.key()).isEmpty());\r\n  }\r\n  if (!new LocalDependencyChecker().dependsOnLocalBindings(bindingKey) && localExplicit) {\r\n```\r\n\r\nI think that's working correctly, even if there are dependencies of the members injection binding that transitively have local multibinding contributions. @netdpb does something like this make sense to you?\r\n\r\nWe can obviously clean this up before submitting.",
+    "Hmm. LocalDependencyChecker should still return true if the members injector's transitive dependencies include locally conflicting bindings.\r\n\r\nAha! The issue may be that we're looking for locally-overridden multibindings and optional bindings through the transitive dependencies, but we're looking for locally-conflicting explicit bindings only for the current binding key.\r\n\r\nWe should look for locally-conflicting explicit bindings in the transitive dependencies, and resolve locally if we find any.  We should be careful because fixing this might uncover existing bugs where some conflicting bindings in subcomponents are currently ignored, but after we fix this they'll be reported.\r\n\r\nI think the correct fix is to move the getLocalExplicitBindings call into the LocalDependencyChecker.\r\n\r\nOur tests for subcomponent binding conflicts all look at conflicts at the entry point. I bet if we add a test with one nonconflicting binding for the entry points but conflicting bindings for its dependency, it won't fail right now.",
+    "Still need to move this to a functional test. ",
+    "I think we can do better here, will try to merge this check into `localDependencyChecker.dependsOnLocalBindings(bindingKey)`",
+    "I think we want to leave this as it currently is in the PR.\r\n\r\nIf we start checking if a binding is defined locally and hence conflicts with a previously resolved binding in `localDependencyChecker.dependsOnLocalBindings()` this makes determining the owning component of a binding in `Resolver.getOwningComponent()` more challenging. Checking if a binding is defined locally in a separate method that can be reused in other places makes things more composable and straightforward. \r\n\r\n@netdpb @ronshapiro Does this PR currently make sense or is there some reason why we'd want to check for binding conflicts in `dependsOnLocalBindings()`?",
+    "This should be `strings`.",
+    "Can you assert specifically what you expect to see in each one?",
+    "Hmm. Shouldn't we check to see if any of the _transitive_ dependencies are redefined locally, even for contribution bindings? I think we have a problem even with this:\r\n\r\n```\r\n@Component(modules = ParentModule.class) interface Parent {\r\n  Foo foo();\r\n  Child.Builder child();\r\n}\r\n\r\n@Subcomponent(modules = ChildModule.class) interface Child {\r\n  Foo foo();\r\n}\r\n\r\n@Module(subcomponents = Child.class) abstract class ParentModule {\r\n  @Provides static Foo foo(Bar bar) { ... }\r\n  @Provides static Bar bar() { ... }\r\n}\r\n\r\n@Module abstract class ChildModule {\r\n  @Provides static Bar bar() { ... }\r\n}\r\n```\r\n\r\nThe `Bar` binding in `ChildModule` _should_ conflict with the one in `ParentModule`, but it doesn't.\r\n\r\nIn any case, we have to be careful with this PR because people's components might suddenly report previously hidden errors.",
+    "These are unused? Let's keep this PR focused. We can remove them in a different PR.",
+    "e2cba707",
+    "4713536c",
+    "af1750e5",
+    "Great catch. I added a test case which will fail until duplicate bindings are reported for this scenario in  033e9efc. I'm still thinking about the best way to catch transitive dependencies that are redefined locally, hope to have more soon.\r\n\r\n",
+    "Can you follow the same pattern we do for multibindings?",
+    "Getting closer with ab5dbf1e.  This still isn't quiet right since bindings in the child are resolving bindings that should be unresolvable in the parent. Specifically `GraphValidationTest.bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent()`",
+    "@netdpb Should we be checking any other binding kinds here besides `PROVISION` for local conflicts?\r\n\r\nOn second thought, we can probably get away without checking the binding kind at all since multibindings are already accounted for (lines 1047 & 1048) and any other kind of binding would be a conflict.",
+    "Ultimately, we're returning true if the binding and its transitive dependencies, as resolved in this component, will be different than what was resolved in the parent. Can we just say that?\r\n\r\nI still wonder whether this attempt at optimizing buys us anything. Why not just resolve the binding again here, and then compare that subgraph to the one generated in the parent component? I mean, if you could tell that they weren't going to be different without actually checking all the transitive dependencies, then it might be worth it because you could reduce build times. But aren't we basically checking it here, only to throw all that away and redo it if it's different?\r\n\r\nBut that is not for now in this PR. For now, this is fine.",
+    "I think we don't care about what kind of contribution binding.",
+    "I think we don't care at this point whether that local contribution conflicts. If there's a local contribution, we can't just rely on the resolved binding found at the parent.",
+    "I think we can avoid looking at the parent resolver here. The resolvedBindings argument is a previously-resolved binding, isn't it?",
+    "We must check the parent here otherwise we could end up resolving a previously unresolved binding in the parent using a binding thats defined in the child:\r\n\r\n```\r\n@Component(modules = ParentModule.class) interface Parent {\r\n  Child child();\r\n}\r\n\r\n@Subcomponent(modules = ChildModule.class) interface Child {\r\n  Bar bar()\r\n  Foo foo()\r\n}\r\n\r\n@Module abstract class ParentModule {\r\n  @Provides static Foo foo(Bar bar) { ... }\r\n}\r\n\r\n@Module abstract class ChildModule {\r\n  @Provides static Bar bar() { ... }\r\n}\r\n```",
+    "e87b784",
+    "3c37837 renames this method to reflect that we only care about there being a local contribution.",
+    "af89000 changes the comment on this method.\r\n\r\nBy checking the parent resolver to see if the binding was already resolved, we are, in effect comparing the subgraph to the one generated at the parent. Happy to explore an optimization to not check all transitive dependencies in a later PR.",
+    "But isn't that the point? If we do find one of those bindings, then there are *some* local bindings, and we should return `true`. We're not actually putting any of these bindings into the `resolvedBindings` map at this point anyway.\r\n\r\nOr am I missing something?",
+    "> Or am I missing something?\r\n\r\n`dependsOnLocalBindings()` is also used in `getOwningComponent()`. \r\n\r\nThe trouble is we’ve now changed dependsOnLocalBindings() to return `true` if any dependencies of a binding are defined locally. When foo is resolved in `Child`  the owning component is now `Child` when it should be `Parent`.\r\n\r\nBy checking the parent’s previously resolved bindings we know that this binding was not resolved in `Parent` and hence should not be owned by `Child` . \r\n\r\n `GraphValidationTest.bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent` fails without the check in the parent.\r\n\r\nThoughts?\r\n",
+    "Ping :)\r\n\r\nAny thoughts/insight as to how we can avoid checking the parent would be very helpful.",
+    "\"present\" refers to optional bindings, as above. I don't think it makes sense here.\r\n",
+    "Why should this method care whether the parent bindings are empty?\r\n\r\nThe point is to determine whether we should bother resolving in this subcomponent despite the previously resolved bindings from the parent. We should if the subcomponent would resolve a binding potentially different than its parent, either validly (as in a multibinding with local contributions or a present optional binding where the parent is absent) or invalidly (as in a present optional binding where the parent's is also present or a different binding in a module installed only in the subcomponent).",
+    "The argument to hasLocalContributionBinding is the previously resolved bindings from the parent. So this should always be true. You can remove it.\r\n\r\nMaybe each of these `hasLocal…` methods' parameters should be renamed to \"previouslyResolvedBindings\" or \"parentBindings\" to make that clear.",
+    "s/and/or",
+    "For new tests, please use the new Compile Testing APIs. See `Compilers.daggerCompiler()` in this package and how other tests use it.",
+    "223cd1a",
+    "3f14e9a",
+    "6aa0b44",
+    "584e8e7",
+    "You're right, this method shouldn't care if the parent bindings are empty. I've removed this check in 4f78aab. \r\n\r\nHowever, in addition to the case you mentioned above, `LocalDependencyChecker` is also used to determine the owning component of a binding in `getOwningComponent()`. Now that we're checking for local contribution bindings here, we incorrectly determine the owning component of the `Object` binding to be `Child`.\r\n\r\n```\r\n@Module\r\nclass ParentModule { \r\n  @Provides Object needsString(String string) { return new Object; } \r\n}\r\n\r\n@Component(modules = ParentModule.class)\r\ninterface Parent { Child child(); }\r\n\r\n@Module\r\nclass ChildModule {\r\n  @Provides String string() { return \"Hi!\" }\r\n}\r\n\r\n@Subcomponent(modules = ChildModule.class)\r\ninterface Child {\r\n  String string();\r\n  Object object();\r\n}\r\n```\r\n\r\nTo address this I think we need to add some additional logic to `getOwningComponent()`. Does that make sense? At the moment Travis will fail on this case.",
+    "ef7c84e0 demonstrates an idea I had to address the owning component problem described above. This should pass Travis.\r\n\r\nLet me know what you think!",
+    "Why is this better?",
+    "I think it's okay if a binding gets re-owned in the child because one of its transitive dependencies conflicts with the parent. In that case, an error will be reported (hopefully only at the actual conflict) so it won't matter what the ownership is here.\r\n\r\n[`BindingGraphValidation.visitResolvedBindings()`](https://github.com/google/dagger/blob/master/java/dagger/internal/codegen/BindingGraphValidator.java#L587) reports a duplicate-binding error if the _set_ of bindings for the key contains more than one binding. In the case of a binding with conflicting dependencies, the binding itself will be owned by two components, but when viewed as a set, it will contain only the one binding.\r\n\r\nWhat error do you see in Travis?",
+    "This is an interesting point. That test asserts that if a binding is missing a dependency in a parent, but is used only from within a child in which that dependency does exist, we still report the missing dependency. \r\n\r\nWhat we're doing now is asserting that if a binding has one dependency in a parent and another dependency in a child, we report an error.\r\n\r\nI don't understand why fixing the second makes the first test fail. What's the failure you see?",
+    "Consider using the new `onLineContaining(\"interface Parent {\")`, which lets you avoid magic line numbers.",
+    "This change is old and is not present in the most recent change set.",
+    "Here's the failure:\r\n\r\n",
+    "Travis error is the same as the one linked above. ",
+    "@netdpb This is the last contentious part of the review. \r\n\r\nCan you take a peak here and let me know if you have thoughts on how we can remove this check? I've added a stacktrace that details what blows up when the check is removed. ",
+    "6f645f5\r\n",
+    "First off, the lambda doesn't appear to use its parameter, `contributionBinding`.\r\n\r\nSecond, if `parentBindings` is truly the `ResolvedBindings` that was previously resolved in the parent component, how could its owning component be this subcomponent?\r\n\r\nI guess because `dependsOnLocalBindings` searches through the dependencies, and `getPreviouslyResolvedBindings` may in fact return bindings previously resolved in this very component, they might be. So calling the parameter \"parentBindings\" is actually wrong.\r\n\r\n-----\r\n\r\nI have to say I'm becoming more and more convinced that the whole strategy this `LocalDependencyChecker` uses is fundamentally broken. We use it for two things:\r\n\r\n1. Determining whether we can skip resolving a binding key in this component because it was already resolved in the parent and there's nothing local to conflict.\r\n2. Determining which component owns a binding after it was resolved.\r\n\r\nThe work done for (1) means that we're effectively resolving the binding in order to figure out whether we should skip resolving the binding, which is self-defeating. And the work done for (2) effectively repeats the resolution after resolving every binding.\r\n\r\nI think we should stop doing (1) at all, and take a different approach to (2). For (2), currently we create a `ResolvedBindings`, figuring out which component owns each contained binding using the `LocalDependencyChecker`, and then we resolve its direct dependencies. How about instead we resolve like this:\r\n\r\n1. Look up the bindings without checking ownership.\r\n2. For each binding:\r\n   1. Find its owning resolver (`getOwningResolver`).\r\n   2. Resolve its direct dependencies (recursive call to `resolve`).\r\n   3. The binding's owning component is whichever is the lowest (farthest from the root) among the owning resolver's component and all of the direct dependencies' owning components.\r\n\r\nThat way, each binding that has ANY transitive dependencies in the current component, conflicting or not, is copied down to the current component even if it is also owned in an ancestor.\r\n\r\nI think changing to this approach will make resolution more performant and less buggy.\r\n\r\n-----\r\n\r\n@naturalwarren, if you want to work on this idea, that's great, but I don't know how well that will work as a pull request because it'll be such a big change to the way binding resolution works. It'll probably take a fair amount of experimentation and refactoring and discussion, and I don't know how much time you have to spend on this. Let me know how you want to proceed; if you don't feel like this is something you can commit to right now, we'll definitely work on this ourselves soon.\r\n\r\nIn either case, let me say that without your work here, and #629 filed by @guliash, I don't think we'd understand the problems with `LocalDependencyChecker` nearly as well, so thank you.",
+    "@netdpb Thanks for the explanation. Unfortunately I don't think the changes you're proposing would translate well to a pull request so I'll leave them to you.\r\n\r\nIs there any interest in upstreaming some of the improvements in test case coverage here? Specifically:\r\n\r\n1.) The functional test `SubcomponentMembersInjectTest`\r\n2.) `subcomponentBindingConflictsWithParentWhenSubcomponentPerformsMembersInjection()`\r\n3.) `subcomponentGeneratedCorrectlyWhenBothComponentsPerformMembersInjection()`\r\n\r\nYou may find want to add the following tests back after addressing the problems with `LocalDependencyChecker`:\r\n\r\n1. `subcomponentBindingConflictsWithParentWhenBothComponentsPerformMembersInjection()`\r\n2. `subcomponentTransitiveBindingConflictsWithParent()`"
+  ],
+  "cleaned_comments": [
+    "Can you revert this?",
+    ":scissors: ",
+    "Maybe rename this to just Parent?",
+    "This was already correct before this PR right? I wonder if we already have coverage for this, though I guess it can't hurt",
+    ":scissors: ",
+    "Can you use .equals() instead of ==? we prefer the former.",
+    "Done.",
+    "Done.",
+    "It was correct before this PR. This adds test coverage for subcomponent members injection which didn't exist previously.",
+    "Done.",
+    "Done.",
+    "Done.",
+    "Hm. This shouldn't be created because it should just use the injectedMembersInjector from DaggerParent.",
+    "Ok this is good. As expected, a new members injector is created here because there are updates to the multibindings",
+    "I'm not sure this is the right fix, given my comment below about the duplicated members injector. My hunch is that there's something not working right with the call to getLocalExplicitBindings() when used on a Key for members injection. Maybe that's always returning empty?",
+    "This should probably be a functional test, since what we care about is that injection from the child gives a different value than from the parent. The previous test should be kept, because we do care about the internals of the code (i.e. that a MembersInjector isn't recreated",
+    "I looked more into this and here's what I've got: \r\rjava\rif (getPreviouslyResolvedBindings(bindingKey).isPresent()) {\r  /* Resolve in the parent in case there are multibinding contributions or conflicts in some\r   * component between this one and the previously-resolved one. */\r  parentResolver.get().resolve(bindingKey);\r  boolean localExplicit;\r  if (bindingKey.kind().equals(BindingKey.Kind.CONTRIBUTION)) {\r    localExplicit = getLocalExplicitBindings(bindingKey.key()).isEmpty();\r  } else {\r    localExplicit =\r        getPreviouslyResolvedBindings(bindingKey)\r            .get()\r            .bindings()\r            .stream()\r            .flatMap(binding -            .anyMatch(dependency -  }\r  if (!new LocalDependencyChecker().dependsOnLocalBindings(bindingKey) && localExplicit) {\r\r\rI think that's working correctly, even if there are dependencies of the members injection binding that transitively have local multibinding contributions. @User does something like this make sense to you?\r\rWe can obviously clean this up before submitting.",
+    "Hmm. LocalDependencyChecker should still return true if the members injector's transitive dependencies include locally conflicting bindings.\r\rAha! The issue may be that we're looking for locally-overridden multibindings and optional bindings through the transitive dependencies, but we're looking for locally-conflicting explicit bindings only for the current binding key.\r\rWe should look for locally-conflicting explicit bindings in the transitive dependencies, and resolve locally if we find any.  We should be careful because fixing this might uncover existing bugs where some conflicting bindings in subcomponents are currently ignored, but after we fix this they'll be reported.\r\rI think the correct fix is to move the getLocalExplicitBindings call into the LocalDependencyChecker.\r\rOur tests for subcomponent binding conflicts all look at conflicts at the entry point. I bet if we add a test with one nonconflicting binding for the entry points but conflicting bindings for its dependency, it won't fail right now.",
+    "Still need to move this to a functional test. ",
+    "I think we can do better here, will try to merge this check into localDependencyChecker.dependsOnLocalBindings(bindingKey)",
+    "I think we want to leave this as it currently is in the PR.\r\rIf we start checking if a binding is defined locally and hence conflicts with a previously resolved binding in localDependencyChecker.dependsOnLocalBindings() this makes determining the owning component of a binding in Resolver.getOwningComponent() more challenging. Checking if a binding is defined locally in a separate method that can be reused in other places makes things more composable and straightforward. \r\r@User @User Does this PR currently make sense or is there some reason why we'd want to check for binding conflicts in dependsOnLocalBindings()?",
+    "This should be strings.",
+    "Can you assert specifically what you expect to see in each one?",
+    "Hmm. Shouldn't we check to see if any of the _transitive_ dependencies are redefined locally, even for contribution bindings? I think we have a problem even with this:\r\r\r\rThe Bar binding in ChildModule _should_ conflict with the one in ParentModule, but it doesn't.\r\rIn any case, we have to be careful with this PR because people's components might suddenly report previously hidden errors.",
+    "These are unused? Let's keep this PR focused. We can remove them in a different PR.",
+    "e2cba707",
+    "4713536c",
+    "af1750e5",
+    "Great catch. I added a test case which will fail until duplicate bindings are reported for this scenario in  033e9efc. I'm still thinking about the best way to catch transitive dependencies that are redefined locally, hope to have more soon.\r\r",
+    "Can you follow the same pattern we do for multibindings?",
+    "Getting closer with ab5dbf1e.  This still isn't quiet right since bindings in the child are resolving bindings that should be unresolvable in the parent. Specifically GraphValidationTest.bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent()",
+    "@User Should we be checking any other binding kinds here besides PROVISION for local conflicts?\r\rOn second thought, we can probably get away without checking the binding kind at all since multibindings are already accounted for (lines 1047 & 1048) and any other kind of binding would be a conflict.",
+    "Ultimately, we're returning true if the binding and its transitive dependencies, as resolved in this component, will be different than what was resolved in the parent. Can we just say that?\r\rI still wonder whether this attempt at optimizing buys us anything. Why not just resolve the binding again here, and then compare that subgraph to the one generated in the parent component? I mean, if you could tell that they weren't going to be different without actually checking all the transitive dependencies, then it might be worth it because you could reduce build times. But aren't we basically checking it here, only to throw all that away and redo it if it's different?\r\rBut that is not for now in this PR. For now, this is fine.",
+    "I think we don't care about what kind of contribution binding.",
+    "I think we don't care at this point whether that local contribution conflicts. If there's a local contribution, we can't just rely on the resolved binding found at the parent.",
+    "I think we can avoid looking at the parent resolver here. The resolvedBindings argument is a previously-resolved binding, isn't it?",
+    "We must check the parent here otherwise we could end up resolving a previously unresolved binding in the parent using a binding thats defined in the child:\r\r",
+    "e87b784",
+    "3c37837 renames this method to reflect that we only care about there being a local contribution.",
+    "af89000 changes the comment on this method.\r\rBy checking the parent resolver to see if the binding was already resolved, we are, in effect comparing the subgraph to the one generated at the parent. Happy to explore an optimization to not check all transitive dependencies in a later PR.",
+    "But isn't that the point? If we do find one of those bindings, then there are *some* local bindings, and we should return true. We're not actually putting any of these bindings into the resolvedBindings map at this point anyway.\r\rOr am I missing something?",
+    "\rdependsOnLocalBindings() is also used in getOwningComponent(). \r\rThe trouble is we’ve now changed dependsOnLocalBindings() to return true if any dependencies of a binding are defined locally. When foo is resolved in Child  the owning component is now Child when it should be Parent.\r\rBy checking the parent’s previously resolved bindings we know that this binding was not resolved in Parent and hence should not be owned by Child . \r\r GraphValidationTest.bindingUsedOnlyInSubcomponentDependsOnBindingOnlyInSubcomponent fails without the check in the parent.\r\rThoughts?\r",
+    "Ping :)\r\rAny thoughts/insight as to how we can avoid checking the parent would be very helpful.",
+    "\"present\" refers to optional bindings, as above. I don't think it makes sense here.\r",
+    "Why should this method care whether the parent bindings are empty?\r\rThe point is to determine whether we should bother resolving in this subcomponent despite the previously resolved bindings from the parent. We should if the subcomponent would resolve a binding potentially different than its parent, either validly (as in a multibinding with local contributions or a present optional binding where the parent is absent) or invalidly (as in a present optional binding where the parent's is also present or a different binding in a module installed only in the subcomponent).",
+    "The argument to hasLocalContributionBinding is the previously resolved bindings from the parent. So this should always be true. You can remove it.\r\rMaybe each of these hasLocal… methods' parameters should be renamed to \"previouslyResolvedBindings\" or \"parentBindings\" to make that clear.",
+    "s/and/or",
+    "For new tests, please use the new Compile Testing APIs. See Compilers.daggerCompiler() in this package and how other tests use it.",
+    "223cd1a",
+    "3f14e9a",
+    "6aa0b44",
+    "584e8e7",
+    "You're right, this method shouldn't care if the parent bindings are empty. I've removed this check in 4f78aab. \r\rHowever, in addition to the case you mentioned above, LocalDependencyChecker is also used to determine the owning component of a binding in getOwningComponent(). Now that we're checking for local contribution bindings here, we incorrectly determine the owning component of the Object binding to be Child.\r\r\r\rTo address this I think we need to add some additional logic to getOwningComponent(). Does that make sense? At the moment Travis will fail on this case.",
+    "ef7c84e0 demonstrates an idea I had to address the owning component problem described above. This should pass Travis.\r\rLet me know what you think!",
+    "Why is this better?",
+    "I think it's okay if a binding gets re-owned in the child because one of its transitive dependencies conflicts with the parent. In that case, an error will be reported (hopefully only at the actual conflict) so it won't matter what the ownership is here.\r\r reports a duplicate-binding error if the _set_ of bindings for the key contains more than one binding. In the case of a binding with conflicting dependencies, the binding itself will be owned by two components, but when viewed as a set, it will contain only the one binding.\r\rWhat error do you see in Travis?",
+    "This is an interesting point. That test asserts that if a binding is missing a dependency in a parent, but is used only from within a child in which that dependency does exist, we still report the missing dependency. \r\rWhat we're doing now is asserting that if a binding has one dependency in a parent and another dependency in a child, we report an error.\r\rI don't understand why fixing the second makes the first test fail. What's the failure you see?",
+    "Consider using the new onLineContaining(\"interface Parent {\"), which lets you avoid magic line numbers.",
+    "This change is old and is not present in the most recent change set.",
+    "Here's the failure:\r\r",
+    "Travis error is the same as the one linked above. ",
+    "@User This is the last contentious part of the review. \r\rCan you take a peak here and let me know if you have thoughts on how we can remove this check? I've added a stacktrace that details what blows up when the check is removed. ",
+    "6f645f5\r",
+    "First off, the lambda doesn't appear to use its parameter, contributionBinding.\r\rSecond, if parentBindings is truly the ResolvedBindings that was previously resolved in the parent component, how could its owning component be this subcomponent?\r\rI guess because dependsOnLocalBindings searches through the dependencies, and getPreviouslyResolvedBindings may in fact return bindings previously resolved in this very component, they might be. So calling the parameter \"parentBindings\" is actually wrong.\r\r-----\r\rI have to say I'm becoming more and more convinced that the whole strategy this LocalDependencyChecker uses is fundamentally broken. We use it for two things:\r\r1. Determining whether we can skip resolving a binding key in this component because it was already resolved in the parent and there's nothing local to conflict.\r2. Determining which component owns a binding after it was resolved.\r\rThe work done for (1) means that we're effectively resolving the binding in order to figure out whether we should skip resolving the binding, which is self-defeating. And the work done for (2) effectively repeats the resolution after resolving every binding.\r\rI think we should stop doing (1) at all, and take a different approach to (2). For (2), currently we create a ResolvedBindings, figuring out which component owns each contained binding using the LocalDependencyChecker, and then we resolve its direct dependencies. How about instead we resolve like this:\r\r1. Look up the bindings without checking ownership.\r2. For each binding:\r   1. Find its owning resolver (getOwningResolver).\r   2. Resolve its direct dependencies (recursive call to resolve).\r   3. The binding's owning component is whichever is the lowest (farthest from the root) among the owning resolver's component and all of the direct dependencies' owning components.\r\rThat way, each binding that has ANY transitive dependencies in the current component, conflicting or not, is copied down to the current component even if it is also owned in an ancestor.\r\rI think changing to this approach will make resolution more performant and less buggy.\r\r-----\r\r@User, if you want to work on this idea, that's great, but I don't know how well that will work as a pull request because it'll be such a big change to the way binding resolution works. It'll probably take a fair amount of experimentation and refactoring and discussion, and I don't know how much time you have to spend on this. Let me know how you want to proceed; if you don't feel like this is something you can commit to right now, we'll definitely work on this ourselves soon.\r\rIn either case, let me say that without your work here, and #629 filed by @User, I don't think we'd understand the problems with LocalDependencyChecker nearly as well, so thank you.",
+    "@User Thanks for the explanation. Unfortunately I don't think the changes you're proposing would translate well to a pull request so I'll leave them to you.\r\rIs there any interest in upstreaming some of the improvements in test case coverage here? Specifically:\r\r1.) The functional test SubcomponentMembersInjectTest\r2.) subcomponentBindingConflictsWithParentWhenSubcomponentPerformsMembersInjection()\r3.) subcomponentGeneratedCorrectlyWhenBothComponentsPerformMembersInjection()\r\rYou may find want to add the following tests back after addressing the problems with LocalDependencyChecker:\r\r1. subcomponentBindingConflictsWithParentWhenBothComponentsPerformMembersInjection()\r2. subcomponentTransitiveBindingConflictsWithParent()"
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.888,
+      "pos": 0.112,
+      "compound": 0.4168,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.118,
+      "neu": 0.882,
+      "pos": 0,
+      "compound": -0.1877,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.705,
+      "pos": 0.295,
+      "compound": 0.7269,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.082,
+      "neu": 0.918,
+      "pos": 0,
+      "compound": -0.4141,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.836,
+      "pos": 0.164,
+      "compound": 0.8316,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.023,
+      "neu": 0.905,
+      "pos": 0.072,
+      "compound": 0.6696,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.114,
+      "neu": 0.821,
+      "pos": 0.066,
+      "compound": -0.8409,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.828,
+      "pos": 0.172,
+      "compound": 0.4404,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.064,
+      "neu": 0.874,
+      "pos": 0.062,
+      "compound": -0.2975,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.098,
+      "neu": 0.874,
+      "pos": 0.028,
+      "compound": -0.5719,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0,
+      "neu": 0.852,
+      "pos": 0.148,
+      "compound": 0.3818,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.069,
+      "neu": 0.71,
+      "pos": 0.221,
+      "compound": 0.8271,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.906,
+      "pos": 0.094,
+      "compound": 0.3818,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.089,
+      "neu": 0.85,
+      "pos": 0.061,
+      "compound": -0.128,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.012,
+      "neu": 0.907,
+      "pos": 0.081,
+      "compound": 0.735,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.208,
+      "neu": 0.792,
+      "pos": 0,
+      "compound": -0.3875,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.154,
+      "neu": 0.796,
+      "pos": 0.05,
+      "compound": -0.5466,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.201,
+      "neu": 0.726,
+      "pos": 0.073,
+      "compound": -0.4588,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.909,
+      "pos": 0.091,
+      "compound": 0.3818,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.824,
+      "pos": 0.176,
+      "compound": 0.4939,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.823,
+      "pos": 0.177,
+      "compound": 0.8271,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.056,
+      "neu": 0.862,
+      "pos": 0.081,
+      "compound": 0.3094,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.083,
+      "neu": 0.843,
+      "pos": 0.074,
+      "compound": -0.2066,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.099,
+      "neu": 0.628,
+      "pos": 0.273,
+      "compound": 0.5984,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.058,
+      "neu": 0.858,
+      "pos": 0.085,
+      "compound": 0.5693,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.055,
+      "neu": 0.789,
+      "pos": 0.156,
+      "compound": 0.5574,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.897,
+      "pos": 0.103,
+      "compound": 0.3182,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.084,
+      "neu": 0.916,
+      "pos": 0,
+      "compound": -0.7862,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.115,
+      "neu": 0.885,
+      "pos": 0,
+      "compound": -0.4574,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 0.471,
+      "pos": 0.529,
+      "compound": 0.5228,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.127,
+      "neu": 0.842,
+      "pos": 0.031,
+      "compound": -0.8136,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.181,
+      "neu": 0.8,
+      "pos": 0.019,
+      "compound": -0.946,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.145,
+      "neu": 0.855,
+      "pos": 0,
+      "compound": -0.296,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.623,
+      "neu": 0.377,
+      "pos": 0,
+      "compound": -0.5106,
+      "Sentiment": "Negative"
+    },
+    {
+      "neg": 0.231,
+      "neu": 0.769,
+      "pos": 0,
+      "compound": -0.4019,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.048,
+      "neu": 0.952,
+      "pos": 0,
+      "compound": -0.296,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.037,
+      "neu": 0.848,
+      "pos": 0.115,
+      "compound": 0.9766,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0.081,
+      "neu": 0.776,
+      "pos": 0.143,
+      "compound": 0.6151,
+      "Sentiment": "Positive"
+    }
+  ]
+},
+{
+  "_id": "google/dagger_PR_1082",
+  "Meta": {
+    "org": "google",
+    "project_name": "dagger",
+    "PR_id": 171733508,
+    "PR_number": 1082,
+    "PR_url": "https://github.com/google/dagger/pull/1082",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 5,
+    "PR_deletions": 1,
+    "PR_changed_files": 1,
+    "PR_modified_class_files": 1,
+    "PR_creation": "2018-02-27T17:34:50+00:00",
+    "Base_SHA": "ea48dfd44e6f3c4ad2b5e4a241a946542c39b218",
+    "Head_SHA": "8c9e387b1ac2f4f3d98b7c624049f6aa96f1808d",
+    "PR_nb_comments": 9
+  },
+  "base": {
+    "dagger-internal-codegen-ModuleDescriptor": {
+      "cboModified": 17,
+      "wmc": 8,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 8,
+      "visibleMethodsQty": 8,
+      "abstractMethodsQty": 8,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 112
+    }
+  },
+  "head": {
+    "dagger-internal-codegen-ModuleDescriptor": {
+      "cboModified": 17,
+      "wmc": 8,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 8,
+      "visibleMethodsQty": 8,
+      "abstractMethodsQty": 8,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 112
+    }
+  },
+  "Diff": {
+    "dagger-internal-codegen-ModuleDescriptor": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    }
+  },
+  "original_comments": [
+    "not sure if this fixes other issues in #912.",
+    "Is there any feedback on this?",
+    "@ronshapiro can we get this merged?",
+    "Fixes #1114. ",
+    "This should be covered in `BasicAnnotationProcessor`, which `ComponentProcessor` extends. \r\n\r\nCan you provide a sample program that fails with jdt (and ideally something that we can see if it also fails with `javac`)?",
+    "The project that causes it is proprietary, I'll need a bit of time to come up with a sample project.  FYI it does not occur with `javac` (or in Intellij).  Pesky Eclipse users! :)",
+    "Added sample project and stacktrace to #1114.",
+    "@ronshapiro any update on this?",
+    "This is probably not necessary any more."
+  ],
+  "cleaned_comments": [
+    "not sure if this fixes other issues in #912.",
+    "Is there any feedback on this?",
+    "@User can we get this merged?",
+    "Fixes #1114. ",
+    "This should be covered in BasicAnnotationProcessor, which ComponentProcessor extends. \r\rCan you provide a sample program that fails with jdt (and ideally something that we can see if it also fails with javac)?",
+    "The project that causes it is proprietary, I'll need a bit of time to come up with a sample project.  FYI it does not occur with javac (or in Intellij).  Pesky Eclipse users! :)",
+    "Added sample project and stacktrace to #1114.",
+    "@User any update on this?",
+    "This is probably not necessary any more."
+  ],
+  "valences": [
+    {
+      "neg": 0.197,
+      "neu": 0.803,
+      "pos": 0,
+      "compound": -0.2411,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.148,
+      "neu": 0.739,
+      "pos": 0.113,
+      "compound": -0.3182,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0.056,
+      "neu": 0.794,
+      "pos": 0.149,
+      "compound": 0.561,
+      "Sentiment": "Positive"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    },
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/dagger_PR_1712",
+  "Meta": {
+    "org": "google",
+    "project_name": "dagger",
+    "PR_id": 361012964,
+    "PR_number": 1712,
+    "PR_url": "https://github.com/google/dagger/pull/1712",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 617,
+    "PR_deletions": 80,
+    "PR_changed_files": 29,
+    "PR_modified_class_files": 22,
+    "PR_creation": "2020-01-09T15:20:47+00:00",
+    "Base_SHA": "163b278c562839806979061787e509bc59526c69",
+    "Head_SHA": "8951d3036e8b5e2a3e7415b2b7d4ee715914c66c",
+    "PR_nb_comments": 1
+  },
+  "base": {
+    "dagger-internal-codegen-ModuleProcessingStep": {
+      "cboModified": 25,
+      "wmc": 12,
+      "lcom*": 0.6111111,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 59,
+      "generate": {
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "process": {
+        "loc": 5,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-BindsOptionalOfMethodValidator": {
+      "cboModified": 13,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 28
+    },
+    "dagger-internal-codegen-binding-ComponentRequirement": {
+      "cboModified": 54,
+      "wmc": 42,
+      "lcom*": 0,
+      "totalMethodsQty": 19,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 13,
+      "privateMethodsQty": 3,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 16,
+      "abstractMethodsQty": 5,
+      "finalMethodsQty": 1,
+      "synchronizedMethodsQty": 0,
+      "loc": 111,
+      "requiresAPassedInstance": {
+        "loc": 6,
+        "cboModified": 8,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "isBindingMethod": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "componentCanMakeNewInstances": {
+        "loc": 27,
+        "cboModified": 6,
+        "wmc": 12,
+        "parametersQty": 2
+      },
+      "requiresModuleInstance": {
+        "loc": 4,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 3
+      },
+      "key": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-ContributionBinding": {
+      "cboModified": 53,
+      "wmc": 24,
+      "lcom*": 0,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 8,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 3,
+      "finalMethodsQty": 5,
+      "synchronizedMethodsQty": 0,
+      "loc": 79,
+      "isNullable": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requiresModuleInstance": {
+        "loc": 3,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "contributedPrimitiveType": {
+        "loc": 3,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "isModuleKotlinObject": {
+        "loc": 1,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "wrappedMapKeyAnnotation": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-ProducesMethodValidator": {
+      "cboModified": 11,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 3,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 52
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadataUtil": {
+      "cboModified": 28,
+      "wmc": 5,
+      "lcom*": 0.2,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 18,
+      "isMissingSyntheticPropertyForAnnotations": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "hasMetadata": {
+        "loc": 3,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isObjectClass": {
+        "loc": 3,
+        "cboModified": 9,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-binding-BindingFactory": {
+      "cboModified": 55,
+      "wmc": 44,
+      "lcom*": 0.7857142,
+      "totalMethodsQty": 20,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 4,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 16,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 146,
+      "buildDelegateBinding": {
+        "loc": 3,
+        "cboModified": 18,
+        "wmc": 1,
+        "parametersQty": 3
+      }
+    },
+    "dagger-internal-codegen-validation-ModuleValidator": {
+      "cboModified": 52,
+      "wmc": 67,
+      "lcom*": 0.923913,
+      "totalMethodsQty": 23,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 19,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 291,
+      "requiresModuleInstance": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "validateModuleBindings": {
+        "loc": 6,
+        "cboModified": 6,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "validateUncached": {
+        "loc": 38,
+        "cboModified": 28,
+        "wmc": 11,
+        "parametersQty": 2
+      },
+      "validateNoScopeAnnotationsOnModuleElement": {
+        "loc": 5,
+        "cboModified": 4,
+        "wmc": 2,
+        "parametersQty": 3
+      }
+    },
+    "dagger-internal-codegen-validation-MultibindsMethodValidator": {
+      "cboModified": 13,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 37
+    },
+    "dagger-internal-codegen-validation-BindsMethodValidator": {
+      "cboModified": 14,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 43
+    },
+    "dagger-internal-codegen-writing-ModuleProxies": {
+      "cboModified": 14,
+      "wmc": 7,
+      "lcom*": 0.5,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 43,
+      "newModuleInstance": {
+        "loc": 5,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "nonPublicNullaryConstructor": {
+        "loc": 7,
+        "cboModified": 5,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "ModuleProxies": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "constructorProxyTypeName": {
+        "loc": 5,
+        "cboModified": 7,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-binding-ModuleKind": {
+      "cboModified": 17,
+      "wmc": 12,
+      "lcom*": 0.42857143,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 43,
+      "forAnnotatedElement": {
+        "loc": 12,
+        "cboModified": 7,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "checkIsModule": {
+        "loc": 3,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-ProvidesMethodValidator": {
+      "cboModified": 13,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 21
+    },
+    "dagger-internal-codegen-binding-ModuleDescriptor": {
+      "cboModified": 25,
+      "wmc": 10,
+      "lcom*": 0,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 8,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 92
+    },
+    "dagger-internal-codegen-writing-SimpleMethodBindingExpression": {
+      "cboModified": 26,
+      "wmc": 20,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 9,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 7,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 91,
+      "invokeMethod": {
+        "loc": 27,
+        "cboModified": 9,
+        "wmc": 5,
+        "parametersQty": 2
+      }
+    },
+    "dagger-internal-codegen-validation-BindingMethodValidator": {
+      "cboModified": 25,
+      "wmc": 6,
+      "lcom*": 0.64285713,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 5,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 4,
+      "synchronizedMethodsQty": 0,
+      "loc": 137,
+      "BindingMethodValidator": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 10
+      }
+    },
+    "dagger-internal-codegen-writing-InjectionMethods": {
+      "cboModified": 28,
+      "wmc": 21,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 8,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 8,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 186,
+      "methodProxy": {
+        "loc": 29,
+        "cboModified": 26,
+        "wmc": 6,
+        "parametersQty": 7
+      }
+    },
+    "dagger-internal-codegen-base-RequestKinds": {
+      "cboModified": 26,
+      "wmc": 35,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 7,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 86,
+      "getRequestKind": {
+        "loc": 15,
+        "cboModified": 13,
+        "wmc": 7,
+        "parametersQty": 1
+      },
+      "requestTypeName": {
+        "loc": 20,
+        "cboModified": 6,
+        "wmc": 8,
+        "parametersQty": 2
+      }
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadata": {
+      "cboModified": 19,
+      "wmc": 14,
+      "lcom*": 0.6296296,
+      "totalMethodsQty": 9,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 4,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 5,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 136,
+      "KotlinMetadata": {
+        "loc": 10,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 3
+      },
+      "findProperty": {
+        "loc": 9,
+        "cboModified": 3,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "from": {
+        "loc": 5,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isObjectClass": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-InjectionAnnotations": {
+      "cboModified": 37,
+      "wmc": 13,
+      "lcom*": 0.59999996,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 51
+    }
+  },
+  "head": {
+    "dagger-internal-codegen-ModuleProcessingStep": {
+      "cboModified": 26,
+      "wmc": 15,
+      "lcom*": 0.6571429,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 3,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 70,
+      "process": {
+        "loc": 5,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "generate": {
+        "loc": 4,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "generateForMethodsIn": {
+        "loc": 14,
+        "cboModified": 9,
+        "wmc": 5,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-BindsOptionalOfMethodValidator": {
+      "cboModified": 14,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 28
+    },
+    "dagger-internal-codegen-binding-ComponentRequirement": {
+      "cboModified": 54,
+      "wmc": 44,
+      "lcom*": 0,
+      "totalMethodsQty": 19,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 13,
+      "privateMethodsQty": 3,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 16,
+      "abstractMethodsQty": 5,
+      "finalMethodsQty": 1,
+      "synchronizedMethodsQty": 0,
+      "loc": 115,
+      "isBindingMethod": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "requiresAPassedInstance": {
+        "loc": 6,
+        "cboModified": 8,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "componentCanMakeNewInstances": {
+        "loc": 27,
+        "cboModified": 7,
+        "wmc": 13,
+        "parametersQty": 2
+      },
+      "requiresModuleInstance": {
+        "loc": 8,
+        "cboModified": 5,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "key": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-ContributionBinding": {
+      "cboModified": 52,
+      "wmc": 24,
+      "lcom*": 0,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 8,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 3,
+      "finalMethodsQty": 5,
+      "synchronizedMethodsQty": 0,
+      "loc": 79,
+      "isNullable": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requiresModuleInstance": {
+        "loc": 3,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "contributedPrimitiveType": {
+        "loc": 3,
+        "cboModified": 5,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "isContributingModuleKotlinObject": {
+        "loc": 1,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "wrappedMapKeyAnnotation": {
+        "loc": 1,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-ProducesMethodValidator": {
+      "cboModified": 12,
+      "wmc": 4,
+      "lcom*": 0,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 3,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 52
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadataUtil": {
+      "cboModified": 43,
+      "wmc": 10,
+      "lcom*": 0.2,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 9,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 33,
+      "isObjectClass": {
+        "loc": 3,
+        "cboModified": 9,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isJvmStaticPresent": {
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "getEnclosedCompanionObject": {
+        "loc": 3,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "hasEnclosedCompanionObject": {
+        "loc": 3,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isMissingSyntheticPropertyForAnnotations": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "hasMetadata": {
+        "loc": 3,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isCompanionObjectClass": {
+        "loc": 3,
+        "cboModified": 13,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isVisibilityPrivate": {
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-binding-BindingFactory": {
+      "cboModified": 55,
+      "wmc": 44,
+      "lcom*": 0.7857142,
+      "totalMethodsQty": 20,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 10,
+      "privateMethodsQty": 4,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 16,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 148,
+      "buildDelegateBinding": {
+        "loc": 4,
+        "cboModified": 19,
+        "wmc": 1,
+        "parametersQty": 3
+      }
+    },
+    "dagger-internal-codegen-validation-ModuleValidator": {
+      "cboModified": 53,
+      "wmc": 74,
+      "lcom*": 0.9192708,
+      "totalMethodsQty": 24,
+      "staticMethodsQty": 6,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 20,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 321,
+      "validateNoScopeAnnotationsOnModuleElement": {
+        "loc": 5,
+        "cboModified": 4,
+        "wmc": 2,
+        "parametersQty": 3
+      },
+      "validateCompanionModule": {
+        "loc": 20,
+        "cboModified": 12,
+        "wmc": 5,
+        "parametersQty": 2
+      },
+      "validateModuleBindings": {
+        "loc": 6,
+        "cboModified": 6,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "validateUncached": {
+        "loc": 41,
+        "cboModified": 30,
+        "wmc": 12,
+        "parametersQty": 2
+      },
+      "requiresModuleInstance": {
+        "loc": 7,
+        "cboModified": 3,
+        "wmc": 2,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-MultibindsMethodValidator": {
+      "cboModified": 14,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 37
+    },
+    "dagger-internal-codegen-validation-BindsMethodValidator": {
+      "cboModified": 15,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 43
+    },
+    "dagger-internal-codegen-writing-ModuleProxies": {
+      "cboModified": 15,
+      "wmc": 7,
+      "lcom*": 0.25,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 47,
+      "newModuleInstance": {
+        "loc": 5,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "constructorProxyTypeName": {
+        "loc": 5,
+        "cboModified": 7,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "ModuleProxies": {
+        "loc": 4,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 2
+      },
+      "nonPublicNullaryConstructor": {
+        "loc": 7,
+        "cboModified": 5,
+        "wmc": 4,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-binding-ModuleKind": {
+      "cboModified": 18,
+      "wmc": 13,
+      "lcom*": 0.42857143,
+      "totalMethodsQty": 7,
+      "staticMethodsQty": 3,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 7,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 48,
+      "forAnnotatedElement": {
+        "loc": 12,
+        "cboModified": 7,
+        "wmc": 4,
+        "parametersQty": 1
+      },
+      "checkIsModule": {
+        "loc": 8,
+        "cboModified": 8,
+        "wmc": 2,
+        "parametersQty": 2
+      }
+    },
+    "dagger-internal-codegen-validation-ProvidesMethodValidator": {
+      "cboModified": 14,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 21
+    },
+    "dagger-internal-codegen-binding-ModuleDescriptor": {
+      "cboModified": 25,
+      "wmc": 10,
+      "lcom*": 0,
+      "totalMethodsQty": 10,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 6,
+      "visibleMethodsQty": 10,
+      "abstractMethodsQty": 8,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 111
+    },
+    "dagger-internal-codegen-writing-SimpleMethodBindingExpression": {
+      "cboModified": 26,
+      "wmc": 20,
+      "lcom*": 0.6666667,
+      "totalMethodsQty": 9,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 7,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 2,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 91,
+      "invokeMethod": {
+        "loc": 27,
+        "cboModified": 9,
+        "wmc": 5,
+        "parametersQty": 2
+      }
+    },
+    "dagger-functional-kotlin-CompanionModuleTest": {
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 14,
+      "verifyCompanionModule": {
+        "loc": 12,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-BindingMethodValidator": {
+      "cboModified": 26,
+      "wmc": 6,
+      "lcom*": 0.6458333,
+      "totalMethodsQty": 6,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 5,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 4,
+      "synchronizedMethodsQty": 0,
+      "loc": 143,
+      "BindingMethodValidator": {
+        "loc": 11,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 11
+      }
+    },
+    "dagger-internal-codegen-writing-InjectionMethods": {
+      "cboModified": 28,
+      "wmc": 23,
+      "lcom*": 0,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 8,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 8,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 187,
+      "methodProxy": {
+        "loc": 30,
+        "cboModified": 27,
+        "wmc": 8,
+        "parametersQty": 7
+      }
+    },
+    "dagger-internal-codegen-base-RequestKinds": {
+      "cboModified": 26,
+      "wmc": 36,
+      "lcom*": 0.625,
+      "totalMethodsQty": 8,
+      "staticMethodsQty": 7,
+      "publicMethodsQty": 6,
+      "privateMethodsQty": 2,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 6,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 86,
+      "getRequestKind": {
+        "loc": 15,
+        "cboModified": 14,
+        "wmc": 8,
+        "parametersQty": 1
+      },
+      "requestTypeName": {
+        "loc": 20,
+        "cboModified": 6,
+        "wmc": 8,
+        "parametersQty": 2
+      }
+    },
+    "dagger-internal-codegen-extension-DaggerCollectors": {
+      "cboModified": 5,
+      "wmc": 5,
+      "lcom*": 0.5555556,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 94,
+      "DaggerCollectors": {
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadata": {
+      "cboModified": 19,
+      "wmc": 17,
+      "lcom*": 0.6875,
+      "totalMethodsQty": 12,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 4,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 8,
+      "visibleMethodsQty": 8,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 147,
+      "findProperty": {
+        "loc": 9,
+        "cboModified": 3,
+        "wmc": 2,
+        "parametersQty": 2
+      },
+      "from": {
+        "loc": 5,
+        "cboModified": 3,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isCompanionObjectClass": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "isObjectClass": {
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "KotlinMetadata": {
+        "loc": 11,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 4
+      }
+    },
+    "dagger-internal-codegen-binding-InjectionAnnotations": {
+      "cboModified": 38,
+      "wmc": 13,
+      "lcom*": 0.59999996,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 1,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 51
+    }
+  },
+  "Diff": {
+    "dagger-internal-codegen-ModuleProcessingStep": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 3,
+      "lcom*": 0.046031799999999956,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 11,
+      "generate": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "process": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "generateForMethodsIn": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 14,
+        "cboModified": 9,
+        "wmc": 5,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-BindsOptionalOfMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-internal-codegen-binding-ComponentRequirement": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4,
+      "requiresAPassedInstance": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isBindingMethod": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "componentCanMakeNewInstances": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requiresModuleInstance": {
+        "loc": 4,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "key": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-ContributionBinding": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": -1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "isNullable": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "requiresModuleInstance": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "contributedPrimitiveType": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isModuleKotlinObject": {
+        "Was_modified": false,
+        "Was_added": false,
+        "Was_removed": true,
+        "loc": 1,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "wrappedMapKeyAnnotation": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isContributingModuleKotlinObject": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 1,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-ProducesMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadataUtil": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 15,
+      "wmc": 5,
+      "lcom*": 0,
+      "totalMethodsQty": 5,
+      "staticMethodsQty": 1,
+      "publicMethodsQty": 5,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 5,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 15,
+      "isMissingSyntheticPropertyForAnnotations": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "hasMetadata": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 3,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isObjectClass": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isJvmStaticPresent": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "getEnclosedCompanionObject": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 6,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "hasEnclosedCompanionObject": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 8,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isCompanionObjectClass": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 13,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "isVisibilityPrivate": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 4,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-binding-BindingFactory": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 2,
+      "buildDelegateBinding": {
+        "loc": 1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-ModuleValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 7,
+      "lcom*": -0.00464219999999993,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 30,
+      "requiresModuleInstance": {
+        "loc": 4,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "validateModuleBindings": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "validateUncached": {
+        "loc": 3,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "validateNoScopeAnnotationsOnModuleElement": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "validateCompanionModule": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 20,
+        "cboModified": 12,
+        "wmc": 5,
+        "parametersQty": 2
+      }
+    },
+    "dagger-internal-codegen-validation-MultibindsMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-internal-codegen-validation-BindsMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-internal-codegen-writing-ModuleProxies": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": -0.25,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 4,
+      "newModuleInstance": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "nonPublicNullaryConstructor": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "ModuleProxies": {
+        "loc": 1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 1
+      },
+      "constructorProxyTypeName": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-ModuleKind": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 5,
+      "forAnnotatedElement": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "checkIsModule": {
+        "loc": 5,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 2,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-validation-ProvidesMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-internal-codegen-binding-ModuleDescriptor": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 19
+    },
+    "dagger-internal-codegen-writing-SimpleMethodBindingExpression": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "invokeMethod": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-validation-BindingMethodValidator": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0.0029761700000000557,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "BindingMethodValidator": {
+        "loc": 8,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 1
+      }
+    },
+    "dagger-internal-codegen-writing-InjectionMethods": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 2,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 1,
+      "methodProxy": {
+        "loc": 1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 2,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-base-RequestKinds": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0,
+      "getRequestKind": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      },
+      "requestTypeName": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-kotlin-KotlinMetadata": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 0,
+      "wmc": 3,
+      "lcom*": 0.05787039999999999,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 3,
+      "visibleMethodsQty": 3,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 11,
+      "KotlinMetadata": {
+        "loc": 1,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 1
+      },
+      "findProperty": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "from": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isObjectClass": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "isCompanionObjectClass": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-binding-InjectionAnnotations": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 1,
+      "wmc": 0,
+      "lcom*": 0,
+      "totalMethodsQty": 0,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 0,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 0,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 0
+    },
+    "dagger-functional-kotlin-CompanionModuleTest": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 4,
+      "wmc": 1,
+      "lcom*": 0,
+      "totalMethodsQty": 1,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 1,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 14,
+      "verifyCompanionModule": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 12,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    },
+    "dagger-internal-codegen-extension-DaggerCollectors": {
+      "Was_modified": false,
+      "Was_added": true,
+      "Was_removed": false,
+      "cboModified": 5,
+      "wmc": 5,
+      "lcom*": 0.5555556,
+      "totalMethodsQty": 3,
+      "staticMethodsQty": 2,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 1,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 94,
+      "DaggerCollectors": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 2,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 0
+      }
+    }
+  },
+  "original_comments": [
+    "Oops. Didn't merge yesterday's PR. Let me do that and try again."
+  ],
+  "cleaned_comments": [
+    "Oops. Didn't merge yesterday's PR. Let me do that and try again."
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "Sentiment": "Neutral"
+    }
+  ]
+},
+{
+  "_id": "google/dagger_PR_1741",
+  "Meta": {
+    "org": "google",
+    "project_name": "dagger",
+    "PR_id": 375920342,
+    "PR_number": 1741,
+    "PR_url": "https://github.com/google/dagger/pull/1741",
+    "PR_state": "closed",
+    "PR_is_merged": false,
+    "PR_additions": 22,
+    "PR_deletions": 0,
+    "PR_changed_files": 2,
+    "PR_modified_class_files": 2,
+    "PR_creation": "2020-02-17T03:21:38+00:00",
+    "Base_SHA": "957bde96a22e1a8a0791f53ea2fe19b98505da62",
+    "Head_SHA": "eb993a69a53ecedf68af277e3df593ba5d9ffe51",
+    "PR_nb_comments": 1
+  },
+  "base": {
+    "dagger-android-support-DaggerAppCompatActivity": {
+      "cboModified": 9,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 1,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 10,
+      "onCreate": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-android-support-DaggerFragment": {
+      "cboModified": 7,
+      "wmc": 2,
+      "lcom*": 0.5,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 10,
+      "onAttach": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    }
+  },
+  "head": {
+    "dagger-android-support-DaggerAppCompatActivity": {
+      "cboModified": 11,
+      "wmc": 4,
+      "lcom*": 0.75,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 3,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 1,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 16,
+      "onCreate": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "DaggerAppCompatActivity": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-android-support-DaggerFragment": {
+      "cboModified": 9,
+      "wmc": 4,
+      "lcom*": 0.75,
+      "totalMethodsQty": 4,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 4,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 4,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 16,
+      "DaggerFragment": {
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      },
+      "onAttach": {
+        "loc": 4,
+        "cboModified": 1,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    }
+  },
+  "Diff": {
+    "dagger-android-support-DaggerAppCompatActivity": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 2,
+      "wmc": 2,
+      "lcom*": 0.25,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "onCreate": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "DaggerAppCompatActivity": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    },
+    "dagger-android-support-DaggerFragment": {
+      "Was_modified": true,
+      "Was_added": false,
+      "Was_removed": false,
+      "cboModified": 2,
+      "wmc": 2,
+      "lcom*": 0.25,
+      "totalMethodsQty": 2,
+      "staticMethodsQty": 0,
+      "publicMethodsQty": 2,
+      "privateMethodsQty": 0,
+      "protectedMethodsQty": 0,
+      "defaultMethodsQty": 0,
+      "visibleMethodsQty": 2,
+      "abstractMethodsQty": 0,
+      "finalMethodsQty": 0,
+      "synchronizedMethodsQty": 0,
+      "loc": 6,
+      "onAttach": {
+        "loc": 0,
+        "Was_modified": true,
+        "Was_added": false,
+        "Was_removed": false,
+        "cboModified": 0,
+        "wmc": 0,
+        "parametersQty": 0
+      },
+      "DaggerFragment": {
+        "Was_modified": false,
+        "Was_added": true,
+        "Was_removed": false,
+        "loc": 3,
+        "cboModified": 0,
+        "wmc": 1,
+        "parametersQty": 1
+      }
+    }
+  },
+  "original_comments": [
+    "Thanks for making this, it looks good to me so I'll go ahead and patch it internally."
+  ],
+  "cleaned_comments": [
+    "Thanks for making this, it looks good to me so I'll go ahead and patch it internally."
+  ],
+  "valences": [
+    {
+      "neg": 0,
+      "neu": 0.721,
+      "pos": 0.279,
+      "compound": 0.7003,
+      "Sentiment": "Positive"
+    }
+  ]
+}]
